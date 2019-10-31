@@ -30,9 +30,7 @@ def getClusterHeads(sentence_dict):
     '''
     cluster_head_dict = {}
     for sentence_id, sentence in sentence_dict.items():
-        print(sentence_id, sentence)
         list_of_cluster_heads = re.findall(r'<COREF (.+?)</COREF>', sentence)
-        print(list_of_cluster_heads)
         for cluster in list_of_cluster_heads:
             cluster_split = cluster.split('>')
             head_name = cluster_split[1]
