@@ -14,7 +14,7 @@ def getSentenceDict(list_of_sentences):
     '''
     sentence_dict = {}
     for sentence in list_of_sentences:
-        sentence_id = re.findall(r'<S ID=".+?">', sentence)[0].split('"')[1]
+        sentence_id = re.findall(r'<S ID="(.+?)">', sentence)[0]
         sentence_dict[sentence_id] = re.findall(r'>(.+?)</S>', sentence)[0]
     return sentence_dict
 
