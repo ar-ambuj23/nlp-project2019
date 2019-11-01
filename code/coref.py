@@ -1,11 +1,22 @@
 import re
 
 
-def getText(file_path):
-    '''Reads the txt file and returns list of sentences'''
-    fileObj = open(file_path,'r')
-    list_of_sentences = fileObj.readlines()
-    return list_of_sentences
+class ReadInput:
+    def __init__(self,file_path):
+        self.file_path = file_path
+        
+    def getText(self):
+        '''Reads the txt file and returns full text'''
+        fileObj = open(self.file_path,'r')
+        text = fileObj.read()
+        return text
+        
+    def getListOfSentences(self):
+        '''Reads the txt file and returns list of sentences'''
+        fileObj = open(self.file_path,'r')
+        list_of_sentences = fileObj.readlines()
+        return list_of_sentences
+    
 
 def getSentenceDict(list_of_sentences):
     '''
@@ -38,10 +49,16 @@ def getClusterHeads(sentence_dict):
             cluster_head_dict[head_id] = [sentence_id, head_name]
     return cluster_head_dict
 
-list_of_sentences  = getText('/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input')
+input_path = '/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input'
 
-sentence_dict = getSentenceDict(list_of_sentences)
-print(sentence_dict['6'])
+reader = ReadInput(input_path)
+list_of_sentences = reader.getListOfSentences()
+# print(list_of_sentences)
+full_text = reader.getText()
+# print(full_text)
 
-cluster_head_dict = getClusterHeads(sentence_dict)
-# print(cluster_head_dict)
+# sentence_dict = getSentenceDict(list_of_sentences)
+# # print(sentence_dict['6'])
+
+# cluster_head_dict = getClusterHeads(sentence_dict)
+# # print(cluster_head_dict)
