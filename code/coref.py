@@ -41,7 +41,7 @@ def getClusterHeads(sentence_dict):
 list_of_sentences  = getText('/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input')
 
 sentence_dict = getSentenceDict(list_of_sentences)
-# print(sentence_dict['6'])
+print(sentence_dict['6'])
 
 cluster_head_dict = getClusterHeads(sentence_dict)
 # print(cluster_head_dict)
