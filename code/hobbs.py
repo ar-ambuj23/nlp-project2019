@@ -1,11 +1,7 @@
 import nltk
 import re
-from nltk import Tree
-from nltk.tokenize import word_tokenize
-from nltk.tag import pos_tag
+import spacy
 
-#   Example string to get the NP from
-ex = "That campaign, which included a strike, faltered when the company hired new workers and the International Meatpacking Union wrested control of the local union from Rogers' supporters."
 
 #   Tokenize and POS Tag the sentence
 def preprocess(sent):
@@ -13,9 +9,9 @@ def preprocess(sent):
     sent = nltk.pos_tag(sent)
     return sent
 
-def main():
-    sent = preprocess(ex)
-
+def hobbs_alg(string):
+    sent = preprocess(string)
+    possibilities = []
     #   Possible POS tags
     ###
     # CC coordinating conjunction
@@ -57,19 +53,26 @@ def main():
 
     #   Grammar used to create the noun Phrases
     grammar = r"""
-    NP: {<DT><NN|NNP|NNS|CD|NNPS*>+}          # Chunk sequences of DT, JJ, NN, NNP
-    NP: {<NN|NNP|NNS|CD|NNPS*>+}
-    NP: {<DT><NN*>+}
+    NP: {<PRP|PRP\$><NNS>}
+    NP: {<PRP|><NNS>}
+    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|NNPS>}
+    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+<IN><NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+}
+    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+}
+    NP: {<PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+<NN>}
+    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|NNPS>}
+    NP: {<DT><NN|PRP|PRP\$|NNP|NNS|CD|NNPS>+}          # Chunk sequences of DT, JJ, NN, NNP 
     """
+    # NP: {<NN|NNP|NNS|CD|NNPS*>+}
+    # NP: {<DT><NN*>+}
+    # NP: {<DT|JJ><NN|PRP|PRP$|NNP|NNS|CD|NNPS*>+}
     #   Creates the parse tree
     cp = nltk.RegexpParser(grammar)
     cs = cp.parse(sent)
 
-    #   Remove unnecissary characters from the start of the string to more easily get NP out
+    #   Remove unnecessary characters from the start of the string to more easily get NP out
     parse_tree = str(cs).strip('(S\n')
-
     phrases =[]
-    noun_phrases=re.findall(pattern='\(([^)]+)', string=parse_tree)
+    noun_phrases=re.findall(pattern='\((NP[^)]+)', string=parse_tree)
 
     for np in noun_phrases:
         #   Removes the 'NP ' from the start of the string
@@ -78,9 +81,51 @@ def main():
         temp=[]
 
         #   Remove the '/POS' from the word
+        while ('' in np):
+            np.remove('')
+        add = False
         for l in np:
+            if 'PRP' in l or 'PRP$' in l:
+                add = True
             temp.append(l[:l.index('/')])
         phrases.append(' '.join(word for word in temp))
+        if(add):
+            possibilities.append(' '.join(word for word in temp))
+            add = False
     print(phrases)
+    find_coref([],phrases,possibilities)
+    #   From here we should call what is going to Compare NP to Cluster Heads and try to match them
+
+def find_coref(references, phrases,possibilities):
+    hn = ['American Airlines', 'Mediation In Its Union Talks','pilots','flight attendants','The president'
+          ,'the request for mediation','The union']
+    print(possibilities)
+    nlp = spacy.load("en_core_web_lg")
+    for head in hn:
+        doc = nlp(head)
+        for ent in doc.ents:
+            print(ent.text, ent.label_)
+
+    for p in possibilities:
+        index = phrases.index(p)
+        check_plural=nltk.pos_tag(p.split())
+        plural = False
+        for pair in check_plural:
+            if('PRP$' in pair):
+                print('plural')
+                plural = True
+
+
 #   Calls the main method
-main()
+#   Example string to get the NP from
+ex = "A possible complicating factor, however, is that the source of the precursor viruses may not be domestic poultry."
+ex2 = "Since this ND virus reported from Victoria is almost identical to the 1999 Mangrove Mountain isolate, then it appears more than a remote probability that the same precursor virus(so-called Peat's Ridge strain) may have been present in these Victorian flocks for some time and a very similar mutation event has resulted in this virulent virus."
+ex3 = "For countries or regions claiming ND freedom, this outbreak again underlines the need for continuous serosurveillance of poultry flocks with immediate epidemiological investigation (including attempts to isolate and classify any APMV-1 viruses circulating) at the first sign of seroconversion in flocks."
+ex4 = "[Newcastle disease virus is a notoriously variable virus."
+ex5 = 'The president of the Association of Professional Flight Attendants, which represents American\'s more than 10,000 flight attendants, called the request for mediation "premature" and characterized it as a bargaining tactic that could lead to a lockout.'
+test ="Maggie Douglas said she saw her purse with their stuff and inside its been residing."
+test1='A corporate campaign, she said, appeals to her members because "it is a nice, clean way to take a job action, and our women are hired to be nice.'
+def Main():
+    hobbs_alg(test1)
+    #   prp/$,
+Main()
