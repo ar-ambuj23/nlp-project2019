@@ -1,6 +1,60 @@
 import nltk
 import re
 import spacy
+import inflect
+import gender_guesser.detector as gender
+
+nlp = spacy.load("en_core_web_lg")
+inflect = inflect.engine()
+d = gender.Detector(case_sensitive=False)
+
+male = ['he','him','his','man','men']
+female = ['she','her','hers','woman','women']
+cogender =['we', 'they', 'us','them','our','their','ours', 'theirs']
+nogender =['it', 'its']
+
+plural = ['we', 'they', 'us','them','our','their','ours', 'theirs','men','women','ladies','gentlemen']
+singular = [ 'he','him','his','man', 'she','her','hers','woman','we', 'they', 'us','them','our','their','ours', 'theirs']
+#   Class to store headnouns that we are trying to coreference
+class Entity:
+
+    def __init__(self, name,loc):
+        self.name = name
+        self.gender = 'unknown'
+        self.entity=''
+        self.plural = 0
+        self.corefs = {}
+        self.location = loc
+        self.last_occurance = loc
+        self.first_occurance = loc
+
+    def change_name(self, new_name):
+        self.name = new_name
+
+    def change_gender(self, gender):
+        self.gender = gender
+
+    def change_entity(self, entity):
+        self.entity = entity
+
+    def change_plural(self, plural):
+        self.plural = plural
+
+    def add_coref(self, name, location):
+        head = establish_headnoun(name,location)
+        if self.gender is 'unknown' and head.gender is not 'unknown':
+            self.change_gender(head.gender)
+        if self.entity is '' and head.entity is not '':
+            self.change_entity(head.entity)
+        if self.plural is 0 and head.plural is not 0:
+            self.change_plural(head.plural)
+        self.corefs[name] = head
+        if location > self.last_occurance:
+            self.last_occurance = location
+    def print(self):
+        fmt = '{:35} {:<35} {:<35} {:<35} {:<35}'
+        print(fmt.format('Name: '+self.name,'Location: '+str(self.location),'Gender: '+self.gender,'Entity: '+self.entity,'Plural: '+str(self.plural)))
+
 
 
 #   Tokenize and POS Tag the sentence
@@ -9,6 +63,7 @@ def preprocess(sent):
     sent = nltk.pos_tag(sent)
     return sent
 
+#Get all the pronouns from the sentence
 def hobbs_alg(string):
     sent = preprocess(string)
     possibilities = []
@@ -55,13 +110,13 @@ def hobbs_alg(string):
     grammar = r"""
     NP: {<PRP|PRP\$><NNS>}
     NP: {<PRP|><NNS>}
-    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|NNPS>}
-    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+<IN><NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+}
-    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+}
-    NP: {<PRP|PRP\$|POS|NNP|NNS|CD|NNPS>+<NN>}
-    NP: {<NN|PRP|PRP\$|POS|NNP|NNS|NNPS>}
-    NP: {<DT><NN|PRP|PRP\$|NNP|NNS|CD|NNPS>+}          # Chunk sequences of DT, JJ, NN, NNP 
+    NP: { <PRP | PRP\$ >}
     """
+    #    NP: { < NN | PRP | PRP\$ | POS | NNP | NNS | CD | NNPS > + < IN > < NN | PRP | PRP\$ | POS | NNP | NNS | CD | NNPS > +}
+    # NP: { < NN | PRP | PRP\$ | POS | NNP | NNS | CD | NNPS > +}
+    # NP: { < PRP | PRP\$ | POS | NNP | NNS | CD | NNPS > + < NN >}
+    # NP: { < NN | PRP | PRP\$ | POS | NNP | NNS | NNPS >}
+    # NP: { < DT > < NN | PRP | PRP\$ | NNP | NNS | CD | NNPS > +}  # Chunk sequences of DT, JJ, NN, NNP
     # NP: {<NN|NNP|NNS|CD|NNPS*>+}
     # NP: {<DT><NN*>+}
     # NP: {<DT|JJ><NN|PRP|PRP$|NNP|NNS|CD|NNPS*>+}
@@ -71,7 +126,6 @@ def hobbs_alg(string):
 
     #   Remove unnecessary characters from the start of the string to more easily get NP out
     parse_tree = str(cs).strip('(S\n')
-    phrases =[]
     noun_phrases=re.findall(pattern='\((NP[^)]+)', string=parse_tree)
 
     for np in noun_phrases:
@@ -84,36 +138,81 @@ def hobbs_alg(string):
         while ('' in np):
             np.remove('')
         add = False
-        for l in np:
-            if 'PRP' in l or 'PRP$' in l:
+        for word in np:
+            if 'PRP' in word or 'PRP$' in word:
                 add = True
-            temp.append(l[:l.index('/')])
-        phrases.append(' '.join(word for word in temp))
+            temp.append(word[:word.index('/')])
         if(add):
             possibilities.append(' '.join(word for word in temp))
             add = False
-    print(phrases)
-    find_coref([],phrases,possibilities)
-    #   From here we should call what is going to Compare NP to Cluster Heads and try to match them
+    #   Creates and populates the headnoun dict
+    find_coref()
+    find_possible(possibilities)
 
-def find_coref(references, phrases,possibilities):
+
+def find_coref():
     hn = ['American Airlines', 'Mediation In Its Union Talks','pilots','flight attendants','The president'
-          ,'the request for mediation','The union']
-    print(possibilities)
-    nlp = spacy.load("en_core_web_lg")
-    for head in hn:
-        doc = nlp(head)
-        for ent in doc.ents:
-            print(ent.text, ent.label_)
+         ,'the request for mediation','The union']
+    loc = 0
+    for h in hn:
+        head =establish_headnoun(h,loc)
+        headnouns[h]=head
+        loc = loc+1
+    for h in headnouns:
+        headnouns[h].print()
+    american = [('American Airlines unit',10),('the company',11),('American',11), ('the company',17),('the company',20)]
+    pres  = [('Patt Gibs',14), ('President of the association',14), ('Ms. Gibbs',21)]
+    for a in american:
+        headnouns['American Airlines'].add_coref(a[0],a[1])
+    for p in pres:
+        headnouns['The president'].add_coref(p[0], p[1])
 
-    for p in possibilities:
-        index = phrases.index(p)
-        check_plural=nltk.pos_tag(p.split())
-        plural = False
-        for pair in check_plural:
-            if('PRP$' in pair):
-                print('plural')
-                plural = True
+
+    #   Order
+    heads = list(headnouns.values())
+    heads.sort(key=lambda x: x.last_occurance, reverse=True)
+    x=5
+
+
+def find_possible(possibilities):
+    print(possibilities)
+    for pronoun in possibilities:
+        pronoun=pronoun.lower()
+        single = True
+        gender = 'unknown'
+        if pronoun not in singular:
+            single = False
+        if pronoun in male:
+            gender ='male'
+        elif pronoun in female:
+            gender = 'female'
+    return 0
+
+headnouns={}
+#Create a list of headnouns and their information
+def establish_headnoun(hn,loc):
+
+    head = Entity(hn,loc)
+
+    doc = nlp(hn)
+    for ent in doc.ents:
+        head.change_entity(ent.label_)
+
+    if(head.entity is 'PERSON'):
+        if 'Mr.' in hn:
+            head.change_gender('male')
+        elif 'Ms.' in hn or 'Miss' in hn or 'Mrs.' in hn:
+            head.change_gender('female')
+        else:
+            head.change_gender(d.get_gender(hn.split(' ')[0]))
+        head.change_plural(-1)
+    elif(head.entity is 'ORG'):
+        head.change_plural(-1)
+    else:
+        for i in hn.split(' '):
+            if inflect.singular_noun(i):
+                head.change_plural(1)
+    return head
 
 
 #   Calls the main method
@@ -125,7 +224,10 @@ ex4 = "[Newcastle disease virus is a notoriously variable virus."
 ex5 = 'The president of the Association of Professional Flight Attendants, which represents American\'s more than 10,000 flight attendants, called the request for mediation "premature" and characterized it as a bargaining tactic that could lead to a lockout.'
 test ="Maggie Douglas said she saw her purse with their stuff and inside its been residing."
 test1='A corporate campaign, she said, appeals to her members because "it is a nice, clean way to take a job action, and our women are hired to be nice.'
+pronouns = 'I you he she it we they, me you her him it us them, my our your his her its their, mine ours yours his hers its theirs, '
 def Main():
     hobbs_alg(test1)
     #   prp/$,
+
+
 Main()
