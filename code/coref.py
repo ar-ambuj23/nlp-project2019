@@ -26,7 +26,7 @@ def getSentenceDict(list_of_sentences):
     sentence_dict = {}
     for sentence in list_of_sentences:
         sentence_id = re.findall(r'<S ID="(.+?)">', sentence)[0]
-        sentence_dict[sentence_id] = re.findall(r'>(.+?)</S>', sentence)[0]
+        sentence_dict[int(sentence_id)] = re.findall(r'>(.+?)</S>', sentence)[0]
     return sentence_dict
 
 def getClusterHeads(sentence_dict):
@@ -49,13 +49,13 @@ def getClusterHeads(sentence_dict):
             cluster_head_dict[head_id] = [sentence_id, head_name]
     return cluster_head_dict
 
-input_path = '/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input'
+# input_path = '/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input'
 
-reader = ReadInput(input_path)
-list_of_sentences = reader.getListOfSentences()
-# print(list_of_sentences)
-full_text = reader.getText()
-# print(full_text)
+# reader = ReadInput(input_path)
+# list_of_sentences = reader.getListOfSentences()
+# # print(list_of_sentences)
+# full_text = reader.getText()
+# # print(full_text)
 
 # sentence_dict = getSentenceDict(list_of_sentences)
 # # print(sentence_dict['6'])
