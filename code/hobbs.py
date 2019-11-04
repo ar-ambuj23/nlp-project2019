@@ -155,6 +155,8 @@ def find_possible(possibilities, num, reference_dict):
 
         #   Print the most likely head for the pronoun
         if head is not '':
+            if(head.x not in reference_dict):
+                reference_dict[head.x]=[]
             reference_dict[head.x].append([head.name, num, pronoun, 0])
             head.add_coref(pronoun, num, head.x)
 
