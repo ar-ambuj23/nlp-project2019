@@ -58,7 +58,7 @@ class Entity:
             self.change_entity(head.entity)
         if self.plural is 0 and head.plural is not 0:
             self.change_plural(head.plural)
-        self.corefs[name].append(head)
+        self.corefs[name]= head
         #   Add the location of the reference to the cluster head
         self.occurances.append(location)
 
@@ -92,7 +92,7 @@ def hobbs_alg(string, num):
 
     #   Remove unnecessary characters from the start of the string to more easily get NP out
     parse_tree = str(cs).strip('(S\n')
-    noun_phrases = re.findall(pattern='((NP[^)]+)', string=parse_tree)
+    noun_phrases = re.findall(pattern='\((NP[^)]+)', string=parse_tree)
 
     for np in noun_phrases:
         #   Removes the 'NP ' from the start of the string
@@ -160,12 +160,12 @@ def find_possible(possibilities, num):
 # #
 #   Takes a list of cluster heads and its corefrences and uses them to populate the head nouns corefernces
 ##
-def find_coref():
-    hn = []
+def find_coref(hn):
     for h in hn:
         head = establish_headnoun(h[0], h[1])
         headnouns[h[0]] = head
-
+        #   Add co-references
+        
 
 headnouns = {}
 
@@ -196,7 +196,6 @@ def establish_headnoun(hn, loc):
         for i in hn.split(' '):
             if inflect.singular_noun(i):
                 head.change_plural(1)
-
     return head
 
 
@@ -205,6 +204,8 @@ def establish_headnoun(hn, loc):
 ##
 def entry(strings, num):
     #   Compute the head noun and co-references for it
+    hn = [('Name', 'loc')]
+    find_coref(hn)
     for s in strings:
         s = re.sub('<COREF .+?>.+?<.+?>', '', s)
         s = re.sub('<.+?>', '', s)
