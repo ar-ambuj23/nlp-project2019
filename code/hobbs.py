@@ -58,7 +58,7 @@ class Entity:
             self.change_entity(head.entity)
         if self.plural is 0 and head.plural is not 0:
             self.change_plural(head.plural)
-        self.corefs[name]= head
+        self.corefs[name] = head
         #   Add the location of the reference to the cluster head
         self.occurances.append(location)
 
@@ -165,7 +165,7 @@ def find_coref(hn):
         head = establish_headnoun(h[0], h[1])
         headnouns[h[0]] = head
         #   Add co-references
-        
+
 
 headnouns = {}
 
