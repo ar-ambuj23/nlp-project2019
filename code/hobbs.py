@@ -6,7 +6,7 @@ import gender_guesser.detector as gender
 
 nlp = spacy.load("en_core_web_lg")
 inflect = inflect.engine()
-d = gender.Detector(case_sensitive=False)
+gender_guess = gender.Detector(case_sensitive=False)
 
 
 #   Commonly occurring pronouns and if they are plural/singular or gendered
@@ -15,8 +15,8 @@ female = ['she', 'her', 'hers', 'woman', 'women']
 cogender = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs']
 nongender = ['it', 'its', 'that', 'there']
 
-plural = ['they', 'us', 'them', 'our', 'their', 'ours', 'theirs', 'men', 'women', 'ladies', 'gentlemen']
-singular = ['we', 'he', 'him', 'his', 'man', 'she', 'her', 'hers', 'woman', 'we', 'they', 'us', 'them', 'their',
+plural = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs', 'men', 'women', 'ladies', 'gentlemen']
+singular = ['he', 'him', 'his', 'man', 'she', 'her', 'hers', 'woman', 'they', 'us', 'them', 'their',
             'theirs', 'that', 'it', 'there']
 
 
@@ -24,7 +24,7 @@ singular = ['we', 'he', 'him', 'his', 'man', 'she', 'her', 'hers', 'woman', 'we'
 #   Class to store cluster heads that we are trying to co-reference
 ##
 class Entity:
-    def __init__(self, name, loc):
+    def __init__(self, name, loc, xpos):
         self.name = name
         self.gender = 'unknown'
         self.entity = ''
@@ -34,6 +34,7 @@ class Entity:
         self.occurances = []
         self.first_occurance = loc
         self.occurances.append(loc)
+        self.x = xpos
 
     def change_name(self, new_name):
         self.name = new_name
@@ -50,8 +51,9 @@ class Entity:
     ##
     #   Add a reference to the cluster head and seeing if it provides new information about the cluster head
     ##
-    def add_coref(self, name, location):
-        head = establish_headnoun(name, location)
+    def add_coref(self, name, location, xpos):
+        head = establish_headnoun(name, location, xpos)
+
         if self.gender is 'unknown' and head.gender is not 'unknown':
             self.change_gender(head.gender)
         if self.entity is '' and head.entity is not '':
@@ -78,7 +80,7 @@ def preprocess(sent):
 ##
 #   Get all the pronouns from the sentence
 ##
-def hobbs_alg(string, num):
+def hobbs_alg(string, num, reference_dict):
     sent = preprocess(string)
     possibilities = []
 
@@ -112,14 +114,13 @@ def hobbs_alg(string, num):
             possibilities.append(' '.join(word for word in temp))
     #   Creates and populates the headnoun dict
     #   find_coref()   Should be called once at the start of the pronoun search
-    find_possible(possibilities, num)
+    find_possible(possibilities, num, reference_dict)
 
 
 ##
 #   Using the headnouns structure compare the pronouns and select the most likely cluster if one exists
 ##
-def find_possible(possibilities, num):
-    print(possibilities)
+def find_possible(possibilities, num, reference_dict):
     heads = list(headnouns.values())
 
     # Foreach pronoun compare set it's known fields and compare it to the cluster heads
@@ -143,7 +144,7 @@ def find_possible(possibilities, num):
 
         #   Foreach cluster head check if it is a possibility
         for hn in heads:
-            if (hn.first_occurance <= num) and (current_gender == hn.gender) and (plurals == hn.plural):
+            if (hn.first_occurance < num) and (current_gender == hn.gender) and (plurals == hn.plural):
                 occ = list(hn.occurances)
                 for loc in occ:
                     if loc > num:
@@ -154,17 +155,20 @@ def find_possible(possibilities, num):
 
         #   Print the most likely head for the pronoun
         if head is not '':
-            print(pronoun + ': ' + head.name)
+            reference_dict[head.x].append([head.name, num, pronoun, 0])
 
 
 ##
 #   Takes a list of cluster heads and its corefrences and uses them to populate the head nouns corefernces
 ##
-def find_coref(hn):
-    for h in hn:
-        head = establish_headnoun(h[0], h[1])
-        headnouns[h[0]] = head
+def find_coref(cluster_head_dict, reference_dict):
+    for h in cluster_head_dict:
+        head = establish_headnoun(cluster_head_dict[h][1], cluster_head_dict[h][0], h)
+        headnouns[cluster_head_dict[h][1]] = head
         #   Add co-references
+        if h in reference_dict:
+            for ref in reference_dict[h]:
+                headnouns[cluster_head_dict[h][1]].add_coref(ref[2], ref[1], h)
 
 
 headnouns = {}
@@ -173,8 +177,8 @@ headnouns = {}
 ##
 #   Given a cluster head and its location create an entity object and add it to the headnouns dictionary
 ##
-def establish_headnoun(hn, loc):
-    head = Entity(hn, loc)
+def establish_headnoun(hn, loc, xpos):
+    head = Entity(hn, loc, xpos)
     split = head.name.split(' ')
     doc = nlp(hn)
     for ent in doc.ents:
@@ -186,7 +190,12 @@ def establish_headnoun(hn, loc):
         elif 'Ms.' in hn or 'Miss' in hn or 'Mrs.' in hn:
             head.change_gender('female')
         else:
-            head.change_gender(d.get_gender(hn.split(' ')[0]))
+            split = head.name.split(' ')
+            if any(gender_guess.get_gender(elem) for elem in split):
+                for i in range(0, len(split)):
+                    if gender_guess.get_gender(split[i]) is not 'unknown':
+                        head.change_gender(gender_guess.get_gender(split[i]))
+                        break
         head.change_plural(-1)
     elif head.entity is 'ORG':
         head.change_plural(-1)
@@ -202,11 +211,13 @@ def establish_headnoun(hn, loc):
 ##
 #   Takes a sentence and the sentence number and cleans it getting rid of the cluster heads and calls the algorithm
 ##
-def entry(strings, num):
+def entry(file_lines, cluster_head_dict, reference_dict):
     #   Compute the head noun and co-references for it
-    hn = [('Name', 'loc')]
-    find_coref(hn)
-    for s in strings:
+    find_coref(cluster_head_dict, reference_dict)
+    num = 0
+    for s in file_lines:
         s = re.sub('<COREF .+?>.+?<.+?>', '', s)
         s = re.sub('<.+?>', '', s)
-        hobbs_alg(s, num)
+        hobbs_alg(s, num, reference_dict)
+        num = num + 1
+    return reference_dict
