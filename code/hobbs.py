@@ -157,7 +157,7 @@ def find_possible(possibilities, num):
             print(pronoun + ': ' + head.name)
 
 
-# #
+##
 #   Takes a list of cluster heads and its corefrences and uses them to populate the head nouns corefernces
 ##
 def find_coref(hn):
