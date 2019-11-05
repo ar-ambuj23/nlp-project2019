@@ -1,20 +1,20 @@
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a8.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a9.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a10.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a11.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/a12.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b1.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b2.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b3.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b4.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b5.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b6.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b7.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b8.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b9.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/b10.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/c1.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/c2.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/c3.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/c4.input
-/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/c5.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/a8.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/a9.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/a10.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/a11.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/a12.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b1.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b2.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b3.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b4.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b5.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b6.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b7.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b8.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b9.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/b10.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/c1.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/c2.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/c3.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/c4.input
+/home/u1265867/Documents/nlp_final_project/nlp-project2019/dev/c5.input
