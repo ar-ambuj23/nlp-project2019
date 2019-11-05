@@ -8,6 +8,7 @@
 {17} {TWA}
 {18} {TWA}
 {21} {TWA}
+{21} {it}
 {24} {TWA}
 {24} {TWA's acquisition}
 {24} {TWA}
@@ -48,13 +49,9 @@
 {14} {USAir}
 {15} {USAir's largest shareholder}
 {16} {USAir}
-{16} {they}
 {17} {USAir}
 {18} {USAir}
-{19} {it}
-{20} {It}
 {21} {USAir}
-{21} {it}
 {22} {USAir}
 {23} {USAir}
 {24} {USAir}
@@ -95,17 +92,20 @@
 
 <COREF ID="X3">Additional Blow to Bid</COREF>
 {11} {blow}
+{19} {it}
 {29} {bid}
 {42} {enough cash}
 
 <COREF ID="X4">a temporary restraining order</COREF>
 {10} {federal judge}
 {11} {order}
+{16} {they}
 {53} {preliminary injunction}
 
 <COREF ID="X5">Piedmont Aviation Inc.</COREF>
 {16} {Piedmont}
 {17} {Piedmont}
+{20} {It}
 {25} {Piedmont}
 {30} {Piedmont}
 {40} {Piedmont}
@@ -121,8 +121,7 @@
 {15} {Mr. Icahn}
 {16} {Mr. Icahn}
 {31} {Carl}
-{32} {He}
-{32} {he}
+{34} {it}
 
 <COREF ID="X8">its attempt</COREF>
 {16} {attempt}
@@ -205,6 +204,7 @@
 <COREF ID="X15">The filings</COREF>
 {24} {filings}
 {25} {documents}
+{29} {he}
 {50} {filing}
 
 <COREF ID="X16">Edwin I. Colodny, </COREF>
@@ -213,14 +213,15 @@
 {24} {Mr. Icahn}
 {25} {Mr. Icahn}
 {26} {Mr. Colodny}
-{27} {he}
-{29} {he}
 
 <COREF ID="X17">merger between Piedmont and USAir</COREF>
+{27} {he}
 {28} {USAir}
 {29} {USAir}
 {30} {Piedmont}
 {31} {USAir}
+{32} {He}
+{32} {he}
 {35} {USAir}
 {40} {Piedmont}
 {41} {USAir}
@@ -248,7 +249,6 @@
 {29} {TWA's offer}
 {30} {TWA}
 {34} {TWA}
-{34} {it}
 {35} {TWA}
 {37} {TWA}
 {38} {TWA stock}

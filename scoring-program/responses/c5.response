@@ -1,0 +1,123 @@
+<COREF ID="X0">APMV-1</COREF>
+
+<COREF ID="X1">poultry</COREF>
+{0} {poultry}
+{0} {British Poultry Science}
+{3} {poultry flocks}
+{3} {poultry}
+{11} {domestic poultry}
+
+<COREF ID="X2">mutation</COREF>
+{1} {very similar mutation event}
+{5} {their hemagglutinin-neuraminidase}
+{9} {mutational steps}
+
+<COREF ID="X3">viruses</COREF>
+{0} {virulent  viruses}
+{0} {viruses}
+{3} {APMV-1 viruses}
+{7} {virus strains}
+{11} {precursor viruses}
+
+<COREF ID="X4">virulence</COREF>
+{5} {virulence}
+{6} {virulent}
+{8} {high, intermediate, or low virulence}
+{9} {avirulence}
+{9} {high virulence}
+{9} {high virulence}
+{9} {low virulence}
+
+<COREF ID="X5">flocks</COREF>
+{0} {poultry}
+{1} {Victorian flocks}
+{3} {poultry flocks}
+{3} {flocks}
+
+<COREF ID="X6">ND</COREF>
+{3} {ND freedom}
+
+<COREF ID="X7">virus</COREF>
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{7} {virus strains}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{11} {precursor viruses}
+
+<COREF ID="X8">Victoria</COREF>
+{1} {Victorian flocks}
+{12} {Victoria}
+{12} {Victoria}
+{12} {(Victoria}
+
+<COREF ID="X9">virus</COREF>
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{7} {virus strains}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{11} {precursor viruses}
+
+<COREF ID="X10">viruses</COREF>
+{3} {APMV-1 viruses}
+{7} {virus strains}
+{11} {precursor viruses}
+
+<COREF ID="X11">Australia</COREF>
+{12} {- Australia}
+{12} {disease - Australia}
+{12} {Victoria}
+
+<COREF ID="X12">virus</COREF>
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{7} {virus strains}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{11} {precursor viruses}
+
+<COREF ID="X13">Strains</COREF>
+{6} {Avirulent strains}
+{6} {virulent}
+{7} {virus strains}
+{8} {strains}
+{8} {strains}
+{9} {strains}
+
+<COREF ID="X14">the cleavability</COREF>
+{7} {inherent cleavability}
+{7} {presence}
+{8} {basis}
+{9} {number}
+
+<COREF ID="X15">proteins</COREF>
+{5} {fusion membrane}
+{5} {their hemagglutinin-neuraminidase}
+{6} {inactive precursor proteins}
+{6} {precursor proteins}
+{7} {surface glycoprotein precursors}
+{7} {specific cellular proteases}
+
+<COREF ID="X16">strains</COREF>
+{6} {Avirulent strains}
+{6} {virulent}
+{7} {virus strains}
+{8} {strains}
+{8} {strains}
+{9} {strains}
+
+<COREF ID="X17">tissue</COREF>
+{7} {tissue tropism}
+{7} {surface glycoprotein precursors}
+{7} {specific cellular proteases}
+
+<COREF ID="X18">This</COREF>
+{8} {basis}
+{9} {consequence}
+{9} {same (or a closely related) precursor virus}
+

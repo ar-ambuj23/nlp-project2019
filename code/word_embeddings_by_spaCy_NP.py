@@ -8,8 +8,6 @@ nlp = spacy.load("en_core_web_md")
 
 import re
 
-get_ipython().system('export SPACY_WARNING_IGNORE=W008')
-
 def getRemText(sent_id, sentence_dict):
     rem_text = {}
     for sid in sentence_dict.keys():

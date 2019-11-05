@@ -1,0 +1,94 @@
+<COREF ID="X0">NTSB</COREF>
+{5} {NTSB}
+{6} {NTSB TESTS}
+{21} {NTSB}
+{24} {NTSB}
+
+<COREF ID="X1">CRASH</COREF>
+{16} {we}
+{18} {crash}
+{19} {Pittsburgh crash}
+{24} {crash}
+
+<COREF ID="X2">02-27</COREF>
+
+<COREF ID="X3">737</COREF>
+{15} {737's rudder}
+{22} {Boeing hangar}
+{23} {airborne tests}
+
+<COREF ID="X4">CRASH PROBE</COREF>
+{15} {investigators}
+{16} {It}
+{18} {crash}
+{24} {crash}
+
+<COREF ID="X5">SEATTLE</COREF>
+{12} {Pittsburgh airport}
+{14} {Seattle}
+{15} {Benson}
+
+<COREF ID="X6">Seattle's Museum of Flight</COREF>
+{11} {museum's aircraft}
+{12} {Flight}
+{12} {Pittsburgh airport}
+{14} {Seattle}
+{20} {Museum}
+{21} {museum}
+
+<COREF ID="X7">a similar jetliner</COREF>
+{10} {Boeing}
+{11} {airplane}
+{22} {Boeing hangar}
+
+<COREF ID="X8">Pittsburgh</COREF>
+{12} {Pittsburgh airport}
+{14} {Seattle}
+{19} {Pittsburgh crash}
+
+<COREF ID="X9">the plane's rudder</COREF>
+{13} {plane's tail}
+{15} {737's rudder}
+{18} {plane}
+{20} {plane}
+
+<COREF ID="X10">Aviation safety investigators</COREF>
+{15} {investigators}
+{18} {investigators}
+{22} {Boeing hangar}
+{23} {airborne tests}
+
+<COREF ID="X11">the rudder</COREF>
+{13} {plane's tail}
+{15} {737's rudder}
+{18} {plane}
+
+<COREF ID="X12">NTSB Chairman Jim Hall</COREF>
+{14} {Hall}
+{21} {NTSB}
+{24} {NTSB}
+
+<COREF ID="X13">board spokesman Mike Benson</COREF>
+{15} {Benson}
+{16} {he}
+{18} {Benson}
+{25} {Benson}
+
+<COREF ID="X14">Newer models of flight data recorders</COREF>
+{18} {older-model flight recorders}
+{19} {improved flight recorders}
+{23} {airborne tests}
+
+<COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
+{18} {force}
+{18} {plane}
+{19} {board}
+
+<COREF ID="X16">tests</COREF>
+{21} {tests}
+{22} {tests}
+{23} {airborne tests}
+{24} {tests}
+
+<COREF ID="X17">last September</COREF>
+

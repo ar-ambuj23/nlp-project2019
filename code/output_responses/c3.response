@@ -1,0 +1,75 @@
+<COREF ID="X0">me</COREF>
+
+<COREF ID="X1">outbreak</COREF>
+{5} {disease}
+{5} {we}
+{5} {our colleagues}
+{8} {similar type rash illness outbreak}
+{9} {current outbreak}
+{10} {individual state outbreaks}
+{10} {outbreaks}
+{11} {outbreaks}
+{11} {We}
+
+<COREF ID="X2">hundreds</COREF>
+{0} {people}
+{5} {our colleagues}
+{7} {lot}
+{9} {current outbreak}
+{11} {outbreaks}
+
+<COREF ID="X3">Western Berlin</COREF>
+{3} {our}
+{3} {we}
+{4} {our}
+{6} {Berlin}
+{6} {western part}
+
+<COREF ID="X4">sixties</COREF>
+
+<COREF ID="X5">Department of Infectious Diseases</COREF>
+{2} {etiology}
+{3} {our department}
+{3} {management}
+{4} {patients}
+{4} {such a virus}
+{4} {distinguished virological institute}
+{5} {disease}
+{5} {Health}
+{5} {Department}
+{5} {nutritive allergen}
+{7} {problem}
+{8} {similar type rash illness outbreak}
+{9} {current outbreak}
+{9} {possible food allergen}
+{9} {perhaps a common food preparation product}
+{9} {culprit}
+{10} {individual state outbreaks}
+{10} {outbreaks}
+{10} {common "food irritant}
+{10} {environmental irritant}
+{10} {possibility}
+{10} {contact dermatitis picture}
+{11} {outbreaks}
+
+<COREF ID="X6">we</COREF>
+
+<COREF ID="X7">virus</COREF>
+{4} {such a virus}
+{5} {disease}
+{8} {similar type rash illness outbreak}
+{10} {outbreaks}
+{11} {outbreaks}
+
+<COREF ID="X8">brand</COREF>
+{6} {big food company}
+
+<COREF ID="X9">occurrences</COREF>
+{9} {current outbreak}
+{11} {outbreaks}
+
+<COREF ID="X10">Mods.MPP</COREF>
+
+<COREF ID="X11">JW</COREF>
+{12} {lm/mpp/jw/pg}
+

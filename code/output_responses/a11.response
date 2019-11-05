@@ -1,0 +1,597 @@
+<COREF ID="X0">F14-CRASH</COREF>
+{33} {crashes}
+
+<COREF ID="X1">02-22</COREF>
+{5} {-ART-NYT}
+{16} {we}
+{25} {We}
+
+<COREF ID="X2">SERIES OF CRASHES</COREF>
+{7} {story}
+{13} {third crash}
+{13} {last month}
+{14} {crash}
+{15} {two crewmen}
+{16} {three crashes}
+{21} {changes}
+{21} {aircraft}
+{22} {highest accident rate}
+{22} {plane}
+{22} {three-day review}
+{23} {past two years}
+{24} {plane}
+{26} {too serious a business}
+{27} {three recent crashes}
+{27} {planes}
+{27} {rest}
+{27} {shutdown}
+{28} {engine problems}
+{29} {first model}
+{30} {aircraft}
+{33} {crashes}
+{33} {recent spate}
+{33} {troubles}
+{33} {recent years}
+{34} {crashes}
+{35} {three people}
+{35} {two-man crew}
+{35} {ground}
+{36} {pilot}
+{36} {F-14 crash}
+{37} {crew}
+{38} {end}
+{38} {1991 war}
+{39} {plane}
+{40} {crash}
+{40} {cause}
+{41} {plane}
+{41} {plane}
+
+<COREF ID="X3">NAVY</COREF>
+{13} {U.S. Navy}
+{16} {Navy's fleet}
+{22} {Navy fleet}
+{25} {admiral}
+{28} {Navy's fleet}
+{30} {Navy}
+{33} {Navy fighter planes}
+{33} {F-14 fleet}
+{39} {Navy officials}
+{41} {Navy}
+{41} {it}
+
+<COREF ID="X4">ITS F-14S</COREF>
+{7} {story}
+{13} {its F-14s}
+{13} {third crash}
+{13} {last month}
+{13} {skies}
+{14} {northern waters}
+{14} {crash}
+{15} {two crewmen}
+{16} {Navy's fleet}
+{16} {three crashes}
+{16} {connection}
+{20} {But known deficiencies}
+{21} {aircraft}
+{21} {changes}
+{22} {highest accident rate}
+{22} {plane}
+{22} {three-day review}
+{22} {new restrictions}
+{23} {past two years}
+{25} {more operational restrictions}
+{25} {admiral}
+{26} {too serious a business}
+{27} {rest}
+{27} {fleet}
+{27} {evidence}
+{27} {three recent crashes}
+{27} {their maintenance}
+{27} {planes}
+{27} {shutdown}
+{28} {Navy's fleet}
+{29} {its size}
+{29} {first model}
+{30} {aircraft}
+{30} {engines}
+{32} {engines}
+{33} {troubles}
+{33} {recent spate}
+{33} {rate}
+{34} {F-14A}
+{35} {ground}
+{35} {two-man crew}
+{36} {pilot}
+{37} {coast}
+{37} {crew}
+{38} {end}
+{38} {operation}
+{39} {plane}
+{40} {cause}
+{40} {crash}
+{41} {plane}
+{41} {plane}
+
+<COREF ID="X5">one of them</COREF>
+{13} {last month}
+{13} {third crash}
+{13} {its F-14s}
+{13} {skies}
+{14} {crash}
+{14} {gulf}
+{14} {northern waters}
+{15} {two crewmen}
+{16} {three crashes}
+{16} {more than 330 F-14s}
+{16} {immediate evidence}
+{16} {connection}
+{16} {Navy's fleet}
+{16} {interview}
+{16} {airplane}
+{17} {``A jinxed airplane}
+{20} {But known deficiencies}
+{21} {changes}
+{21} {aircraft}
+{22} {three-day review}
+{22} {plane}
+{22} {highest accident rate}
+{22} {use}
+{22} {new restrictions}
+{22} {Tomcat}
+{22} {Navy fleet}
+{23} {past two years}
+{23} {Ten F-14s}
+{24} {plane}
+{25} {more operational restrictions}
+{25} {admiral}
+{26} {too serious a business}
+{27} {rest}
+{27} {three recent crashes}
+{27} {evidence}
+{27} {planes}
+{27} {their maintenance}
+{27} {other safety experts}
+{27} {fleet}
+{27} {shutdown}
+{28} {Navy's fleet}
+{28} {fighter}
+{29} {first model}
+{29} {its size}
+{30} {engines}
+{30} {aircraft}
+{30} {Navy}
+{32} {engines}
+{33} {troubles}
+{33} {rate}
+{33} {recent spate}
+{33} {recent years}
+{33} {Navy fighter planes}
+{34} {F-14A}
+{34} {crashes}
+{34} {residential neighborhood}
+{35} {three people}
+{35} {two-man crew}
+{35} {ground}
+{36} {pilot}
+{37} {crew}
+{37} {coast}
+{37} {fighter}
+{37} {Pacific}
+{38} {end}
+{38} {no-fly zone}
+{38} {1991 war}
+{38} {gulf}
+{38} {operation}
+{39} {plane}
+{39} {routine training mission}
+{40} {cause}
+{40} {crash}
+{41} {plane}
+{41} {plane}
+{41} {Navy}
+{41} {Long Island}
+
+<COREF ID="X6">Thursday</COREF>
+{25} {it}
+{38} {Thursday}
+
+<COREF ID="X7">the Persian Gulf</COREF>
+{13} {U.S. Navy}
+{14} {gulf}
+{14} {northern waters}
+{16} {Navy's fleet}
+{16} {Pentagon}
+{22} {Navy fleet}
+{25} {admiral}
+{28} {Navy's fleet}
+{30} {Navy}
+{33} {F-14 fleet}
+{37} {coast}
+{37} {Pacific}
+{37} {Southern California}
+{38} {Persian Gulf}
+{38} {gulf}
+{38} {southern Iraq}
+{38} {F-14}
+{41} {Navy}
+
+<COREF ID="X8">The two-man crew</COREF>
+{14} {crash}
+{14} {northern waters}
+{14} {gulf}
+{15} {two crewmen}
+{16} {three crashes}
+{16} {Navy's fleet}
+{16} {interview}
+{16} {connection}
+{16} {immediate evidence}
+{16} {airplane}
+{16} {more than 330 F-14s}
+{17} {``A jinxed airplane}
+{18} {he}
+{20} {But known deficiencies}
+{21} {changes}
+{21} {aircraft}
+{22} {three-day review}
+{22} {plane}
+{22} {highest accident rate}
+{22} {Navy fleet}
+{23} {past two years}
+{23} {Ten F-14s}
+{24} {plane}
+{25} {admiral}
+{25} {more operational restrictions}
+{26} {too serious a business}
+{27} {rest}
+{27} {three recent crashes}
+{27} {planes}
+{27} {fleet}
+{27} {evidence}
+{27} {their maintenance}
+{27} {other safety experts}
+{27} {special engineers}
+{28} {Navy's fleet}
+{28} {fighter}
+{28} {carrier-based jet fighters}
+{29} {first model}
+{29} {fighter}
+{29} {its size}
+{30} {Navy}
+{30} {aircraft}
+{30} {engines}
+{32} {engines}
+{33} {troubles}
+{33} {recent spate}
+{33} {Navy fighter planes}
+{33} {rate}
+{33} {recent years}
+{34} {crashes}
+{34} {F-14A}
+{35} {two-man crew}
+{35} {three people}
+{35} {ground}
+{36} {pilot}
+{37} {crew}
+{37} {coast}
+{37} {fighter}
+{37} {Pacific}
+{38} {no-fly zone}
+{38} {end}
+{38} {1991 war}
+{38} {operation}
+{38} {gulf}
+{39} {plane}
+{39} {routine training mission}
+{40} {crash}
+{40} {cause}
+{41} {plane}
+{41} {plane}
+{41} {Navy}
+{41} {Long Island}
+
+<COREF ID="X9">the carrier Nimitz</COREF>
+{14} {gulf}
+{16} {Navy's fleet}
+{16} {airplane}
+{16} {Pentagon}
+{21} {aircraft}
+{22} {plane}
+{22} {Navy fleet}
+{22} {highest accident rate}
+{24} {plane}
+{25} {admiral}
+{27} {fleet}
+{27} {planes}
+{27} {rest}
+{27} {their}
+{28} {Navy's fleet}
+{28} {carrier-based jet fighters}
+{29} {first model}
+{30} {aircraft}
+{30} {Navy}
+{33} {F-14 fleet}
+{33} {rate}
+{35} {ground}
+{36} {F-14 crash}
+{36} {pilot}
+{37} {Pacific}
+{38} {Nimitz}
+{38} {F-14}
+{38} {end}
+{38} {gulf}
+{39} {plane}
+{40} {cause}
+{41} {plane}
+{41} {plane}
+{41} {Navy}
+{41} {Grumman Corp.}
+
+<COREF ID="X10">The three-day shutdown</COREF>
+{16} {three crashes}
+{16} {connection}
+{16} {Navy's fleet}
+{16} {immediate evidence}
+{16} {more than 330 F-14s}
+{16} {interview}
+{21} {changes}
+{21} {aircraft}
+{22} {three-day review}
+{22} {highest accident rate}
+{22} {plane}
+{22} {new restrictions}
+{23} {past two years}
+{23} {Ten F-14s}
+{24} {plane}
+{25} {more operational restrictions}
+{25} {admiral}
+{26} {too serious a business}
+{27} {shutdown}
+{27} {three recent crashes}
+{27} {rest}
+{27} {their maintenance}
+{27} {evidence}
+{27} {planes}
+{27} {other safety experts}
+{27} {fleet}
+{28} {Navy's fleet}
+{28} {fighter}
+{29} {first model}
+{29} {its size}
+{30} {aircraft}
+{30} {engines}
+{30} {Navy}
+{32} {engines}
+{33} {troubles}
+{33} {recent spate}
+{33} {rate}
+{33} {recent years}
+{34} {crashes}
+{34} {F-14A}
+{35} {two-man crew}
+{35} {three people}
+{35} {ground}
+{36} {pilot}
+{37} {crew}
+{37} {coast}
+{37} {Pacific}
+{37} {fighter}
+{38} {end}
+{38} {no-fly zone}
+{38} {operation}
+{38} {1991 war}
+{38} {gulf}
+{39} {plane}
+{39} {routine training mission}
+{40} {cause}
+{40} {crash}
+{40} {They}
+{41} {plane}
+{41} {plane}
+{41} {Long Island}
+{41} {Navy}
+
+<COREF ID="X11">the chief of naval operations</COREF>
+{16} {Navy's fleet}
+{16} {three crashes}
+{16} {immediate evidence}
+{16} {Pentagon}
+{16} {airplane}
+{21} {aircraft}
+{21} {changes}
+{22} {Navy fleet}
+{22} {plane}
+{22} {highest accident rate}
+{22} {three-day review}
+{22} {new restrictions}
+{23} {past two years}
+{25} {admiral}
+{25} {more operational restrictions}
+{26} {too serious a business}
+{27} {fleet}
+{27} {planes}
+{27} {evidence}
+{27} {rest}
+{27} {three recent crashes}
+{27} {other safety experts}
+{27} {their maintenance}
+{27} {shutdown}
+{27} {special engineers}
+{27} {pilot training}
+{28} {Navy's fleet}
+{28} {fighter}
+{28} {carrier-based jet fighters}
+{29} {first model}
+{29} {its size}
+{30} {aircraft}
+{30} {Navy}
+{30} {engines}
+{32} {engines}
+{33} {F-14 fleet}
+{33} {recent spate}
+{33} {troubles}
+{33} {Navy fighter planes}
+{33} {rate}
+{33} {recent years}
+{34} {crashes}
+{35} {ground}
+{35} {two-man crew}
+{35} {three people}
+{36} {pilot}
+{37} {crew}
+{37} {coast}
+{37} {fighter}
+{37} {Pacific}
+{38} {operation}
+{38} {1991 war}
+{38} {end}
+{38} {gulf}
+{38} {F-14}
+{39} {Navy officials}
+{39} {routine training mission}
+{39} {plane}
+{40} {cause}
+{40} {crash}
+{41} {Navy}
+{41} {plane}
+{41} {plane}
+
+<COREF ID="X12">the earlier models</COREF>
+{20} {But known deficiencies}
+{21} {changes}
+{21} {aircraft}
+{22} {three-day review}
+{22} {plane}
+{22} {highest accident rate}
+{22} {new restrictions}
+{22} {use}
+{23} {past two years}
+{24} {plane}
+{25} {more operational restrictions}
+{25} {admiral}
+{26} {too serious a business}
+{27} {three recent crashes}
+{27} {rest}
+{27} {evidence}
+{27} {planes}
+{27} {fleet}
+{27} {their maintenance}
+{27} {other safety experts}
+{27} {shutdown}
+{28} {Earlier models}
+{28} {Navy's fleet}
+{28} {fighter}
+{28} {engine problems}
+{29} {first model}
+{29} {its size}
+{30} {engines}
+{30} {aircraft}
+{30} {Navy}
+{32} {engines}
+{33} {recent spate}
+{33} {rate}
+{33} {recent years}
+{33} {troubles}
+{34} {crashes}
+{35} {ground}
+{35} {three people}
+{35} {two-man crew}
+{36} {pilot}
+{37} {crew}
+{37} {coast}
+{37} {fighter}
+{37} {Pacific}
+{38} {end}
+{38} {1991 war}
+{38} {operation}
+{39} {plane}
+{39} {routine training mission}
+{40} {cause}
+{40} {crash}
+{41} {plane}
+{41} {plane}
+{41} {Navy}
+
+<COREF ID="X13">Navy officials</COREF>
+{28} {Navy's fleet}
+{30} {Navy}
+{33} {Navy fighter planes}
+{33} {F-14 fleet}
+{39} {Navy officials}
+{41} {Navy}
+
+<COREF ID="X14">the engines</COREF>
+{28} {they}
+{29} {first model}
+{29} {its size}
+{30} {engines}
+{30} {aircraft}
+{32} {engines}
+{33} {troubles}
+{33} {F-14 fleet}
+{33} {rate}
+{34} {crashes}
+{35} {ground}
+{35} {two-man crew}
+{35} {three people}
+{36} {pilot}
+{37} {crew}
+{37} {fighter}
+{37} {coast}
+{38} {end}
+{39} {plane}
+{40} {cause}
+{40} {crash}
+{41} {plane}
+{41} {plane}
+
+<COREF ID="X15">Two of the three planes that have crashed since late January</COREF>
+{32} {engines}
+{33} {crashes}
+{33} {recent spate}
+{33} {recent years}
+{33} {troubles}
+{33} {Navy fighter planes}
+{33} {rate}
+{33} {F-14 fleet}
+{34} {crashes}
+{34} {F-14A}
+{35} {three people}
+{35} {two-man crew}
+{35} {ground}
+{36} {pilot}
+{36} {F-14 crash}
+{37} {crew}
+{37} {coast}
+{37} {fighter}
+{37} {Pacific}
+{38} {end}
+{38} {no-fly zone}
+{38} {1991 war}
+{38} {gulf}
+{38} {operation}
+{39} {plane}
+{39} {routine training mission}
+{40} {crash}
+{40} {cause}
+{41} {plane}
+{41} {plane}
+{41} {Long Island}
+{41} {Navy}
+
+<COREF ID="X16">later models</COREF>
+{32} {engines}
+{33} {recent years}
+{35} {three people}
+
+<COREF ID="X17">an F-14D</COREF>
+{22} {He}
+{38} {operation}
+{38} {end}
+{38} {no-fly zone}
+{39} {routine training mission}
+{39} {plane}
+{40} {cause}
+{41} {plane}
+{41} {plane}
+

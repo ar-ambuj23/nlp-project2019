@@ -1,0 +1,204 @@
+<COREF ID="X0">APMV-1</COREF>
+
+<COREF ID="X1">poultry</COREF>
+{0} {poultry}
+{0} {British Poultry Science}
+{3} {poultry flocks}
+{3} {poultry}
+{3} {flocks}
+{11} {domestic poultry}
+
+<COREF ID="X2">mutation</COREF>
+{1} {very similar mutation event}
+{1} {virulent virus}
+{5} {their hemagglutinin-neuraminidase}
+{5} {fusion membrane}
+{5} {Newcastle disease virus}
+{7} {virus strains}
+{8} {Newcastle disease virus}
+{9} {mutational steps}
+
+<COREF ID="X3">viruses</COREF>
+{0} {virulent  viruses}
+{0} {viruses}
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{5} {virulence}
+{7} {virus strains}
+{7} {infection}
+{8} {Newcastle disease virus}
+{9} {high virulence}
+{11} {precursor viruses}
+
+<COREF ID="X4">virulence</COREF>
+{0} {virulent  viruses}
+{0} {viruses}
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{5} {virulence}
+{5} {Newcastle disease virus}
+{5} {fusion membrane}
+{5} {their hemagglutinin-neuraminidase}
+{6} {virulent}
+{6} {Avirulent strains}
+{6} {inactive precursor proteins}
+{6} {precursor proteins}
+{7} {infection}
+{7} {virus strains}
+{7} {surface glycoprotein precursors}
+{7} {specific cellular proteases}
+{7} {tissue tropism}
+{8} {high, intermediate, or low virulence}
+{8} {strains}
+{8} {Newcastle disease virus}
+{9} {avirulence}
+{9} {high virulence}
+{9} {high virulence}
+{9} {low virulence}
+{9} {strains}
+{11} {precursor viruses}
+
+<COREF ID="X5">flocks</COREF>
+{0} {poultry}
+{1} {Victorian flocks}
+{3} {poultry flocks}
+{3} {flocks}
+{3} {poultry}
+
+<COREF ID="X6">ND</COREF>
+{3} {ND freedom}
+
+<COREF ID="X7">virus</COREF>
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{3} {outbreak}
+{3} {seroconversion}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{5} {virulence}
+{7} {virus strains}
+{7} {infection}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{9} {same (or a closely related) precursor virus}
+{10} {disease surveillance programme}
+{11} {precursor viruses}
+
+<COREF ID="X8">Victoria</COREF>
+{1} {Victorian flocks}
+{12} {Victoria}
+{12} {Victoria}
+{12} {(Victoria}
+
+<COREF ID="X9">virus</COREF>
+{1} {virulent virus}
+{3} {APMV-1 viruses}
+{3} {outbreak}
+{3} {seroconversion}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{5} {virulence}
+{7} {virus strains}
+{7} {infection}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{9} {same (or a closely related) precursor virus}
+{10} {disease surveillance programme}
+{11} {precursor viruses}
+
+<COREF ID="X10">viruses</COREF>
+{3} {APMV-1 viruses}
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{5} {virulence}
+{7} {virus strains}
+{7} {infection}
+{8} {Newcastle disease virus}
+{9} {high virulence}
+{11} {precursor viruses}
+
+<COREF ID="X11">Australia</COREF>
+{12} {- Australia}
+{12} {disease - Australia}
+{12} {Victoria}
+
+<COREF ID="X12">virus</COREF>
+{4} {notoriously variable virus}
+{5} {Newcastle disease virus}
+{5} {virulence}
+{7} {virus strains}
+{7} {infection}
+{8} {Newcastle disease virus}
+{9} {closely related) precursor virus}
+{9} {same (or a closely related) precursor virus}
+{10} {disease surveillance programme}
+{11} {precursor viruses}
+
+<COREF ID="X13">Strains</COREF>
+{5} {virulence}
+{6} {Avirulent strains}
+{6} {virulent}
+{7} {virus strains}
+{7} {infection}
+{8} {strains}
+{8} {strains}
+{9} {strains}
+{9} {low virulence}
+{9} {high virulence}
+
+<COREF ID="X14">the cleavability</COREF>
+{6} {precursor proteins}
+{7} {inherent cleavability}
+{7} {presence}
+{7} {spread}
+{7} {their ability}
+{8} {basis}
+{8} {definition}
+{9} {number}
+{9} {same (or a closely related) precursor virus}
+{9} {consequence}
+{11} {source}
+{11} {precursor viruses}
+{11} {possible complicating factor}
+
+<COREF ID="X15">proteins</COREF>
+{5} {fusion membrane}
+{5} {their hemagglutinin-neuraminidase}
+{5} {virulence}
+{6} {inactive precursor proteins}
+{6} {precursor proteins}
+{7} {surface glycoprotein precursors}
+{7} {specific cellular proteases}
+{7} {tissue tropism}
+{9} {mutational steps}
+{9} {high virulence}
+{9} {low virulence}
+
+<COREF ID="X16">strains</COREF>
+{6} {Avirulent strains}
+{6} {virulent}
+{7} {virus strains}
+{7} {infection}
+{8} {strains}
+{8} {strains}
+{9} {strains}
+{9} {low virulence}
+{9} {high virulence}
+
+<COREF ID="X17">tissue</COREF>
+{7} {tissue tropism}
+{7} {surface glycoprotein precursors}
+{7} {specific cellular proteases}
+{9} {low virulence}
+
+<COREF ID="X18">This</COREF>
+{8} {basis}
+{8} {definition}
+{9} {consequence}
+{9} {same (or a closely related) precursor virus}
+{9} {number}
+{11} {source}
+{11} {possible complicating factor}
+

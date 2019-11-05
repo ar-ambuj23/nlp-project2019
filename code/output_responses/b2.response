@@ -1,0 +1,489 @@
+<COREF ID="X0">American Airlines</COREF>
+{8} {AIRLINES}
+{10} {Amr corp.'s American Airlines unit}
+{10} {it}
+{11} {American officials}
+{12} {flight attendants}
+{13} {American's more than 10,000 flight attendants}
+{13} {Professional Flight Attendants}
+{15} {american}
+{15} {flight attendants}
+{18} {5,400-member Allied Pilots Association}
+{21} {American}
+{25} {New York labor consultant}
+{26} {International Meatpacking Union}
+
+<COREF ID="X1">Mediation In Its Union Talks</COREF>
+{4} {Wall Street Journal}
+{10} {unions}
+{10} {its contract talks}
+{10} {federal mediation}
+{10} {Amr corp.'s American Airlines unit}
+{11} {talks}
+{11} {mediation}
+{11} {company}
+{11} {spokesman}
+{11} {American officials}
+{11} {point}
+{12} {talks}
+{12} {Negotiations}
+{12} {pilots}
+{13} {bargaining tactic}
+{13} {Association}
+{13} {American's more than 10,000 flight attendants}
+{14} {mediation}
+{14} {association}
+{14} {call}
+{14} {surprise}
+{14} {president}
+{15} {negotiations}
+{15} {recent employees' salaries}
+{15} {two-tier wage scale}
+{15} {salaries}
+{15} {longer time}
+{15} {different scale}
+{15} { issue}
+{16} {differences}
+{16} {new scale}
+{17} {negotiations}
+{17} {outstanding issues}
+{17} {company}
+{18} {5,400-member Allied Pilots Association}
+{18} {Representatives}
+{19} {mediator}
+{19} {Federal Railway Labor Act}
+{19} {two sides}
+{19} {binding arbitration}
+{20} {union}
+{20} {company}
+{21} {her union}
+{21} {company's move}
+{21} {" its "corporate campaign}
+{21} {next couple}
+{22} {union demands}
+{22} {other financial partners}
+{22} {company}
+{23} {job action}
+{23} {corporate campaign}
+{23} {her members}
+{23} {nice, clean way}
+{23} {our women}
+{24} {union}
+{25} {union}
+{25} {New York labor consultant}
+{25} {strategy}
+{25} {its battle}
+{25} {company}
+{25} {number}
+{26} {International Meatpacking Union}
+{26} {local union}
+{26} {company}
+{26} {new workers}
+{26} {campaign}
+{26} {strike}
+
+<COREF ID="X2">pilots</COREF>
+{12} {pilots}
+{12} {flight attendants}
+{13} {Professional Flight Attendants}
+{15} {flight attendants}
+{18} {5,400-member Allied Pilots Association}
+
+<COREF ID="X3">flight attendants</COREF>
+{12} {flight attendants}
+{12} {pilots}
+{13} {Professional Flight Attendants}
+{13} {American's more than 10,000 flight attendants}
+{15} {flight attendants}
+
+<COREF ID="X4">The president</COREF>
+{13} {Association}
+{14} {president}
+{14} {association}
+{14} {call}
+{14} {surprise}
+{15} {negotiations}
+{15} {salaries}
+{15} {longer time}
+{16} {differences}
+{16} {new scale}
+{17} {company}
+{17} {negotiations}
+{17} {outstanding issues}
+{18} {5,400-member Allied Pilots Association}
+{18} {Representatives}
+{19} {Federal Railway Labor Act}
+{19} {two sides}
+{19} {mediator}
+{20} {company}
+{20} {union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{21} {her union}
+{22} {company}
+{22} {other financial partners}
+{22} {union demands}
+{23} {corporate campaign}
+{23} {her members}
+{23} {job action}
+{24} {union}
+{25} {company}
+{25} {union}
+{25} {strategy}
+{25} {New York labor consultant}
+{25} {its battle}
+{26} {company}
+{26} {local union}
+{26} {campaign}
+{26} {International Meatpacking Union}
+{26} {strike}
+
+<COREF ID="X5">the request for mediation</COREF>
+{13} {bargaining tactic}
+{13} {Association}
+{13} {American's more than 10,000 flight attendants}
+{13} {lockout}
+{14} {mediation}
+{14} {call}
+{14} {association}
+{14} {surprise}
+{15} {negotiations}
+{15} {longer time}
+{15} {two-tier wage scale}
+{15} {different scale}
+{15} {salaries}
+{15} { issue}
+{15} {recent employees' salaries}
+{16} {new scale}
+{16} {differences}
+{17} {negotiations}
+{17} {outstanding issues}
+{17} {company}
+{18} {5,400-member Allied Pilots Association}
+{19} {mediator}
+{19} {Federal Railway Labor Act}
+{19} {two sides}
+{19} {binding arbitration}
+{20} {company}
+{20} {union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{21} {her union}
+{21} {response}
+{22} {company}
+{22} {other financial partners}
+{22} {union demands}
+{23} {job action}
+{23} {corporate campaign}
+{23} {nice, clean way}
+{23} {her members}
+{23} {our women}
+{24} {union}
+{25} {strategy}
+{25} {company}
+{25} {union}
+{25} {New York labor consultant}
+{25} {number}
+{25} {its battle}
+{26} {local union}
+{26} {company}
+{26} {International Meatpacking Union}
+{26} {campaign}
+{26} {strike}
+{26} {new workers}
+
+<COREF ID="X6">talks with the company</COREF>
+{14} {association}
+{14} {call}
+{14} {surprise}
+{14} {president}
+{15} {negotiations}
+{15} {longer time}
+{15} {different scale}
+{15} {two-tier wage scale}
+{15} {recent employees' salaries}
+{15} {salaries}
+{15} {flight attendants}
+{16} {new scale}
+{16} {differences}
+{17} {company}
+{17} {negotiations}
+{17} {outstanding issues}
+{18} {5,400-member Allied Pilots Association}
+{19} {two sides}
+{19} {mediator}
+{19} {Federal Railway Labor Act}
+{20} {company}
+{20} {union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{21} {her union}
+{22} {company}
+{22} {other financial partners}
+{22} {union demands}
+{23} {job action}
+{23} {corporate campaign}
+{23} {nice, clean way}
+{23} {her members}
+{23} {our women}
+{24} {union}
+{25} {company}
+{25} {strategy}
+{25} {New York labor consultant}
+{25} {union}
+{25} {its battle}
+{25} {number}
+{25} {professional consultants}
+{26} {company}
+{26} {local union}
+{26} {International Meatpacking Union}
+{26} {campaign}
+{26} {new workers}
+{26} {strike}
+
+<COREF ID="X7">The major outstanding</COREF>
+{15} {different scale}
+{15} {negotiations}
+{15} {longer time}
+{15} {two-tier wage scale}
+{15} {salaries}
+{15} {recent employees' salaries}
+{15} {flight attendants}
+{16} {new scale}
+{16} {differences}
+{17} {outstanding issues}
+{17} {company}
+{17} {negotiations}
+{18} {5,400-member Allied Pilots Association}
+{19} {two sides}
+{19} {Federal Railway Labor Act}
+{19} {mediator}
+{20} {company}
+{20} {union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{21} {her union}
+{22} {company}
+{22} {other financial partners}
+{23} {job action}
+{23} {corporate campaign}
+{23} {nice, clean way}
+{23} {our women}
+{23} {her members}
+{23} {it}
+{24} {union}
+{25} {company}
+{25} {strategy}
+{25} {number}
+{25} {union}
+{25} {its battle}
+{25} {New York labor consultant}
+{25} {professional consultants}
+{26} {company}
+{26} {local union}
+{26} {International Meatpacking Union}
+{26} {campaign}
+{26} {strike}
+{26} {new workers}
+
+<COREF ID="X8">The union</COREF>
+{16} {differences}
+{16} {new scale}
+{17} {negotiations}
+{17} {company}
+{17} {outstanding issues}
+{18} {5,400-member Allied Pilots Association}
+{18} {Representatives}
+{19} {Federal Railway Labor Act}
+{19} {mediator}
+{19} {two sides}
+{20} {union}
+{20} {company}
+{21} {her union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{22} {union demands}
+{22} {company}
+{22} {other financial partners}
+{23} {job action}
+{23} {corporate campaign}
+{23} {her members}
+{23} {our women}
+{24} {union}
+{25} {union}
+{25} {New York labor consultant}
+{25} {company}
+{25} {strategy}
+{25} {its battle}
+{25} {number}
+{26} {local union}
+{26} {International Meatpacking Union}
+{26} {new workers}
+{26} {company}
+{26} {strike}
+{26} {campaign}
+{26} {Rogers' supporters}
+
+<COREF ID="X9">the two sides</COREF>
+{19} {two sides}
+{19} {mediator}
+{19} {Federal Railway Labor Act}
+{20} {union}
+{20} {company}
+{21} {next couple}
+{21} {company's move}
+{21} {her union}
+{21} {" its "corporate campaign}
+{22} {company}
+{22} {other financial partners}
+{23} {nice, clean way}
+{23} {her members}
+{23} {job action}
+{23} {our women}
+{23} {corporate campaign}
+{24} {union}
+{25} {union}
+{25} {strategy}
+{25} {company}
+{25} {number}
+{25} {its battle}
+{25} {New York labor consultant}
+{26} {local union}
+{26} {company}
+{26} {campaign}
+{26} {International Meatpacking Union}
+{26} {strike}
+{26} {new workers}
+
+<COREF ID="X10">a 30-day cooling-off period</COREF>
+{13} {it}
+{19} {two sides}
+{19} {Federal Railway Labor Act}
+{20} {company}
+{21} {next couple}
+{21} {company's move}
+{22} {company}
+{23} {nice, clean way}
+{23} {job action}
+{25} {number}
+{25} {company}
+{25} {New York labor consultant}
+{26} {company}
+{26} {strike}
+
+<COREF ID="X11">the union</COREF>
+{20} {union}
+{20} {company}
+{21} {her union}
+{21} {company's move}
+{21} {next couple}
+{21} {" its "corporate campaign}
+{22} {union demands}
+{22} {company}
+{22} {other financial partners}
+{23} {job action}
+{23} {corporate campaign}
+{23} {her members}
+{23} {our women}
+{24} {union}
+{25} {union}
+{25} {New York labor consultant}
+{25} {company}
+{25} {strategy}
+{25} {its battle}
+{25} {number}
+{26} {local union}
+{26} {International Meatpacking Union}
+{26} {new workers}
+{26} {company}
+{26} {strike}
+{26} {campaign}
+{26} {Rogers' supporters}
+
+<COREF ID="X12">a corporate campaign</COREF>
+{22} {company}
+{22} {other financial partners}
+{22} {union demands}
+{23} {corporate campaign}
+{23} {job action}
+{23} {nice, clean way}
+{23} {her members}
+{23} {our women}
+{24} {union}
+{25} {strategy}
+{25} {company}
+{25} {New York labor consultant}
+{25} {number}
+{25} {its battle}
+{25} {union}
+{25} {professional consultants}
+{26} {campaign}
+{26} {company}
+{26} {local union}
+{26} {strike}
+{26} {International Meatpacking Union}
+{26} {new workers}
+
+<COREF ID="X13">a union</COREF>
+{22} {union demands}
+{22} {company}
+{22} {other financial partners}
+{23} {job action}
+{23} {corporate campaign}
+{23} {nice, clean way}
+{23} {her members}
+{24} {union}
+{25} {union}
+{25} {number}
+{25} {New York labor consultant}
+{25} {company}
+{25} {strategy}
+{25} {its battle}
+{26} {International Meatpacking Union}
+{26} {local union}
+{26} {strike}
+{26} {new workers}
+{26} {company}
+{26} {campaign}
+
+<COREF ID="X14">a company</COREF>
+{22} {company}
+{22} {other financial partners}
+{23} {corporate campaign}
+{23} {job action}
+{23} {nice, clean way}
+{24} {union}
+{25} {company}
+{25} {number}
+{25} {New York labor consultant}
+{25} {strategy}
+{25} {professional consultants}
+{25} {its battle}
+{25} {union}
+{26} {company}
+{26} {strike}
+{26} {local union}
+{26} {International Meatpacking Union}
+{26} {campaign}
+{26} {new workers}
+
+<COREF ID="X15">Ray Rogers of Corporate Campaign Inc.</COREF>
+{25} {New York labor consultant}
+{25} {company}
+{25} {strategy}
+{25} {union}
+{25} {its battle}
+{26} {campaign}
+{26} {company}
+{26} {Rogers' supporters}
+{26} {International Meatpacking Union}
+{26} {local union}
+
+<COREF ID="X16">Geo. A. Hormel @amp; Co.</COREF>
+{25} {Austin, Minn., meatpacking plant}
+

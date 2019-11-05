@@ -1,0 +1,420 @@
+<COREF ID="X0">senior director of UAL</COREF>
+{6} {executive committee}
+{6} {member}
+{7} {UAL board}
+{7} {his management team}
+{7} {his long-range strategy}
+{7} {it}
+{8} {financial performance}
+{9} {directors}
+{10} {his determination}
+{10} {We}
+{10} {them}
+{12} {president}
+{13} {First-quarter financial results}
+{13} {prospect}
+{14} {outside directors}
+{14} {lack}
+{14} {fact}
+{15} {outside directors}
+{15} {employment}
+{15} {independent counsel}
+{16} {UAL}
+{16} {UAL}
+{16} {important fact}
+{16} {Journal's reference}
+{17} {knowledge}
+{17} {United's service}
+{17} {Journal's reference}
+{21} {effort}
+{21} {it}
+{21} {they}
+{22} {directors}
+{22} {board}
+{24} {strong union}
+{24} {business}
+{25} {strong and prosperous employer}
+{26} {UAL}
+{26} {management contract}
+{27} {UAL}
+
+<COREF ID="X1">its board</COREF>
+{6} {executive committee}
+{6} {member}
+{7} {UAL board}
+{7} {more competitive airline}
+{7} {his long-range strategy}
+{7} {his management team}
+{8} {financial performance}
+{8} {Journal article}
+{9} {directors}
+{11} {large part}
+{11} {we}
+{11} {our difficulties}
+{12} {its earnings}
+{13} {airline}
+{13} {First-quarter financial results}
+{13} {substantial improvement}
+{13} {prospect}
+{14} {outside directors}
+{14} {fact}
+{14} {pilots' proposal}
+{14} {lack}
+{14} {implication}
+{15} {outside directors}
+{15} {employment}
+{15} {proposed corporate buyout situations}
+{16} {Journal's reference}
+{16} {important fact}
+{16} {Century Plaza}
+{17} {case}
+{17} {Journal's reference}
+{17} {knowledge}
+{17} {United's service}
+{17} {strike}
+{18} {picket line}
+{18} {trainees}
+{19} {strike}
+{20} {district court}
+{20} {circuit court reversal}
+{20} {U.S. Supreme Court}
+{21} {its court victory}
+{21} {effort}
+{22} {board}
+{22} {directors}
+{22} {desire}
+{23} {1985 pilot strike}
+{23} {heat}
+{23} {side}
+{24} {business}
+{24} {strong union}
+{24} {their right}
+{25} {strong and prosperous employer}
+{25} {We}
+{25} {our}
+{26} {management contract}
+{26} {Century Plaza}
+{27} {acquisition}
+
+<COREF ID="X2">the Journal's April 17 article</COREF>
+{6} {member}
+{6} {executive committee}
+{7} {his long-range strategy}
+{7} {his management team}
+{7} {UAL board}
+{8} {Journal article}
+{8} {financial performance}
+{11} {large part}
+{13} {First-quarter financial results}
+{14} {your article}
+{14} {fact}
+{14} {pilots' proposal}
+{14} {lack}
+{15} {employment}
+{16} {Journal's reference}
+{16} {important fact}
+{16} {Century Plaza}
+{17} {Journal's reference}
+{17} {case}
+{17} {knowledge}
+{17} {United's service}
+{19} {strike}
+{20} {district court}
+{21} {effort}
+{22} {board}
+{23} {1985 pilot strike}
+{24} {business}
+{24} {their right}
+{26} {Century Plaza}
+
+<COREF ID="X3">Richard Ferris</COREF>
+{7} {Mr. Ferris}
+{7} {his}
+{7} {his}
+{9} {Mr. Ferris}
+{10} {his}
+{12} {Mr. Ferris}
+{14} {Mr. Ferris}
+{19} {they}
+{22} {Neither Mr. Ferris}
+
+<COREF ID="X4">United</COREF>
+{11} {non-union airline competitors}
+{12} {United}
+{14} {United}
+{17} {United's service}
+{18} {United}
+{19} {United}
+{19} {United cockpits}
+{20} {United}
+{20} {U.S. Supreme Court}
+{21} {United management}
+{21} {United}
+{22} {union}
+{24} {strong union}
+{25} {United}
+
+<COREF ID="X5">the premier hotel company</COREF>
+{7} {more competitive airline}
+{7} {his management team}
+{7} {his long-range strategy}
+{8} {financial performance}
+{8} {Westin Hotels}
+{9} {directors}
+{11} {large part}
+{11} {non-union airline competitors}
+{13} {airline}
+{13} {First-quarter financial results}
+{13} {prospect}
+{13} {substantial improvement}
+{14} {outside directors}
+{14} {fact}
+{14} {pilots' proposal}
+{14} {lack}
+{15} {employment}
+{15} {outside directors}
+{15} {proposed corporate buyout situations}
+{16} {Century Plaza}
+{16} {important fact}
+{16} {Journal's reference}
+{16} {reputed desire}
+{16} {he}
+{17} {United's service}
+{17} {knowledge}
+{17} {case}
+{17} {Journal's reference}
+{18} {trainees}
+{18} {picket line}
+{19} {strike}
+{20} {district court}
+{20} {U.S. Supreme Court}
+{21} {United management}
+{21} {its court victory}
+{21} {effort}
+{22} {board}
+{23} {1985 pilot strike}
+{24} {business}
+{24} {their right}
+{24} {strong union}
+{25} {strong and prosperous employer}
+{26} {Century Plaza}
+{26} {management contract}
+{27} {acquisition}
+
+<COREF ID="X6">car rental company</COREF>
+{7} {more competitive airline}
+{7} {his long-range strategy}
+{8} {Westin Hotels}
+{11} {non-union airline competitors}
+{13} {airline}
+{15} {employment}
+{17} {United's service}
+{18} {them}
+{24} {business}
+{25} {they}
+{25} {us}
+{26} {management contract}
+
+<COREF ID="X7">board members</COREF>
+{9} {directors}
+{11} {non-union airline competitors}
+{14} {outside directors}
+{14} {pilots' proposal}
+{15} {outside directors}
+{17} {they}
+{18} {trainees}
+{19} {570 individuals}
+{22} {board}
+{22} {directors}
+{23} {them}
+{23} {them}
+{24} {strong union}
+
+<COREF ID="X8">the earnings of United Airlines</COREF>
+{9} {directors}
+{10} {his determination}
+{11} {non-union airline competitors}
+{11} {our difficulties}
+{11} {large part}
+{11} {fare wars}
+{12} {United}
+{12} {its earnings}
+{13} {airline}
+{13} {First-quarter financial results}
+{13} {substantial improvement}
+{13} {prospect}
+{14} {United}
+{14} {fact}
+{14} {outside directors}
+{14} {implication}
+{14} {pilots' proposal}
+{14} {lack}
+{15} {employment}
+{15} {proposed corporate buyout situations}
+{15} {outside directors}
+{16} {important fact}
+{16} {Century Plaza}
+{16} {Journal's reference}
+{16} {breakup}
+{17} {United's service}
+{17} {knowledge}
+{17} {case}
+{17} {Journal's reference}
+{17} {strike}
+{18} {United}
+{18} {picket line}
+{18} {trainees}
+{19} {United}
+{19} {strike}
+{19} {570 individuals}
+{19} {United cockpits}
+{20} {United}
+{20} {U.S. Supreme Court}
+{20} {district court}
+{20} {570 pilots}
+{21} {United}
+{21} {United management}
+{21} {its court victory}
+{21} {570 pilots}
+{21} {effort}
+{22} {board}
+{22} {desire}
+{22} {union}
+{23} {1985 pilot strike}
+{23} {heat}
+{24} {business}
+{24} {strong union}
+{24} {their right}
+{24} {our pilots}
+{24} {We}
+{24} {our pilots}
+{24} {we}
+{25} {United}
+{25} {strong and prosperous employer}
+{26} {Century Plaza}
+{26} {management contract}
+{27} {acquisition}
+{27} {ownership rights}
+
+<COREF ID="X9">Jim Hartigan, </COREF>
+
+<COREF ID="X10">independent legal and financial counsel</COREF>
+{14} {outside directors}
+{14} {lack}
+{14} {fact}
+{14} {implication}
+{14} {pilots' proposal}
+{15} {independent counsel}
+{15} {employment}
+{15} {proposed corporate buyout situations}
+{15} {outside directors}
+{16} {important fact}
+{16} {reputed desire}
+{16} {Journal's reference}
+{17} {United's service}
+{17} {case}
+{17} {knowledge}
+{17} {Journal's reference}
+{17} {pre-hiring training}
+{19} {570 individuals}
+{19} {litigation}
+{20} {district court}
+{20} {U.S. Supreme Court}
+{20} {circuit court reversal}
+{21} {United management}
+{21} {its court victory}
+{21} {effort}
+{22} {desire}
+{22} {board}
+{22} {directors}
+{24} {business}
+{24} {strong union}
+{24} {their right}
+{25} {strong and prosperous employer}
+{26} {management contract}
+{27} {ownership rights}
+{27} {acquisition}
+
+<COREF ID="X11">Donald Trump</COREF>
+
+<COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
+{16} {Century Plaza}
+{17} {United's service}
+{18} {picket line}
+{20} {district court}
+{20} {U.S. Supreme Court}
+{21} {United management}
+{21} {its court victory}
+{24} {business}
+{26} {Century Plaza}
+
+<COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
+{17} {pilots}
+{17} {case}
+{17} {strike}
+{17} {knowledge}
+{17} {United's service}
+{17} {Journal's reference}
+{17} {pre-hiring training}
+{18} {United}
+{18} {picket line}
+{18} {trainees}
+{19} {United}
+{19} {strike}
+{19} {570 individuals}
+{20} {United}
+{20} {district court}
+{20} {570 pilots}
+{20} {U.S. Supreme Court}
+{20} {circuit court reversal}
+{21} {United}
+{21} {effort}
+{21} {its court victory}
+{21} {570 pilots}
+{22} {desire}
+{22} {board}
+{23} {1985 pilot strike}
+{23} {side}
+{23} {heat}
+{24} {their right}
+{24} {strong union}
+{24} {business}
+{24} {our pilots}
+{25} {United}
+{25} {strong and prosperous employer}
+{26} {Century Plaza}
+{26} {management contract}
+
+<COREF ID="X14">the pilots' strike</COREF>
+{18} {trainees}
+{18} {picket line}
+{19} {strike}
+{20} {570 pilots}
+{21} {570 pilots}
+{21} {its court victory}
+{21} {effort}
+{22} {board}
+{23} {1985 pilot strike}
+{24} {our pilots}
+{24} {their right}
+{24} {strong union}
+{24} {business}
+{25} {strong and prosperous employer}
+
+<COREF ID="X15">a federal district court</COREF>
+
+<COREF ID="X16">the pilots</COREF>
+{22} {board}
+{23} {1985 pilot strike}
+{23} {heat}
+{24} {our pilots}
+{24} {their right}
+{24} {business}
+
+<COREF ID="X17">harsh things</COREF>
+{23} {heat}
+{24} {their right}
+{25} {strong and prosperous employer}
+
+<COREF ID="X18">we</COREF>
+

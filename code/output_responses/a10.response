@@ -1,0 +1,418 @@
+<COREF ID="X0">GROUNDED-JETS</COREF>
+{5} {BC-GROUNDED-JETS-BOS}
+{6} { GROUNDS}
+{23} {aircraft}
+{31} {twin-engine aircraft}
+{31} {close-in air combat}
+
+<COREF ID="X1">02-22</COREF>
+
+<COREF ID="X2">NAVY</COREF>
+{10} {Navy}
+{12} {Navy}
+{13} {Navy}
+{15} {Navy}
+{19} {Navy}
+{21} {Navy personnel}
+{26} {Naval Operations}
+{27} {Navy}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {Navy}
+{34} {Naval records}
+{35} {Navy}
+{36} {Navy}
+{36} {they}
+
+<COREF ID="X3">THIRD RECENT CRASH</COREF>
+{7} {New York Times News Service clients}
+{10} {week}
+{10} {third ``Tomcat'' crash}
+{10} {month}
+{12} {aircraft}
+{12} {SH-60 helicopter}
+{12} {they}
+{15} {cause}
+{16} {coast}
+{16} {aircraft carrier}
+{17} {crew members}
+{18} {ground}
+{18} {crew members}
+{19} {crash}
+{19} {third Tomcat crash}
+{19} {aircraft}
+{19} {flaw}
+{20} {military}
+{20} {intensive review}
+{21} {three-day period}
+{21} {three classes}
+{21} {air}
+{22} {F-14s}
+{22} {aircraft carrier}
+{23} {carrier}
+{25} {F-14s}
+{25} {time}
+{25} {goal}
+{25} {stand-down}
+{26} {latest crash}
+{26} {entire fleet}
+{26} {chief}
+{27} {accidents}
+{28} {past five years}
+{29} {Navy's first female pilots}
+{30} {crash}
+{30} {engine failure}
+{31} {standard fighter plane}
+{31} {close-in air combat}
+{32} {aircraft}
+{33} {year}
+{33} {F-14A}
+{34} {crash rate}
+{35} {single explanation}
+{35} {increases}
+{36} {accidents}
+{36} {common thread}
+{37} {mystery}
+
+<COREF ID="X4">entire fleet of F-14 airplanes</COREF>
+{10} {Navy}
+{10} {operations}
+{11} {flight operations}
+{11} {USS Nimitz}
+{11} {northern Persian Gulf}
+{12} {aircraft}
+{12} {Navy}
+{12} {SH-60 helicopter}
+{13} {Navy}
+{15} {Navy}
+{16} {aircraft carrier}
+{16} {coast}
+{17} {crew members}
+{18} {F-14}
+{18} {ground}
+{18} {three civilians}
+{18} {crew members}
+{19} {aircraft}
+{19} {Navy}
+{19} {crash}
+{20} {military}
+{21} {aircraft}
+{21} {air}
+{21} {Navy personnel}
+{22} {aircraft carrier}
+{22} {deck}
+{23} {aircraft}
+{23} {carrier}
+{26} {entire fleet}
+{26} {more than 300 aircraft}
+{26} {Naval Operations}
+{26} {latest crash}
+{27} {Navy}
+{28} {past five years}
+{29} {F-14}
+{29} {aircraft carrier}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {standard fighter plane}
+{31} {Navy}
+{31} {twin-engine aircraft}
+{31} {close-in air combat}
+{31} {Grumman Aerospace Corp.}
+{32} {aircraft}
+{34} {F-14}
+{34} {Naval records}
+{34} {crash rate}
+{35} {F-14 accidents}
+{35} {Navy}
+{36} {Navy}
+
+<COREF ID="X5">Thursday</COREF>
+{16} {Sunday}
+
+<COREF ID="X6">The 72-hour ``safety stand-down''</COREF>
+{13} {good condition}
+{15} {cause}
+{17} {crew members}
+{18} {ground}
+{18} {crew members}
+{19} {crash}
+{19} {third Tomcat crash}
+{20} {military}
+{20} {procedure}
+{21} {three-day period}
+{21} {air}
+{21} {three classes}
+{22} {F-14s}
+{22} {deck}
+{25} {stand-down}
+{25} {time}
+{25} {F-14s}
+{25} {goal}
+{26} {standdown}
+{26} {latest crash}
+{26} {chief}
+{26} {entire fleet}
+{28} {past five years}
+{29} {Navy's first female pilots}
+{30} {crash}
+{31} {close-in air combat}
+{31} {standard fighter plane}
+{33} {F-14A}
+{33} {year}
+{34} {crash rate}
+{35} {single explanation}
+{36} {common thread}
+
+<COREF ID="X7">an F-14 fighter</COREF>
+{11} {USS Nimitz}
+{12} {aircraft}
+{12} {SH-60 helicopter}
+{12} {Navy}
+{13} {Navy}
+{15} {Navy}
+{16} {aircraft carrier}
+{18} {F-14}
+{19} {aircraft}
+{19} {Navy}
+{20} {military}
+{21} {aircraft}
+{21} {Navy personnel}
+{22} {aircraft carrier}
+{23} {aircraft}
+{26} {Naval Operations}
+{27} {Navy}
+{29} {F-14}
+{29} {aircraft carrier}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {standard fighter plane}
+{31} {Navy}
+{31} {close-in air combat}
+{32} {aircraft}
+{34} {F-14}
+{34} {Naval records}
+{35} {F-14 accidents}
+{35} {Navy}
+{36} {Navy}
+
+<COREF ID="X8">the two Naval aviators on board</COREF>
+{12} {aircraft}
+{12} {Navy}
+{12} {SH-60 helicopter}
+{13} {Navy}
+{13} {men}
+{15} {Navy}
+{15} {cause}
+{16} {aircraft carrier}
+{16} {coast}
+{17} {crew members}
+{18} {crew members}
+{18} {ground}
+{18} {three civilians}
+{18} {F-14}
+{19} {aircraft}
+{19} {Navy}
+{19} {crash}
+{19} {third Tomcat crash}
+{19} {evidence}
+{20} {military}
+{20} {intensive review}
+{21} {aircraft}
+{21} {three classes}
+{21} {air}
+{21} {Navy personnel}
+{21} {three-day period}
+{22} {aircraft carrier}
+{22} {F-14s}
+{22} {deck}
+{22} {deployment}
+{23} {carrier}
+{23} {aircraft}
+{24} {We}
+{25} {F-14s}
+{25} {time}
+{25} {stand-down}
+{25} {goal}
+{26} {entire fleet}
+{26} {Naval Operations}
+{26} {more than 300 aircraft}
+{26} {chief}
+{26} {latest crash}
+{27} {Navy}
+{27} {accidents}
+{28} {past five years}
+{29} {Navy's first female pilots}
+{29} {aircraft carrier}
+{29} {F-14}
+{30} {Navy}
+{30} {crash}
+{31} {standard fighter plane}
+{31} {Navy}
+{31} {close-in air combat}
+{31} {twin-engine aircraft}
+{32} {aircraft}
+{33} {F-14A}
+{33} {year}
+{34} {Naval records}
+{34} {crash rate}
+{34} {F-14}
+{35} {Navy}
+{35} {increases}
+{35} {single explanation}
+{36} {Navy}
+{36} {common thread}
+{36} {accidents}
+
+<COREF ID="X9">Defense Department spokesman Kenneth Bacon</COREF>
+{19} {Navy}
+{20} {military}
+{21} {Navy personnel}
+{24} {Bacon}
+{26} {Bacon}
+{26} {chief}
+{26} {him}
+{26} {he}
+{27} {Bacon}
+{27} {Navy}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {Grumman Aerospace Corp.}
+{31} {Navy}
+{35} {Bacon}
+{35} {Navy}
+{36} {Bacon}
+{36} {Navy}
+
+<COREF ID="X10">A safety stand-down</COREF>
+{20} {military}
+{20} {procedure}
+{20} {intensive review}
+{21} {three-day period}
+{21} {air}
+{21} {three classes}
+{22} {F-14s}
+{22} {deck}
+{22} {deployment}
+{23} {carrier}
+{25} {stand-down}
+{25} {time}
+{25} {goal}
+{25} {F-14s}
+{26} {standdown}
+{26} {latest crash}
+{26} {more than 300 aircraft}
+{26} {entire fleet}
+{26} {chief}
+{28} {past five years}
+{29} {Navy's first female pilots}
+{30} {crash}
+{31} {close-in air combat}
+{31} {standard fighter plane}
+{31} {twin-engine aircraft}
+{32} {aircraft}
+{33} {year}
+{33} {F-14A}
+{34} {crash rate}
+{35} {single explanation}
+{35} {increases}
+{36} {common thread}
+{37} {mystery}
+
+<COREF ID="X11">the USS America</COREF>
+{27} {Navy}
+{29} {F-14}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {Navy}
+{31} {Grumman Aerospace Corp.}
+{31} {standard fighter plane}
+{34} {F-14}
+{35} {F-14 accidents}
+{35} {Navy}
+{36} {Navy}
+
+<COREF ID="X12">Carrier</COREF>
+{23} {carrier}
+{23} {aircraft}
+{29} {aircraft carrier}
+{31} {standard fighter plane}
+{32} {aircraft}
+
+<COREF ID="X13">these three crashes this year</COREF>
+{25} {time}
+{25} {F-14s}
+{25} {stand-down}
+{25} {goal}
+{26} {latest crash}
+{26} {more than 300 aircraft}
+{26} {entire fleet}
+{27} {accidents}
+{28} {past five years}
+{29} {Navy's first female pilots}
+{30} {crash}
+{31} {close-in air combat}
+{31} {standard fighter plane}
+{32} {aircraft}
+{33} {year}
+{33} {F-14A}
+{34} {crash rate}
+{35} {increases}
+{35} {single explanation}
+{36} {accidents}
+{36} {common thread}
+{37} {mystery}
+
+<COREF ID="X14">Adm. Jeremy Boorda</COREF>
+
+<COREF ID="X15">Deputy Defense Secretary John White</COREF>
+{26} {chief}
+{27} {Navy}
+{29} {Navy's first female pilots}
+{30} {Navy}
+{31} {Navy}
+{31} {Grumman Aerospace Corp.}
+{35} {Navy}
+{36} {Navy}
+
+<COREF ID="X16">One</COREF>
+{29} {Navy's first female pilots}
+{29} {aircraft carrier}
+{30} {crash}
+{30} {Navy}
+{31} {standard fighter plane}
+{31} {close-in air combat}
+{31} {Navy}
+{32} {aircraft}
+{33} {year}
+{33} {F-14A}
+{34} {crash rate}
+{35} {single explanation}
+{35} {increases}
+{35} {Navy}
+{36} {common thread}
+{36} {Navy}
+{37} {mystery}
+
+<COREF ID="X17">The oldest version of the aircraft</COREF>
+{33} {F-14A}
+{33} {year}
+{34} {crash rate}
+{34} {F-14}
+{35} {Navy}
+{35} {increases}
+{35} {single explanation}
+{36} {Navy}
+{36} {common thread}
+{37} {mystery}
+
+<COREF ID="X18">the initial years of deployment</COREF>
+{34} {crash rate}
+{35} {increases}
+{35} {single explanation}
+{35} {Navy}
+{36} {common thread}
+{36} {Navy}
+
+<COREF ID="X19">This</COREF>
+{37} {mystery}
+
