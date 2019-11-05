@@ -197,6 +197,10 @@ def driver(input_path_file, output_path):
                                 sentence = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
                                 coref_final_with_pro[cluster][i][2] = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
 
+                                
+                                
+                    coref_final_with_pro[cluster][i][2] = coref_final_with_pro[cluster][i][2].split(' ')[-1]
+                    
             return coref_final_with_pro
 
 

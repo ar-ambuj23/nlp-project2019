@@ -1,6 +1,6 @@
 <COREF ID="X0">senior director of UAL</COREF>
-{6} {executive committee}
-{7} {UAL board}
+{6} {committee}
+{7} {board}
 {7} {it}
 {9} {directors}
 {10} {We}
@@ -14,47 +14,47 @@
 {27} {UAL}
 
 <COREF ID="X1">its board</COREF>
-{6} {executive committee}
-{7} {UAL board}
+{6} {committee}
+{7} {board}
 {11} {we}
-{11} {our difficulties}
+{11} {difficulties}
 {22} {board}
 {25} {We}
 {25} {our}
 
 <COREF ID="X2">the Journal's April 17 article</COREF>
-{8} {Journal article}
-{16} {Journal's reference}
-{17} {Journal's reference}
+{8} {article}
+{16} {reference}
+{17} {reference}
 
 <COREF ID="X3">Richard Ferris</COREF>
-{7} {Mr. Ferris}
+{7} {Ferris}
 {7} {his}
 {7} {his}
-{9} {Mr. Ferris}
+{9} {Ferris}
 {10} {his}
-{12} {Mr. Ferris}
+{12} {Ferris}
 {19} {they}
 
 <COREF ID="X4">United</COREF>
 {12} {United}
 {14} {United}
-{17} {United's service}
+{17} {service}
 {18} {United}
 {19} {United}
 {20} {United}
-{21} {United management}
+{21} {management}
 {21} {United}
 {25} {United}
 
 <COREF ID="X5">the premier hotel company</COREF>
 {13} {airline}
-{17} {United's service}
+{17} {service}
 {24} {business}
 
 <COREF ID="X6">car rental company</COREF>
-{7} {more competitive airline}
-{17} {United's service}
+{7} {airline}
+{17} {service}
 {18} {them}
 {24} {business}
 {25} {they}
@@ -62,14 +62,14 @@
 
 <COREF ID="X7">board members</COREF>
 {9} {directors}
-{14} {outside directors}
+{14} {directors}
 {17} {they}
 {22} {board}
 {23} {them}
 {23} {them}
 
 <COREF ID="X8">the earnings of United Airlines</COREF>
-{11} {non-union airline competitors}
+{11} {competitors}
 {12} {United}
 {13} {airline}
 {14} {United}
@@ -79,52 +79,52 @@
 {20} {United}
 {21} {United}
 {24} {We}
-{24} {our pilots}
+{24} {pilots}
 {24} {we}
 {25} {United}
 
 <COREF ID="X9">Jim Hartigan, </COREF>
 
 <COREF ID="X10">independent legal and financial counsel</COREF>
-{15} {independent counsel}
+{15} {counsel}
 {15} {employment}
-{25} {strong and prosperous employer}
+{25} {employer}
 
 <COREF ID="X11">Donald Trump</COREF>
 
 <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
-{16} {Century Plaza}
-{20} {district court}
-{26} {Century Plaza}
+{16} {Plaza}
+{20} {court}
+{26} {Plaza}
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
 {16} {he}
 {17} {pilots}
 {18} {United}
-{18} {picket line}
+{18} {line}
 {19} {United}
 {19} {strike}
 {20} {United}
 {21} {United}
-{24} {their right}
+{24} {right}
 {25} {United}
 
 <COREF ID="X14">the pilots' strike</COREF>
 {19} {strike}
-{23} {1985 pilot strike}
-{24} {our pilots}
+{23} {strike}
+{24} {pilots}
 
 <COREF ID="X15">a federal district court</COREF>
 
 <COREF ID="X16">the pilots</COREF>
 {22} {board}
-{23} {1985 pilot strike}
-{24} {our pilots}
+{23} {strike}
+{24} {pilots}
 
 <COREF ID="X17">harsh things</COREF>
 {23} {heat}
-{24} {their right}
-{25} {strong and prosperous employer}
+{24} {right}
+{25} {employer}
 
 <COREF ID="X18">we</COREF>
 

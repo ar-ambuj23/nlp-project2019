@@ -1,30 +1,30 @@
 <COREF ID="X0">Mediator</COREF>
-{8} {federal mediator}
+{8} {mediator}
 {9} {mediator}
-{12} {Federal Mediation and Conciliation Service}
+{12} {Service}
 
 <COREF ID="X1">Talks</COREF>
 {9} {talks}
 
 <COREF ID="X2">Big Board</COREF>
-{9} {two sides}
-{11} {Big Board}
-{11} {Big Board}
+{9} {sides}
+{11} {Board}
+{11} {Board}
 
 <COREF ID="X3">Union</COREF>
-{8} {whose union contract}
-{11} {Office and Professional Employees International Union Local}
+{8} {contract}
+{11} {Local}
 {12} {union}
-{13} {union's previous contract}
+{13} {contract}
 {13} {union}
 
 <COREF ID="X4">a Big Board spokesman</COREF>
 {10} {spokesman}
-{11} {Big Board}
-{11} {Big Board}
+{11} {Board}
+{11} {Board}
 
 <COREF ID="X5">New York Futures Exchange, </COREF>
 {11} {exchange}
-{11} {exchange's computers}
-{11} {Office and Professional Employees International Union Local}
+{11} {computers}
+{11} {Local}
 

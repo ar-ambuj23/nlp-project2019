@@ -1,8 +1,8 @@
 <COREF ID="X0">GROUNDED-JETS</COREF>
 {5} {BC-GROUNDED-JETS-BOS}
-{6} { GROUNDS}
-{31} {twin-engine aircraft}
-{31} {close-in air combat}
+{6} {GROUNDS}
+{31} {aircraft}
+{31} {combat}
 
 <COREF ID="X1">02-22</COREF>
 
@@ -12,9 +12,9 @@
 {13} {Navy}
 {15} {Navy}
 {19} {Navy}
-{21} {Navy personnel}
+{21} {personnel}
 {27} {Navy}
-{29} {Navy's first female pilots}
+{29} {pilots}
 {30} {Navy}
 {31} {Navy}
 {35} {Navy}
@@ -24,7 +24,7 @@
 <COREF ID="X3">THIRD RECENT CRASH</COREF>
 {12} {they}
 {19} {crash}
-{26} {latest crash}
+{26} {crash}
 {30} {crash}
 
 <COREF ID="X4">entire fleet of F-14 airplanes</COREF>
@@ -36,10 +36,10 @@
 {16} {Sunday}
 
 <COREF ID="X6">The 72-hour ``safety stand-down''</COREF>
-{21} {three-day period}
+{21} {period}
 {25} {stand-down}
 {26} {standdown}
-{31} {close-in air combat}
+{31} {combat}
 
 <COREF ID="X7">an F-14 fighter</COREF>
 {18} {F-14}
@@ -50,11 +50,11 @@
 {12} {aircraft}
 {19} {aircraft}
 {24} {We}
-{29} {Navy's first female pilots}
+{29} {pilots}
 
 <COREF ID="X9">Defense Department spokesman Kenneth Bacon</COREF>
 {20} {military}
-{21} {Navy personnel}
+{21} {personnel}
 {24} {Bacon}
 {26} {Bacon}
 {26} {chief}
@@ -68,20 +68,20 @@
 {25} {stand-down}
 {25} {time}
 {26} {standdown}
-{31} {close-in air combat}
+{31} {combat}
 
 <COREF ID="X11">the USS America</COREF>
 {29} {F-14}
 {34} {F-14}
-{35} {F-14 accidents}
+{35} {accidents}
 
 <COREF ID="X12">Carrier</COREF>
 {23} {carrier}
-{29} {aircraft carrier}
+{29} {carrier}
 {32} {aircraft}
 
 <COREF ID="X13">these three crashes this year</COREF>
-{28} {past five years}
+{28} {years}
 {30} {crash}
 {33} {year}
 
@@ -90,22 +90,22 @@
 <COREF ID="X15">Deputy Defense Secretary John White</COREF>
 {26} {chief}
 {27} {Navy}
-{29} {Navy's first female pilots}
+{29} {pilots}
 
 <COREF ID="X16">One</COREF>
 {33} {year}
-{35} {single explanation}
-{36} {common thread}
+{35} {explanation}
+{36} {thread}
 
 <COREF ID="X17">The oldest version of the aircraft</COREF>
 {33} {F-14A}
 {33} {year}
-{34} {crash rate}
+{34} {rate}
 
 <COREF ID="X18">the initial years of deployment</COREF>
-{34} {crash rate}
+{34} {rate}
 {35} {increases}
-{35} {single explanation}
+{35} {explanation}
 
 <COREF ID="X19">This</COREF>
 {37} {mystery}
