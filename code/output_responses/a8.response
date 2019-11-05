@@ -7,15 +7,11 @@
 
 <COREF ID="X1">FLIGHTS</COREF>
 {5} {BC-PANTEX-FLIGHTS-TEX}
-{11} {aircraft}
 {13} {flight}
 {16} {current flight data}
 {17} {airport}
 {18} {We}
-{23} {Amarillo airport}
 {25} {flight pattern}
-{25} {airport traffic}
-{26} {planes}
 {27} {flight paths}
 {27} {airport's dozen flight paths}
 {29} {second flight path}
@@ -29,45 +25,15 @@
 
 <COREF ID="X4">NUMBER OF FLIGHTS</COREF>
 {11} {number}
-{11} {Federal Aviation Administration}
-{11} {aircraft}
 {13} {flight}
-{13} {up to 30 passes}
-{14} {plane crash}
 {16} {current flight data}
-{16} {one chance}
-{17} {airport}
-{18} {planes}
-{19} {FAA air traffic manager}
-{20} {25 planes}
-{21} {Energy Department}
-{21} {whose main mission}
-{23} {Amarillo airport}
-{24} {Air Force bases}
-{24} {military planes}
-{25} {airport traffic}
-{25} {flight pattern}
-{25} {About 25 percent}
-{26} {air traffic controllers}
-{26} {past 14 months}
-{26} {planes}
 {27} {airport's dozen flight paths}
-{27} {nuclear storage area}
-{28} {new instrument landing system}
-{28} {One approach}
-{29} {second flight path}
-{29} {Dallas/Fort Worth Airport}
-{30} {target date}
-{31} {planes}
-{32} {plane}
 
 <COREF ID="X5">PLUTONIUM</COREF>
 {11} {nation's surplus plutonium}
 {14} {plutonium storage bunker}
-{14} {radioactive smoke}
 {15} {Plutonium}
 {20} {plutonium}
-{21} {nuclear warheads}
 {22} {hollow plutonium ball}
 {31} {plutonium area}
 
@@ -77,221 +43,54 @@
 {17} {Amarillo}
 {19} {Amarillo International}
 {23} {Amarillo airport}
-{24} {Kansas}
-{24} {Texas}
-{24} {New Mexico}
 {29} {Amarillo}
-{29} {Dallas/Fort Worth Airport}
 {32} {Oklahoma}
 
 <COREF ID="X8">Texas</COREF>
 {17} {Amarillo}
-{19} {Amarillo International}
-{23} {Amarillo airport}
 {24} {Texas}
-{24} {Kansas}
-{24} {New Mexico}
 {29} {Amarillo}
-{29} {Dallas/Fort Worth Airport}
-{32} {Oklahoma}
 
 <COREF ID="X9">Energy Department</COREF>
-{11} {Federal Aviation Administration}
-{11} {nation's surplus plutonium}
-{11} {Pantex Weapons Plant}
-{13} {plant}
 {14} {Energy}
-{14} {secretary}
-{16} {safety board memo}
-{19} {FAA air traffic manager}
-{20} {60-day accounting}
 {21} {Energy Department}
-{21} {whose main mission}
-{22} {former weapons assembly plant}
-{22} {core}
 {27} {nuclear storage area}
-{28} {One approach}
-{30} {transition}
-{31} {plutonium area}
-{32} {plant}
 
 <COREF ID="X10">each flight</COREF>
 {13} {flight}
-{13} {up to 30 passes}
-{14} {plane crash}
-{16} {current flight data}
-{16} {one chance}
-{17} {airport}
-{18} {planes}
-{19} {FAA air traffic manager}
-{20} {25 planes}
-{21} {whose main mission}
-{22} {weapon}
-{23} {Amarillo airport}
-{23} {landings}
-{23} {250 takeoffs}
-{23} {day}
-{24} {Air Force bases}
-{24} {military planes}
-{25} {flight pattern}
-{25} {airport traffic}
-{26} {air traffic controllers}
-{26} {planes}
 {27} {airport's dozen flight paths}
-{28} {new instrument landing system}
-{28} {One approach}
 {29} {second flight path}
-{31} {planes}
-{32} {plane}
 
 <COREF ID="X11">Amarillo International Airport</COREF>
-{13} {flight}
-{16} {current flight data}
 {17} {Amarillo}
 {17} {airport}
 {19} {Amarillo International}
-{19} {FAA air traffic manager}
 {23} {Amarillo airport}
-{24} {Kansas}
-{24} {New Mexico}
-{24} {Texas}
-{25} {airport traffic}
-{27} {airport's dozen flight paths}
 {29} {Amarillo}
-{29} {Dallas/Fort Worth Airport}
-{32} {Oklahoma}
 
 <COREF ID="X12">military training planes</COREF>
-{13} {flight}
-{14} {plane crash}
-{16} {current flight data}
 {18} {planes}
-{19} {FAA air traffic manager}
-{20} {25 planes}
-{21} {whose main mission}
-{21} {nuclear warheads}
-{22} {former weapons assembly plant}
-{22} {weapon}
-{23} {landings}
 {24} {military planes}
-{24} {Air Force bases}
-{25} {flight pattern}
 {26} {planes}
-{26} {air traffic controllers}
-{27} {airport's dozen flight paths}
-{27} {nuclear storage area}
-{28} {new instrument landing system}
-{29} {second flight path}
 {31} {planes}
 {32} {plane}
 
 <COREF ID="X13">Defense Nuclear Facilities Safety Board</COREF>
-{13} {plant}
-{14} {plutonium storage bunker}
-{14} {concern}
-{15} {highly radioactive element}
 {16} {safety board memo}
-{16} {current flight data}
-{17} {airport}
-{19} {FAA air traffic manager}
-{20} {60-day accounting}
-{20} {zone}
-{21} {Energy Department}
-{21} {nuclear warheads}
-{21} {private contractor}
-{21} {whose main mission}
 {22} {former weapons assembly plant}
-{22} {hollow plutonium ball}
-{22} {weapon}
-{22} {core}
-{23} {Amarillo airport}
-{24} {Air Force bases}
-{24} {military planes}
-{25} {airport traffic}
-{26} {bunkers}
 {27} {nuclear storage area}
-{27} {airport's dozen flight paths}
-{28} {new instrument landing system}
-{28} {One approach}
-{29} {second flight path}
-{30} {target date}
-{30} {transition}
-{31} {plutonium area}
-{31} {dangers}
-{32} {plant}
 
 <COREF ID="X14">The risk of that scenario</COREF>
 {16} {one chance}
-{16} {safety board memo}
-{16} {current flight data}
-{17} {airport}
-{18} {planes}
-{19} {FAA air traffic manager}
-{19} {``manual count}
-{20} {60-day accounting}
-{20} {zone}
-{21} {Energy Department}
-{21} {whose main mission}
-{21} {private contractor}
-{22} {core}
-{22} {former weapons assembly plant}
-{22} {weapon}
-{22} {hollow plutonium ball}
-{23} {day}
-{24} {Air Force bases}
-{25} {airport traffic}
-{25} {flight pattern}
-{25} {About 25 percent}
-{26} {past 14 months}
-{26} {bunkers}
-{27} {nuclear storage area}
-{27} {airport's dozen flight paths}
 {28} {One approach}
-{28} {new instrument landing system}
-{28} {early fall}
-{29} {second flight path}
-{30} {transition}
-{30} {target date}
 {31} {dangers}
-{31} {plutonium area}
-{31} {planes}
-{32} {plant}
-{32} {plane}
-{33} {lot}
-{33} {They}
 
 <COREF ID="X15">me</COREF>
 
 <COREF ID="X16">land near the plant</COREF>
-{17} {airport}
-{19} {FAA air traffic manager}
-{20} {zone}
-{20} {earth}
-{20} {grass}
-{21} {Energy Department}
-{21} {whose main mission}
-{21} {private contractor}
 {22} {former weapons assembly plant}
-{22} {hollow plutonium ball}
-{22} {core}
-{23} {Amarillo airport}
-{24} {Air Force bases}
-{25} {airport traffic}
-{26} {bunkers}
-{26} {past 14 months}
-{27} {nuclear storage area}
-{27} {airport's dozen flight paths}
-{28} {new instrument landing system}
-{28} {One approach}
-{28} {early fall}
-{29} {second flight path}
-{30} {transition}
-{30} {target date}
 {31} {plutonium area}
-{31} {dangers}
 {32} {plant}
-{32} {plane}
-{33} {lot}
 
 <COREF ID="X17">Mike McNulty</COREF>
 {23} {McNulty}
@@ -305,106 +104,29 @@
 {32} {McNulty}
 
 <COREF ID="X18">the previous aircraft count</COREF>
-{19} {FAA air traffic manager}
-{19} {``manual count}
-{20} {25 planes}
-{20} {60-day accounting}
-{20} {zone}
-{21} {whose main mission}
-{21} {Energy Department}
-{21} {private contractor}
-{22} {former weapons assembly plant}
-{22} {core}
-{22} {weapon}
-{23} {landings}
-{23} {250 takeoffs}
-{23} {Amarillo airport}
-{23} {day}
-{24} {military planes}
-{24} {Air Force bases}
-{25} {flight pattern}
-{25} {airport traffic}
-{25} {About 25 percent}
-{26} {past 14 months}
-{26} {planes}
-{26} {air traffic controllers}
-{26} {bunkers}
 {27} {airport's dozen flight paths}
-{27} {nuclear storage area}
-{28} {new instrument landing system}
-{28} {One approach}
-{28} {early fall}
 {29} {second flight path}
-{30} {target date}
-{30} {transition}
 {31} {planes}
-{31} {plutonium area}
-{31} {dangers}
-{32} {plane}
-{32} {plant}
-{33} {lot}
 
 <COREF ID="X19">air traffic controllers</COREF>
 {19} {FAA air traffic manager}
-{24} {Air Force bases}
-{24} {military planes}
 {25} {airport traffic}
-{25} {flight pattern}
 {26} {air traffic controllers}
-{26} {planes}
-{27} {airport's dozen flight paths}
-{27} {nuclear storage area}
-{28} {new instrument landing system}
-{29} {second flight path}
-{31} {planes}
 
 <COREF ID="X20">flight patterns</COREF>
-{20} {25 planes}
-{24} {military planes}
 {25} {flight pattern}
-{25} {airport traffic}
-{26} {air traffic controllers}
-{26} {planes}
 {27} {flight paths}
 {27} {airport's dozen flight paths}
-{28} {new instrument landing system}
 {29} {second flight path}
-{31} {planes}
-{32} {plane}
 
 <COREF ID="X21">About half the aircraft</COREF>
-{24} {military planes}
-{24} {Air Force bases}
-{25} {flight pattern}
-{25} {airport traffic}
-{25} {About 25 percent}
-{26} {past 14 months}
-{26} {bunkers}
-{26} {planes}
-{26} {air traffic controllers}
 {27} {airport's dozen flight paths}
-{27} {nuclear storage area}
-{28} {new instrument landing system}
-{28} {One approach}
-{28} {early fall}
-{28} {late summer}
 {29} {second flight path}
-{30} {transition}
-{30} {target date}
-{31} {planes}
-{31} {plutonium area}
-{31} {dangers}
-{31} {high altitudes}
 {32} {plane}
-{32} {plant}
-{33} {lot}
 
 <COREF ID="X22">Oklahoma</COREF>
 {24} {Kansas}
-{24} {Texas}
-{24} {New Mexico}
 {29} {Amarillo}
-{29} {Dallas/Fort Worth Airport}
 {32} {Oklahoma}
 
 <COREF ID="X23">plutonium storage bunkers</COREF>
@@ -417,8 +139,6 @@
 <COREF ID="X25">some military traffic</COREF>
 {31} {planes}
 {31} {dangers}
-{31} {plutonium area}
-{32} {plane}
 {33} {lot}
 
 <COREF ID="X26">They</COREF>

@@ -36,26 +36,8 @@
 {59} {TWA}
 
 <COREF ID="X1">More</COREF>
-{10} {additional shares}
-{11} {order}
-{12} {the stock}
-{16} {Wall Street sources}
 {19} {such important information}
-{19} {merger's potential impact}
-{20} {serious application}
-{21} {Wall Street and airline industry sources}
-{22} {view}
-{22} {tender-offer document}
-{24} {benefits}
-{26} {tough competitive position}
-{30} {tender offer}
-{35} {nearly a year}
-{39} {drop}
-{39} {market value}
 {42} {more USAir shares}
-{42} {enough cash}
-{42} {problem}
-{43} {money}
 {53} {more USAir shares}
 {55} {more than 10%}
 {59} {more than 9.9%}
@@ -75,12 +57,9 @@
 {24} {USAir}
 {24} {USAir}
 {24} {USAir, or USAir's acquisition}
-{24} {USAir's acquisition}
 {25} {USAir}
-{25} {USAir bid}
 {28} {USAir}
 {29} {USAir}
-{30} {USAir}
 {31} {USAir}
 {34} {USAir shares}
 {35} {USAir}
@@ -112,558 +91,102 @@
 {58} {USAir}
 
 <COREF ID="X3">Additional Blow to Bid</COREF>
-{10} {additional shares}
-{10} {federal judge}
 {11} {blow}
-{11} {order}
-{11} {TWA's bid}
-{11} {company}
-{11} {suit}
-{12} {the stock}
-{12} {agreement}
-{13} {proposed transaction}
-{13} {indicated value}
-{15} {15% stake}
-{16} {attempt}
-{16} {Wall Street sources}
-{17} {merger}
-{17} {securities analyst}
-{19} {merger's potential impact}
-{19} {such important information}
-{19} {department}
 {19} {it}
-{20} {serious application}
-{20} {new filing}
-{20} {department official}
-{21} {Wall Street and airline industry sources}
-{21} {ploy}
-{22} {tender-offer document}
-{22} {view}
-{22} {document}
-{24} {benefits}
-{24} {filings}
-{25} {USAir bid}
-{25} {documents}
-{26} {tough competitive position}
-{26} {documents}
 {29} {bid}
-{29} {last week}
-{29} {investment banking firm}
-{29} {several investment bankers}
-{29} {TWA's offer}
-{30} {tender offer}
-{31} {source}
-{34} {loss}
-{34} {airline}
-{34} {it}
-{35} {nearly a year}
-{35} {its position}
-{35} {4.9% stake}
-{36} {latest stake}
-{36} {source}
-{37} {loss}
-{38} {composite New York Stock Exchange trading}
-{39} {drop}
-{39} {22 million shares}
-{39} {market value}
-{39} {Icahn-led investor group}
-{41} {merger}
-{41} {federal regulatory approval}
 {42} {enough cash}
-{42} {company}
-{42} {problem}
-{42} {its tender Paragraphing Error Sources}
-{42} {merger}
-{43} {money}
-{43} {purchase}
-{43} {11.4% stake}
-{44} {TWA's money}
-{45} {its plans}
-{45} {Piedmont acquisition}
-{46} {purchase}
-{46} {bank's willingness}
-{46} {company}
-{46} {letter}
-{47} {funds}
-{47} {remainder}
-{48} {acquisition}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {airline}
-{50} {filing}
-{51} {merger}
-{53} {preliminary injunction}
-{53} {court}
-{53} {USAir's tender offer}
-{55} {first receiving permission}
-{55} {more than 10%}
-{55} {Transportation Department}
-{56} {15% stake}
-{56} {affidavit}
-{57} {Transportation Department}
-{58} {separate application}
-{58} {voting-trust application}
-{58} {airline}
-{58} {department}
-{59} {shares}
-{59} {trust}
-{59} {Texas Air's application}
-{59} {department}
 
 <COREF ID="X4">a temporary restraining order</COREF>
 {10} {federal judge}
 {11} {order}
-{11} {suit}
-{11} {blow}
-{11} {company}
-{12} {agreement}
-{12} {the stock}
-{13} {proposed transaction}
-{13} {indicated value}
-{16} {attempt}
-{16} {Wall Street sources}
 {16} {they}
-{19} {merger's potential impact}
-{19} {department}
-{19} {such important information}
-{20} {serious application}
-{20} {new filing}
-{20} {department official}
-{21} {ploy}
-{21} {Wall Street and airline industry sources}
-{22} {document}
-{22} {tender-offer document}
-{22} {court}
-{22} {view}
-{24} {filings}
-{24} {benefits}
-{25} {documents}
-{25} {USAir bid}
-{26} {tough competitive position}
-{26} {documents}
-{29} {bid}
-{29} {last week}
-{30} {tender offer}
-{31} {source}
-{31} {tenacious fellow}
-{34} {loss}
-{35} {its position}
-{35} {nearly a year}
-{36} {source}
-{36} {latest stake}
-{37} {loss}
-{39} {drop}
-{39} {market value}
-{41} {federal regulatory approval}
-{41} {merger}
-{42} {problem}
-{42} {company}
-{42} {its tender Paragraphing Error Sources}
-{42} {enough cash}
-{43} {purchase}
-{43} {money}
-{44} {its USAir holding}
-{45} {its plans}
-{45} {Piedmont acquisition}
-{46} {purchase}
-{46} {letter}
-{46} {bank's willingness}
-{46} {company}
-{47} {remainder}
-{47} {funds}
-{48} {acquisition}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {filing}
 {53} {preliminary injunction}
-{53} {court}
-{55} {first receiving permission}
-{55} {Transportation Department}
-{56} {affidavit}
-{56} {lawyer}
-{57} {Transportation Department}
-{58} {separate application}
-{58} {voting-trust application}
-{58} {department}
-{59} {trust}
-{59} {department}
-{59} {Texas Air's application}
-{59} {shares}
 
 <COREF ID="X5">Piedmont Aviation Inc.</COREF>
-{12} {Winston-Salem, N.C.,-based Piedmont}
-{12} {Washington-based USAir}
 {16} {Piedmont}
 {17} {Piedmont}
-{17} {Philadelphia-based Janney Montgomery Scott Inc. Mr. Marckesano}
 {20} {It}
 {25} {Piedmont}
 {30} {Piedmont}
-{34} {airline}
 {40} {Piedmont}
-{41} {Piedmont shares}
 {42} {Piedmont}
-{45} {Piedmont acquisition}
-{47} {Manufacturers Hanover}
-{50} {Piedmont's headquarters}
-{50} {airline}
 {51} {Piedmont}
-{53} {Piedmont stock}
-{58} {airline}
-{59} {Texas Air's application}
-{59} {Eastern Airlines}
 
 <COREF ID="X6">share tender offer</COREF>
-{12} {the stock}
-{12} {agreement}
-{15} {15% stake}
-{19} {merger's potential impact}
-{19} {such important information}
-{20} {serious application}
 {22} {tender-offer document}
-{22} {view}
-{24} {benefits}
-{26} {tough competitive position}
-{29} {TWA's offer}
-{29} {investment banking firm}
-{29} {bid}
 {30} {tender offer}
-{35} {nearly a year}
-{36} {latest stake}
-{38} {composite New York Stock Exchange trading}
-{39} {22 million shares}
-{39} {market value}
-{42} {its tender Paragraphing Error Sources}
-{42} {enough cash}
-{42} {company}
-{43} {purchase}
-{43} {money}
-{45} {its plans}
-{46} {purchase}
-{46} {bank's willingness}
-{46} {company}
-{48} {acquisition}
-{49} {public or private equity}
-{49} {subordinated debt offerings}
 {53} {USAir's tender offer}
-{55} {more than 10%}
-{56} {15% stake}
-{58} {voting-trust application}
-{58} {separate application}
-{59} {shares}
-{59} {trust}
 
 <COREF ID="X7">Carl C. Icahn</COREF>
 {15} {Mr. Icahn}
 {16} {Mr. Icahn}
-{17} {Mr. Icahn}
-{17} {Philadelphia-based Janney Montgomery Scott Inc. Mr. Marckesano}
-{23} {Mr. Icahn}
-{24} {Mr. Icahn}
-{24} {Mr. Colodny}
-{25} {Mr. Icahn}
-{25} {Mr. Colodny}
-{26} {Mr. Icahn}
-{26} {Mr. Colodny}
-{27} {Mr. Icahn}
-{28} {Mr. Icahn}
-{29} {Mr. Icahn}
-{30} {Mr. Icahn}
 {31} {Carl}
-{33} {Mr. Icahn}
-{34} {Mr. Icahn}
-{36} {Mr. Icahn}
-{39} {Mr. Icahn}
-{43} {Mr. Icahn}
-{54} {Mr. Icahn}
-{55} {Mr. Icahn}
-{56} {Mr. Icahn}
+{34} {it}
 
 <COREF ID="X8">its attempt</COREF>
 {16} {attempt}
-{16} {Wall Street sources}
-{17} {wherewithal}
-{17} {merger}
-{19} {merger's potential impact}
-{19} {department}
-{19} {such important information}
-{20} {serious application}
-{20} {new filing}
-{20} {department official}
-{21} {ploy}
-{21} {Wall Street and airline industry sources}
-{22} {view}
-{22} {document}
-{22} {tender-offer document}
-{24} {benefits}
-{24} {filings}
-{25} {documents}
-{26} {tough competitive position}
-{26} {documents}
-{29} {bid}
-{29} {last week}
-{29} {investment banking firm}
-{30} {tender offer}
-{31} {source}
-{34} {loss}
-{34} {airline}
 {35} {its position}
-{35} {nearly a year}
-{36} {latest stake}
-{36} {source}
-{37} {loss}
-{37} {its USAir shares}
-{39} {drop}
-{39} {market value}
-{39} {Icahn-led investor group}
-{39} {22 million shares}
-{42} {its tender Paragraphing Error Sources}
-{42} {company}
-{42} {problem}
-{42} {merger}
-{42} {enough cash}
-{43} {money}
-{43} {purchase}
-{44} {its USAir holding}
 {45} {its plans}
-{45} {Piedmont acquisition}
-{46} {bank's willingness}
-{46} {company}
-{46} {purchase}
-{46} {letter}
-{47} {funds}
-{47} {remainder}
-{48} {acquisition}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {filing}
-{50} {airline}
-{51} {merger}
-{53} {court}
-{53} {preliminary injunction}
-{55} {first receiving permission}
-{55} {Transportation Department}
-{56} {affidavit}
-{57} {Transportation Department}
-{58} {voting-trust application}
-{58} {department}
-{58} {separate application}
-{58} {airline}
-{59} {shares}
-{59} {trust}
-{59} {department}
-{59} {Texas Air's application}
 
 <COREF ID="X9">Louis Marckesano, </COREF>
 
 <COREF ID="X10">second application</COREF>
-{19} {merger's potential impact}
-{19} {such important information}
-{19} {department}
 {20} {serious application}
-{20} {new filing}
-{20} {department official}
-{22} {document}
-{22} {tender-offer document}
-{22} {view}
-{24} {filings}
-{24} {benefits}
-{25} {documents}
-{26} {documents}
-{26} {tough competitive position}
-{29} {last week}
-{29} {bid}
-{30} {tender offer}
-{31} {source}
-{34} {loss}
-{35} {its position}
-{35} {nearly a year}
-{36} {source}
-{36} {latest stake}
-{37} {loss}
-{39} {drop}
-{39} {market value}
-{42} {its tender Paragraphing Error Sources}
-{42} {company}
-{42} {problem}
-{43} {purchase}
-{45} {Piedmont acquisition}
-{45} {its plans}
-{46} {purchase}
-{46} {company}
-{46} {letter}
-{46} {bank's willingness}
-{47} {remainder}
-{47} {funds}
-{48} {acquisition}
-{50} {filing}
-{53} {preliminary injunction}
-{53} {court}
 {55} {first receiving permission}
-{55} {Transportation Department}
-{56} {affidavit}
-{57} {Transportation Department}
 {58} {separate application}
-{58} {voting-trust application}
-{58} {department}
-{59} {Texas Air's application}
-{59} {department}
-{59} {shares}
 
 <COREF ID="X11">Department of Transportation</COREF>
 {19} {department}
-{19} {such important information}
-{19} {merger's potential impact}
-{20} {department official}
-{20} {new filing}
-{20} {serious application}
-{21} {Wall Street and airline industry sources}
-{23} {chief executive officer}
-{24} {benefits}
-{24} {filings}
-{25} {documents}
-{26} {documents}
-{26} {tough competitive position}
-{29} {investment banking firm}
-{29} {several investment bankers}
-{34} {airline}
-{35} {its position}
-{38} {composite New York Stock Exchange trading}
-{39} {market value}
-{39} {drop}
-{41} {federal regulatory approval}
-{42} {company}
-{43} {purchase}
-{43} {money}
-{45} {Piedmont acquisition}
-{45} {its plans}
-{46} {company}
-{46} {bank's willingness}
-{46} {purchase}
-{47} {funds}
-{47} {remainder}
-{48} {acquisition}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {airline}
-{50} {Piedmont's headquarters}
-{50} {filing}
-{53} {court}
-{54} {regulatory approvals}
 {55} {Transportation Department}
 {57} {Transportation Department}
-{58} {department}
-{58} {airline}
-{58} {voting-trust application}
-{58} {separate application}
-{59} {department}
-{59} {Texas Air's application}
 
 <COREF ID="X12">TWA's first application</COREF>
-{19} {merger's potential impact}
-{19} {department}
-{19} {such important information}
-{20} {serious application}
-{20} {new filing}
-{20} {department official}
 {21} {TWA}
-{22} {document}
-{22} {view}
-{22} {tender-offer document}
 {24} {TWA}
 {24} {TWA}
 {24} {TWA's acquisition}
-{24} {benefits}
-{24} {filings}
-{25} {documents}
 {26} {TWA}
-{26} {documents}
-{26} {tough competitive position}
 {28} {TWA}
 {29} {TWA's offer}
-{29} {last week}
-{29} {bid}
 {30} {TWA}
-{30} {tender offer}
-{31} {source}
 {34} {TWA}
 {35} {TWA}
-{35} {nearly a year}
-{35} {its position}
-{36} {latest stake}
-{36} {source}
 {37} {TWA}
 {39} {TWA}
-{39} {drop}
-{39} {market value}
 {42} {TWA}
-{42} {its tender Paragraphing Error Sources}
-{42} {company}
-{42} {problem}
-{43} {money}
-{43} {purchase}
 {44} {TWA}
 {44} {TWA's money}
-{45} {its plans}
-{45} {Piedmont acquisition}
-{46} {bank's willingness}
-{46} {company}
-{46} {letter}
-{46} {purchase}
-{47} {remainder}
-{47} {funds}
-{48} {acquisition}
-{50} {filing}
 {52} {TWA}
 {52} {TWA}
 {53} {TWA}
-{53} {preliminary injunction}
-{53} {court}
-{53} {USAir's tender offer}
 {54} {TWA}
 {55} {TWA}
-{55} {first receiving permission}
 {56} {TWA}
 {56} {TWA}
-{56} {affidavit}
 {57} {TWA}
 {58} {TWA}
-{58} {separate application}
-{58} {voting-trust application}
-{58} {department}
 {59} {TWA}
 {59} {Texas Air's application}
-{59} {trust}
-{59} {department}
 
 <COREF ID="X13">TWA's bid</COREF>
 {21} {TWA}
 {24} {TWA}
 {24} {TWA}
 {24} {TWA's acquisition}
-{25} {USAir bid}
 {26} {TWA}
 {28} {TWA}
 {29} {TWA's offer}
-{29} {bid}
 {30} {TWA}
-{30} {tender offer}
 {34} {TWA}
 {35} {TWA}
 {37} {TWA}
-{38} {TWA stock}
 {39} {TWA}
 {42} {TWA}
-{42} {enough cash}
-{43} {money}
 {44} {TWA}
 {44} {TWA's money}
-{45} {its plans}
-{46} {bank's willingness}
 {52} {TWA}
 {52} {TWA}
 {53} {TWA}
-{53} {USAir's tender offer}
 {54} {TWA}
 {55} {TWA}
 {56} {TWA}
@@ -673,135 +196,16 @@
 {59} {TWA}
 
 <COREF ID="X14">Securities and Exchange Commission</COREF>
-{22} {tender-offer document}
-{22} {view}
-{24} {benefits}
-{24} {filings}
-{25} {documents}
-{26} {tough competitive position}
-{26} {documents}
 {29} {investment banking firm}
 {29} {several investment bankers}
-{29} {bid}
-{30} {tender offer}
-{34} {loss}
-{34} {airline}
-{35} {its position}
-{35} {nearly a year}
-{36} {latest stake}
-{37} {loss}
-{37} {its USAir shares}
-{38} {composite New York Stock Exchange trading}
-{39} {market value}
-{39} {Icahn-led investor group}
-{39} {22 million shares}
-{39} {drop}
-{41} {federal regulatory approval}
-{41} {Piedmont shares}
-{41} {market uncertainty}
-{41} {merger}
-{42} {enough cash}
-{42} {company}
-{42} {merger}
-{42} {its tender Paragraphing Error Sources}
-{42} {approval}
-{43} {money}
-{43} {purchase}
-{43} {USX Corp. shares}
-{44} {TWA's money}
-{45} {Piedmont acquisition}
-{45} {its plans}
-{46} {bank's willingness}
-{46} {company}
-{46} {purchase}
-{47} {funds}
-{47} {remainder}
-{48} {acquisition}
-{48} {banks}
 {49} {public or private equity}
-{49} {subordinated debt offerings}
-{49} {bank loans}
 {49} {It}
-{50} {filing}
-{50} {airline}
-{51} {merger}
-{53} {court}
-{53} {preliminary injunction}
-{53} {Piedmont stock}
-{54} {regulatory approvals}
-{55} {Transportation Department}
-{55} {first receiving permission}
-{56} {15% stake}
-{57} {Transportation Department}
-{57} {approval}
-{58} {voting-trust application}
-{58} {department}
-{58} {separate application}
-{58} {airline}
-{59} {shares}
-{59} {trust}
-{59} {department}
-{59} {Texas Air's application}
 
 <COREF ID="X15">The filings</COREF>
 {24} {filings}
-{24} {benefits}
 {25} {documents}
-{25} {USAir bid}
-{26} {documents}
-{26} {tough competitive position}
-{29} {bid}
-{29} {last week}
-{29} {investment banking firm}
 {29} {he}
-{30} {tender offer}
-{34} {airline}
-{35} {its position}
-{35} {nearly a year}
-{36} {latest stake}
-{39} {drop}
-{39} {22 million shares}
-{39} {market value}
-{41} {federal regulatory approval}
-{42} {company}
-{42} {merger}
-{42} {approval}
-{42} {problem}
-{42} {its tender Paragraphing Error Sources}
-{43} {purchase}
-{43} {money}
-{44} {documents}
-{45} {Piedmont acquisition}
-{45} {its plans}
-{46} {company}
-{46} {bank's willingness}
-{46} {letter}
-{46} {purchase}
-{47} {funds}
-{47} {remainder}
-{48} {acquisition}
-{49} {bank loans}
-{49} {public or private equity}
 {50} {filing}
-{50} {airline}
-{51} {merger}
-{53} {court}
-{53} {preliminary injunction}
-{54} {regulatory approvals}
-{55} {Transportation Department}
-{55} {first receiving permission}
-{56} {affidavit}
-{56} {lawyer}
-{57} {Transportation Department}
-{57} {approval}
-{58} {separate application}
-{58} {voting-trust application}
-{58} {department}
-{58} {airline}
-{59} {department}
-{59} {shares}
-{59} {Texas Air's application}
-{59} {trust}
 
 <COREF ID="X16">Edwin I. Colodny, </COREF>
 {23} {Mr. Icahn}
@@ -809,76 +213,36 @@
 {24} {Mr. Icahn}
 {25} {Mr. Icahn}
 {26} {Mr. Colodny}
-{26} {Mr. Icahn}
-{27} {Mr. Icahn}
-{28} {Mr. Icahn}
-{29} {Mr. Icahn}
-{30} {Mr. Icahn}
-{33} {Mr. Icahn}
-{34} {Mr. Icahn}
-{36} {Mr. Icahn}
-{39} {Mr. Icahn}
-{43} {Mr. Icahn}
-{54} {Mr. Icahn}
-{55} {Mr. Icahn}
-{56} {Mr. Icahn}
 
 <COREF ID="X17">merger between Piedmont and USAir</COREF>
 {27} {he}
 {28} {USAir}
 {29} {USAir}
-{29} {investment banking firm}
 {30} {Piedmont}
 {31} {USAir}
 {32} {He}
 {32} {he}
-{34} {USAir shares}
-{34} {airline}
 {35} {USAir}
-{37} {its USAir shares}
-{38} {composite New York Stock Exchange trading}
 {40} {Piedmont}
-{40} {USAir stock}
 {41} {USAir}
-{41} {Piedmont shares}
-{41} {merger}
 {42} {USAir}
 {42} {USAir}
 {42} {Piedmont}
 {42} {more USAir shares}
-{42} {merger}
 {44} {its USAir holding}
-{44} {USAir shares}
 {45} {USAir}
 {45} {Piedmont acquisition}
 {47} {USAir}
-{47} {Manufacturers Hanover}
 {48} {USAir}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {Piedmont's headquarters}
-{50} {airline}
 {51} {USAir}
 {51} {Piedmont}
 {51} {USAir}
-{51} {merger}
 {52} {USAir}
 {53} {USAir}
-{53} {more USAir shares}
-{53} {Piedmont stock}
-{53} {USAir's tender offer}
 {54} {USAir}
-{54} {USAir stock}
 {55} {USAir}
-{55} {USAir's stock}
-{55} {Transportation Department}
 {56} {USAir}
-{57} {Transportation Department}
 {58} {USAir}
-{58} {USAir stock}
-{58} {airline}
-{59} {Texas Air's application}
-{59} {Eastern Airlines}
 
 <COREF ID="X18">TWA</COREF>
 {28} {TWA}
@@ -915,66 +279,29 @@
 
 <COREF ID="X20">its SEC filing</COREF>
 {45} {its plans}
-{45} {Piedmont acquisition}
-{46} {company}
-{46} {bank's willingness}
-{48} {acquisition}
-{49} {public or private equity}
 {50} {filing}
 {50} {it}
 {53} {court}
-{53} {preliminary injunction}
-{58} {separate application}
-{58} {voting-trust application}
-{59} {Texas Air's application}
-{59} {shares}
 
 <COREF ID="X21">New York-based Manufacturers Hanover Trust Co.</COREF>
-{46} {company}
-{46} {bank's willingness}
-{46} {purchase}
 {47} {Manufacturers Hanover}
-{49} {public or private equity}
-{49} {bank loans}
-{50} {Piedmont's headquarters}
-{50} {Winston-Salem}
-{51} {Piedmont}
 {53} {Piedmont stock}
-{55} {Transportation Department}
-{57} {Transportation Department}
-{57} {Hart-Scott-Rodino regulations}
-{58} {voting-trust application}
-{58} {department}
 {59} {trust}
 {59} {Texas Air's application}
-{59} {department}
 
 <COREF ID="X22">William R. Howard, </COREF>
-{51} {Piedmont}
 {54} {Mr. Icahn}
 {55} {Mr. Icahn}
 {56} {Mr. Icahn}
-{57} {Hart-Scott-Rodino regulations}
 
 <COREF ID="X23">court in Pittsburgh</COREF>
-{52} {Lawyers}
 {53} {court}
-{53} {Piedmont stock}
-{55} {Transportation Department}
 {56} {lawyer}
-{56} {affidavit}
-{57} {Transportation Department}
-{58} {department}
-{58} {Lawyers}
 {59} {Texas Air's application}
-{59} {department}
 
 <COREF ID="X24">more USAir stock</COREF>
 {52} {USAir}
 {53} {USAir}
-{53} {more USAir shares}
-{53} {USAir's tender offer}
-{53} {Piedmont stock}
 {54} {USAir}
 {54} {USAir stock}
 {55} {USAir}

@@ -2,72 +2,29 @@
 {8} {federal mediator}
 {9} {mediator}
 {12} {Federal Mediation and Conciliation Service}
-{13} {agreement}
 
 <COREF ID="X1">Talks</COREF>
 {9} {talks}
 
 <COREF ID="X2">Big Board</COREF>
-{8} {New York Stock Exchange}
-{8} {its clerical and operations staff members}
 {9} {two sides}
-{9} {talks}
-{9} {news blackout}
-{10} {spokesman}
 {11} {Big Board}
 {11} {Big Board}
-{11} {Office and Professional Employees International Union Local}
-{11} {a unit}
-{11} {exchange's computers}
-{12} {union}
-{13} {union's previous contract}
-{13} {union}
 
 <COREF ID="X3">Union</COREF>
-{5} {LABOR}
 {8} {whose union contract}
-{8} {federal mediator}
 {11} {Office and Professional Employees International Union Local}
-{11} {workers}
 {12} {union}
-{12} {Federal Mediation and Conciliation Service}
 {13} {union's previous contract}
 {13} {union}
 
 <COREF ID="X4">a Big Board spokesman</COREF>
-{9} {two sides}
-{9} {news blackout}
-{9} {talks}
-{9} {mediator}
 {10} {spokesman}
-{10} {exchange}
-{10} {event}
-{10} {walkout}
 {11} {Big Board}
 {11} {Big Board}
-{11} {Office and Professional Employees International Union Local}
-{11} {a unit}
-{11} {workers}
-{11} {exchange's computers}
-{11} {exchange}
-{12} {Officials}
-{12} {union}
-{12} {Federal Mediation and Conciliation Service}
-{13} {union's previous contract}
-{13} {union}
-{13} {contract}
-{13} {agreement}
-{13} {eight months}
 
 <COREF ID="X5">New York Futures Exchange, </COREF>
 {11} {exchange}
 {11} {exchange's computers}
 {11} {Office and Professional Employees International Union Local}
-{11} {Securities Industry Automation Corp.}
-{11} {Big Board}
-{11} {a unit}
-{12} {Federal Mediation and Conciliation Service}
-{13} {union's previous contract}
-{13} {contract}
-{13} {agreement}
 

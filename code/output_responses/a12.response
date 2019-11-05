@@ -5,299 +5,90 @@
 {24} {NTSB}
 
 <COREF ID="X1">CRASH</COREF>
-{11} {airplane}
 {16} {we}
 {18} {crash}
-{18} {plane}
 {19} {Pittsburgh crash}
-{20} {plane}
 {24} {crash}
-{24} {plane}
 
 <COREF ID="X2">02-27</COREF>
 
 <COREF ID="X3">737</COREF>
-{10} {Boeing}
-{11} {airplane}
-{11} {museum's aircraft}
-{12} {Flight}
-{13} {plane's tail}
 {15} {737's rudder}
-{18} {plane}
-{18} {older-model flight recorders}
-{19} {improved flight recorders}
-{20} {plane}
-{20} {Flight spokesman}
-{21} {intact plane}
 {22} {Boeing hangar}
-{22} {Boeing Field}
 {23} {airborne tests}
-{24} {plane}
 
 <COREF ID="X4">CRASH PROBE</COREF>
-{10} {its investigation}
-{13} {jet's deadly roll}
-{13} {plane's tail}
-{14} {investigation}
 {15} {investigators}
 {16} {It}
 {18} {crash}
-{18} {investigators}
-{18} {plane}
-{19} {Pittsburgh crash}
-{20} {plane}
-{20} {Flight spokesman}
-{21} {intact plane}
 {24} {crash}
-{24} {plane}
 
 <COREF ID="X5">SEATTLE</COREF>
 {12} {Pittsburgh airport}
 {14} {Seattle}
 {15} {Benson}
-{18} {Benson}
-{19} {Pittsburgh crash}
-{25} {Benson}
 
 <COREF ID="X6">Seattle's Museum of Flight</COREF>
-{10} {National Transportation Safety Board}
-{10} {Boeing}
-{10} {its investigation}
 {11} {museum's aircraft}
-{11} {airplane}
 {12} {Flight}
 {12} {Pittsburgh airport}
-{12} {board}
-{12} {its approach}
-{13} {plane's tail}
-{13} {jet's deadly roll}
 {14} {Seattle}
-{14} {briefing}
-{14} {investigation}
-{15} {737's rudder}
-{16} {slow, methodical job}
-{18} {plane}
-{18} {older-model flight recorders}
-{18} {crash}
-{18} {force}
-{19} {Pittsburgh crash}
-{19} {improved flight recorders}
-{19} {board}
 {20} {Museum}
-{20} {plane}
-{20} {Flight spokesman}
-{20} {exhibit}
 {21} {museum}
-{21} {intact plane}
-{21} {its plans}
-{22} {Boeing hangar}
-{22} {Boeing Field}
-{23} {airborne tests}
-{24} {plane}
-{24} {crash}
 
 <COREF ID="X7">a similar jetliner</COREF>
 {10} {Boeing}
-{10} {National Transportation Safety Board}
-{10} {its investigation}
 {11} {airplane}
-{11} {museum's aircraft}
-{12} {board}
-{12} {Flight}
-{12} {its approach}
-{12} {Pittsburgh airport}
-{13} {plane's tail}
-{13} {jet's deadly roll}
-{13} {sharp movement}
-{13} {movable vertical piece}
-{14} {briefing}
-{14} {investigation}
-{14} {findings}
-{15} {737's rudder}
-{15} {air loads}
-{16} {slow, methodical job}
-{16} {adequate black boxes}
-{17} {, or ``black boxes}
-{18} {plane}
-{18} {crash}
-{18} {older-model flight recorders}
-{18} {force}
-{18} {such information}
-{19} {improved flight recorders}
-{19} {board}
-{19} {Pittsburgh crash}
-{19} {official recommendation}
-{20} {plane}
-{20} {Flight spokesman}
-{20} {exhibit}
-{21} {intact plane}
-{21} {its plans}
-{21} {museum}
 {22} {Boeing hangar}
-{22} {Boeing Field}
-{22} {tests}
-{23} {airborne tests}
-{24} {plane}
-{24} {crash}
-{25} {results}
 
 <COREF ID="X8">Pittsburgh</COREF>
 {12} {Pittsburgh airport}
 {14} {Seattle}
-{15} {Benson}
-{18} {Benson}
 {19} {Pittsburgh crash}
-{25} {Benson}
 
 <COREF ID="X9">the plane's rudder</COREF>
-{12} {board}
-{12} {its approach}
-{12} {Pittsburgh airport}
-{12} {Flight}
 {13} {plane's tail}
-{13} {jet's deadly roll}
-{13} {movable vertical piece}
-{13} {sharp movement}
-{14} {investigation}
 {15} {737's rudder}
-{15} {air loads}
-{16} {slow, methodical job}
-{17} {, or ``black boxes}
 {18} {plane}
-{18} {crash}
-{18} {force}
-{18} {``surmise'' rudder and pedal position}
-{18} {older-model flight recorders}
-{19} {board}
-{19} {Pittsburgh crash}
-{19} {improved flight recorders}
 {20} {plane}
-{20} {Flight spokesman}
-{21} {intact plane}
-{21} {its plans}
-{21} {museum}
-{22} {Boeing hangar}
-{22} {Boeing Field}
-{22} {tests}
-{23} {airborne tests}
-{24} {plane}
-{24} {crash}
 
 <COREF ID="X10">Aviation safety investigators</COREF>
-{13} {jet's deadly roll}
-{13} {plane's tail}
-{14} {investigation}
-{14} {findings}
 {15} {investigators}
-{15} {737's rudder}
 {18} {investigators}
-{18} {plane}
-{18} {crash}
-{18} {older-model flight recorders}
-{18} {force}
-{19} {improved flight recorders}
-{19} {Pittsburgh crash}
-{20} {Flight spokesman}
-{20} {plane}
-{21} {intact plane}
-{21} {its plans}
 {22} {Boeing hangar}
-{22} {Boeing Field}
-{22} {tests}
 {23} {airborne tests}
-{24} {plane}
-{24} {crash}
 
 <COREF ID="X11">the rudder</COREF>
 {13} {plane's tail}
-{13} {jet's deadly roll}
-{13} {movable vertical piece}
-{14} {investigation}
 {15} {737's rudder}
 {18} {plane}
-{18} {force}
-{18} {``surmise'' rudder and pedal position}
-{18} {crash}
-{19} {board}
-{19} {Pittsburgh crash}
-{20} {plane}
-{21} {intact plane}
-{21} {museum}
-{22} {Boeing hangar}
-{22} {tests}
-{24} {crash}
-{24} {plane}
 
 <COREF ID="X12">NTSB Chairman Jim Hall</COREF>
 {14} {Hall}
-{15} {Benson}
-{18} {Benson}
 {21} {NTSB}
 {24} {NTSB}
-{25} {Benson}
 
 <COREF ID="X13">board spokesman Mike Benson</COREF>
-{14} {Hall}
 {15} {Benson}
 {16} {he}
 {18} {Benson}
-{19} {board}
-{19} {Pittsburgh crash}
-{20} {Flight spokesman}
 {25} {Benson}
 
 <COREF ID="X14">Newer models of flight data recorders</COREF>
 {18} {older-model flight recorders}
-{18} {plane}
-{18} {such information}
-{18} {crash}
-{18} {force}
 {19} {improved flight recorders}
-{19} {board}
-{19} {Pittsburgh crash}
-{20} {plane}
-{20} {Flight spokesman}
-{21} {intact plane}
-{21} {its plans}
-{22} {tests}
-{22} {Boeing hangar}
-{22} {Boeing Field}
 {23} {airborne tests}
-{24} {crash}
-{24} {plane}
-{25} {results}
 
 <COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
-{17} {, or ``black boxes}
 {18} {force}
 {18} {plane}
-{18} {crash}
-{18} {``surmise'' rudder and pedal position}
-{18} {such information}
-{18} {older-model flight recorders}
 {19} {board}
-{19} {Pittsburgh crash}
-{19} {improved flight recorders}
-{19} {official recommendation}
-{20} {plane}
-{20} {exhibit}
-{21} {intact plane}
-{21} {museum}
-{21} {its plans}
-{22} {tests}
-{22} {Boeing hangar}
-{22} {Boeing Field}
-{23} {airborne tests}
-{24} {crash}
-{24} {plane}
-{25} {results}
 
 <COREF ID="X16">tests</COREF>
 {21} {tests}
 {22} {tests}
 {23} {airborne tests}
 {24} {tests}
-{25} {results}
 
 <COREF ID="X17">last September</COREF>
 
