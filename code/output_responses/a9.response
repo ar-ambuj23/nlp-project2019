@@ -1,0 +1,87 @@
+<COREF ID="X0">F14-CRASHES</COREF>
+{5} {BC-F14-CRASHES-BLOOM}
+{10} {crashes}
+{21} {It}
+
+<COREF ID="X1">02-22</COREF>
+{5} {BC-F14-CRASHES-BLOOM}
+{10} {(Bloomberg}
+{34} {1221EST}
+
+<COREF ID="X2">NORTHROP GRUMMAN F-14S</COREF>
+{10} {F-14s}
+{13} {F-14D}
+{14} {F-14A}
+{29} {Grumman}
+{29} {Grumman}
+{33} {shares}
+
+<COREF ID="X3">Bloomberg Business News</COREF>
+{10} {it}
+{24} {Corp.}
+
+<COREF ID="X4">Navy</COREF>
+{12} {Navy}
+{16} {Navy}
+{17} {Navy}
+{20} {aircraft}
+{22} {Navy}
+{26} {Navy}
+{27} {aircraft}
+{30} {Navy}
+{31} {Navy}
+
+<COREF ID="X5">three days</COREF>
+{14} {people}
+{21} {day}
+{32} {days}
+
+<COREF ID="X6">Persian Gulf</COREF>
+{13} {California}
+{18} {Gulf}
+
+<COREF ID="X7">a 72-hour safety standdown</COREF>
+{17} {it}
+{18} {standdown}
+{24} {unit}
+{32} {experts}
+
+<COREF ID="X8">Lt. Greg Geisen</COREF>
+{18} {Geisen}
+{27} {Geisen}
+{28} {Geisen}
+{32} {Geisen}
+{32} {Boorda}
+
+<COREF ID="X9">the F-14</COREF>
+{17} {Navy}
+{20} {F14}
+{22} {Navy}
+{26} {Navy}
+
+<COREF ID="X10">14 F-14s on board the USS America</COREF>
+{18} {States}
+{20} {aircraft}
+{22} {Navy}
+
+<COREF ID="X11">Pratt @amp; Whitney</COREF>
+{32} {Boorda}
+
+<COREF ID="X12">F-14 32 crashes since 1991</COREF>
+{31} {crash}
+{32} {crashes}
+{32} {findings}
+
+<COREF ID="X13">the mid 1970s</COREF>
+{30} {Navy}
+{31} {Navy}
+{32} {crashes}
+
+<COREF ID="X14">Grumman Corp.</COREF>
+{29} {Grumman}
+{33} {shares}
+
+<COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
+{32} {Boorda}
+{33} {shares}
+

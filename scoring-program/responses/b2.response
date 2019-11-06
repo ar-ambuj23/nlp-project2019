@@ -1,0 +1,101 @@
+<COREF ID="X0">American Airlines</COREF>
+{8} {AIRLINES}
+{10} {unit}
+{10} {it}
+{15} {american}
+{21} {American}
+
+<COREF ID="X1">Mediation In Its Union Talks</COREF>
+{10} {unions}
+{10} {talks}
+{11} {talks}
+{11} {mediation}
+{12} {talks}
+{14} {mediation}
+{15} {negotiations}
+{17} {negotiations}
+
+<COREF ID="X2">pilots</COREF>
+{12} {pilots}
+{12} {attendants}
+{18} {Association}
+
+<COREF ID="X3">flight attendants</COREF>
+{12} {attendants}
+{13} {Attendants}
+{13} {attendants}
+{15} {attendants}
+
+<COREF ID="X4">The president</COREF>
+{13} {Association}
+{14} {president}
+{21} {move}
+
+<COREF ID="X5">the request for mediation</COREF>
+{14} {mediation}
+{15} {negotiations}
+{17} {negotiations}
+{19} {mediator}
+{23} {women}
+
+<COREF ID="X6">talks with the company</COREF>
+{17} {company}
+{20} {company}
+{22} {company}
+{25} {company}
+{26} {company}
+
+<COREF ID="X7">The major outstanding</COREF>
+{17} {issues}
+{17} {company}
+{20} {company}
+{23} {it}
+
+<COREF ID="X8">The union</COREF>
+{20} {union}
+{21} {union}
+{24} {union}
+{25} {union}
+
+<COREF ID="X9">the two sides</COREF>
+{19} {sides}
+{21} {couple}
+{21} {move}
+
+<COREF ID="X10">a 30-day cooling-off period</COREF>
+{13} {it}
+{21} {couple}
+{21} {move}
+{23} {way}
+
+<COREF ID="X11">the union</COREF>
+{20} {union}
+{21} {union}
+{24} {union}
+{25} {union}
+
+<COREF ID="X12">a corporate campaign</COREF>
+{23} {campaign}
+{25} {strategy}
+{26} {campaign}
+
+<COREF ID="X13">a union</COREF>
+{24} {union}
+{25} {union}
+{26} {Union}
+{26} {union}
+
+<COREF ID="X14">a company</COREF>
+{22} {company}
+{25} {company}
+{26} {company}
+
+<COREF ID="X15">Ray Rogers of Corporate Campaign Inc.</COREF>
+{25} {consultant}
+{25} {company}
+{26} {campaign}
+{26} {company}
+
+<COREF ID="X16">Geo. A. Hormel @amp; Co.</COREF>
+{25} {plant}
+

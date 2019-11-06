@@ -1,16 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 # import nltk
 # nltk.download('punkt')
 # nltk.download('averaged_perceptron_tagger')
-
-
-# In[1]:
-
 
 from reader import *
 from string_matching_by_word import *
@@ -22,30 +15,13 @@ from nltk import pos_tag
 import sys
 import contextlib
 
-
-# In[2]:
-
-
 import warnings
 warnings.filterwarnings("ignore")
 
-
-# In[369]:
-
-
-file_number = 'c5'
-
-
 # ### Read Document
-
-# In[370]:
-
 
 # input_path = '/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/{}.input'.format(file_number)
 # key_path = '/Users/ambuj/Documents/MS Stuff/nlp_cs_6340/final_project/nlp-project2019/dev/{}.key'.format(file_number)
-
-
-# In[371]:
 
 
 def driver(input_path_file, output_path):
@@ -59,56 +35,32 @@ def driver(input_path_file, output_path):
         file_number = input_path.split('/')[-1].split('.')[0]
         
         print('Processing file {}.input...'.format(file_number))
-
+        
         read = ReadInput(input_path)
         list_of_sentences = read.getListOfSentences()
         full_text = read.getText()
 
-
         # ### Get Sentence Dict and Cluster Head Dict
-
-        # In[372]:
-
 
         sentence_dict = getSentenceDict(list_of_sentences)
         cluster_head_dict = getClusterHeads(sentence_dict)
 
-
         # ### Get Coref for exact match by word
 
-        # In[373]:
-
-
-        coref_dict_match_word = getCorefDict_match_word(sentence_dict, cluster_head_dict,90)
-
+#         coref_dict_match_word = getCorefDict_match_word(sentence_dict, cluster_head_dict,90)
 
         # ### Get Coref for threshold match by NP
 
-        # In[374]:
-
-
         coref_dict_match_NP = getCorefDict_match_NP(sentence_dict, cluster_head_dict,80)
 
-
         # ### Get Coref for Word Embedding Similarity by NP
-
-        # In[375]:
-
 
         coref_dict_all_sorted = getCorefDict_all_sorted(sentence_dict, cluster_head_dict,0.5)
         # coref_dict_max_sentence = getCorefDict_max_of_each_sentence(sentence_dict, cluster_head_dict,0.5)
 
-
-        # In[376]:
-
-
-        coref_dict_all_sorted_top3 = get_TopN_Matches(coref_dict_all_sorted,3)
-
+        # coref_dict_all_sorted_top3 = get_TopN_Matches(coref_dict_all_sorted,3)
 
         # ### Merging coref_dict_match_NP with coref_dict_all_sorted_top3
-
-        # In[377]:
-
 
         def mergeDicts(string_matching_dict, word_embedding_dict):
 
@@ -135,36 +87,14 @@ def driver(input_path_file, output_path):
             return d1
 
 
-        # In[378]:
-
-
         coref_final = mergeDicts(coref_dict_match_NP, coref_dict_all_sorted)
-
-
-        # In[379]:
-
-
-        #coref_final
 
 
         # ### Passing the reference dict to Hobbs
 
-        # In[380]:
-
-
         coref_final_with_pro = entry(list_of_sentences, cluster_head_dict, coref_final)
 
-
-        # In[381]:
-
-
-        # coref_final_with_pro
-
-
         # ### Adding those Cluster Heads which were not predicted
-
-        # In[390]:
-
 
         def addNOPredsClusterHeads(cluster_head_dict, coref_final_with_pro):
             for cluster_id, cluster_val in cluster_head_dict.items():
@@ -173,47 +103,29 @@ def driver(input_path_file, output_path):
 
             return coref_final_with_pro
 
-
-        # In[391]:
-
-
         coref_final_with_pro = addNOPredsClusterHeads(cluster_head_dict, coref_final_with_pro)
-
 
         # ### Removing the Determiners from the start
 
-        # In[392]:
+#         def removeDetfromStart(coref_final_with_pro):
+#             for cluster in coref_final_with_pro.keys():
+#                 for i in range(0, len(coref_final_with_pro[cluster])):
+#                     if(len(coref_final_with_pro[cluster][i][2].split(' '))>1):
+#                         ref_word_list = coref_final_with_pro[cluster][i][2].strip().split(' ')
+#                         ref_word_list = list(filter(bool, ref_word_list) )
+#                         check = pos_tag(ref_word_list)
+#                         if len(check) >1:
+#                             if 'DT' in check[0][1]:
+#                                 sentence = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
+#                                 coref_final_with_pro[cluster][i][2] = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
 
+#                     coref_final_with_pro[cluster][i][2] = coref_final_with_pro[cluster][i][2].split(' ')[-1]
 
-        def removeDetfromStart(coref_final_with_pro):
-            for cluster in coref_final_with_pro.keys():
-                for i in range(0, len(coref_final_with_pro[cluster])):
-                    if(len(coref_final_with_pro[cluster][i][2].split(' '))>1):
-                        ref_word_list = coref_final_with_pro[cluster][i][2].strip().split(' ')
-                        ref_word_list = list(filter(bool, ref_word_list) )
-                        check = pos_tag(ref_word_list)
-                        if len(check) >1:
-                            if 'DT' in check[0][1]:
-                                sentence = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
-                                coref_final_with_pro[cluster][i][2] = ' '.join(coref_final_with_pro[cluster][i][2].split(' ')[1:])
+#             return coref_final_with_pro
 
-                                
-                                
-                    coref_final_with_pro[cluster][i][2] = coref_final_with_pro[cluster][i][2].split(' ')[-1]
-                    
-            return coref_final_with_pro
-
-
-        # In[393]:
-
-
-        coref_final_with_pro = removeDetfromStart(coref_final_with_pro)
-
+#         coref_final_with_pro = removeDetfromStart(coref_final_with_pro)
 
         # ### Making no predictions for Pronouns (will be included in final version - Reverse Hobb's/ Trained Word Embedding model)
-
-        # In[395]:
-
 
         def removePredsforPronouns(coref_final_with_pro):
             for cluster in coref_final_with_pro.keys():
@@ -225,17 +137,11 @@ def driver(input_path_file, output_path):
                             break
             return coref_final_with_pro
 
-
         # In[396]:
-
 
         coref_final_with_pro = removePredsforPronouns(coref_final_with_pro)
 
-
         # ### Print Output
-
-        # In[385]:
-
 
         def printOP(cluster_head_dict, coref_final_with_pro):
 
@@ -254,10 +160,6 @@ def driver(input_path_file, output_path):
                     print('{{{0}}}'.format(coref[1]) + ' ' + '{' + coref[2] + '}')
                 print('\n', end = '')      
 
-
-        # In[386]:
-
-
         with open(output_path+'/{}.response'.format(file_number),'w') as f:
             with contextlib.redirect_stdout(f):
                 printOP(cluster_head_dict, coref_final_with_pro)
@@ -272,6 +174,3 @@ if __name__ == "__main__":
     
     driver(input_path_file, output_path)
     
-
-
-       

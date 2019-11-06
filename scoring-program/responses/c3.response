@@ -1,0 +1,50 @@
+<COREF ID="X0">me</COREF>
+
+<COREF ID="X1">outbreak</COREF>
+{5} {we}
+{5} {colleagues}
+{8} {outbreak}
+{9} {outbreak}
+{10} {outbreaks}
+{10} {outbreaks}
+{11} {outbreaks}
+{11} {We}
+
+<COREF ID="X2">hundreds</COREF>
+{0} {people}
+{9} {outbreak}
+{11} {outbreaks}
+
+<COREF ID="X3">Western Berlin</COREF>
+{3} {our}
+{3} {we}
+{4} {our}
+{6} {Berlin}
+{6} {part}
+
+<COREF ID="X4">sixties</COREF>
+
+<COREF ID="X5">Department of Infectious Diseases</COREF>
+{2} {etiology}
+{5} {disease}
+{8} {outbreak}
+
+<COREF ID="X6">we</COREF>
+
+<COREF ID="X7">virus</COREF>
+{4} {virus}
+{8} {outbreak}
+{11} {outbreaks}
+
+<COREF ID="X8">brand</COREF>
+{6} {company}
+
+<COREF ID="X9">occurrences</COREF>
+{9} {outbreak}
+{11} {outbreaks}
+
+<COREF ID="X10">Mods.MPP</COREF>
+
+<COREF ID="X11">JW</COREF>
+{12} {lm/mpp/jw/pg}
+

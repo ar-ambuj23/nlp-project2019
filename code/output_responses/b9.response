@@ -1,0 +1,40 @@
+<COREF ID="X0">Trade Talks</COREF>
+{6} {TRADE}
+{10} {talks}
+{11} {agreement}
+{14} {They}
+
+<COREF ID="X1">09/29/87</COREF>
+{11} {We}
+{11} {we}
+{14} {We}
+
+<COREF ID="X2">Treasury Secretary James Baker</COREF>
+{12} {Mulroney}
+{13} {Baker}
+{13} {Yeutter}
+
+<COREF ID="X3">a 7 1/2-hour negotiating session</COREF>
+{11} {lot}
+{12} {decision}
+{14} {negotiations}
+{14} {basis}
+
+<COREF ID="X4">the two sides</COREF>
+{13} {elements}
+{15} {countries}
+{15} {talks}
+
+<COREF ID="X5">Pat Carney</COREF>
+{12} {his}
+{13} {Baker}
+
+<COREF ID="X6">Canada</COREF>
+{13} {Yeutter}
+{15} {Canada}
+{15} {U.S.}
+
+<COREF ID="X7">U.S.</COREF>
+{15} {U.S.}
+{15} {Canada}
+

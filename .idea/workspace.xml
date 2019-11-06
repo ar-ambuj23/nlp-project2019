@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ffb0027-2504-477c-9adb-c28d2c7dc9da" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/code/coref.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/coref.ipynb" afterDir="false" />
+>>>>>>> ner_string_matching
       <change beforePath="$PROJECT_DIR$/code/hobbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/hobbs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +18,21 @@
     <favorites_list name="nlp-project2019" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/hobbs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="47">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/hobbs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+>>>>>>> ner_string_matching
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -64,15 +77,25 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-11" />
     <option name="width" value="980" />
     <option name="height" value="1091" />
+=======
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1092" />
+>>>>>>> ner_string_matching
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> ner_string_matching
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,16 +108,22 @@
               <item name="nlp-project2019" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="nlp-project2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlp-project2019" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> ner_string_matching
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> ner_string_matching
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,9 +188,15 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Favorites" sideWeight="0.50240386" side_tool="true" weight="0.08181096" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.023828436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.33439237" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50240386" side_tool="true" weight="0.08181096" />
+>>>>>>> ner_string_matching
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3294702" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.25496688" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3294702" />
@@ -171,7 +206,11 @@
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960285" weight="0.25165564" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.37417218" />
+=======
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.094370864" />
+>>>>>>> ner_string_matching
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,10 +271,32 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/code/hobbs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/code/reader.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/string_matching_by_word.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/word_embeddings_by_spaCy_NP.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/string_matching_by_spaCy_NP.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/coref.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/hobbs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+>>>>>>> ner_string_matching
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
