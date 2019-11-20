@@ -152,12 +152,12 @@ def find_possible(possibilities, num, reference_dict):
                     if loc > closest:
                         closest = loc
                         head = hn
-<<<<<<< HEAD
+
 
         #   Print the most likely head for the pronoun
         if head is not '':
             reference_dict[head.x].append([head.name, num, pronoun, 0])
-=======
+
         try:
             #   Print the most likely head for the pronoun
             if head is not '':
@@ -168,7 +168,7 @@ def find_possible(possibilities, num, reference_dict):
                 head.add_coref(pronoun, num, head.x)
         except:
             continue
->>>>>>> ner_string_matching
+
 
 
 ##
