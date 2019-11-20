@@ -34,9 +34,9 @@ def getClusterHeads(sentence_dict):
         - sentence_dict is a dictionary of sentence ids as keys and sentence text as value
     Returns a dict of cluster heads
         - the key of the dict is the cluster id
-        - the value is another dictionary
-            - the key is sentence id
-            - the value is the cluster head
+        - the value is a list having:
+            - sentence id
+            - the cluster head
     '''
     cluster_head_dict = {}
     for sentence_id, sentence in sentence_dict.items():
