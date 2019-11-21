@@ -13,7 +13,7 @@ gender_guess = gender.Detector(case_sensitive=False)
 male = ['he', 'him', 'his', 'man', 'men']
 female = ['she', 'her', 'hers', 'woman', 'women']
 cogender = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs']
-nongender = ['it', 'its', 'that', 'there']
+nongender = ['it', 'its','they']
 
 plural = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs', 'men', 'women', 'ladies', 'gentlemen']
 singular = ['he', 'him', 'his', 'man', 'she', 'her', 'hers', 'woman', 'they', 'us', 'them', 'their',
@@ -144,30 +144,22 @@ def find_possible(possibilities, num, reference_dict):
 
         #   Foreach cluster head check if it is a possibility
         for hn in heads:
-            if (hn.first_occurance < num) and (current_gender == hn.gender) and (plurals == hn.plural):
-                occ = list(hn.occurances)
-                for loc in occ:
-                    if loc > num:
-                        break
-                    if loc > closest:
-                        closest = loc
-                        head = hn
+            if (hn.first_occurance < num) and  (plurals == hn.plural) and \
+                    ((pronoun.lower() in male+female) and (hn.entity == 'PERSON') or (pronoun.lower in nongender and hn.entity == 'ORG')):
+                    occ = list(hn.occurances)
+                    for loc in occ:
+                        if loc > num:
+                            break
+                        if loc >= closest:
+                            closest = loc
+                            head = hn
 
 
         #   Print the most likely head for the pronoun
         if head is not '':
+            if head.x not in reference_dict:
+                reference_dict[head.x] =[]
             reference_dict[head.x].append([head.name, num, pronoun, 0])
-
-        try:
-            #   Print the most likely head for the pronoun
-            if head is not '':
-#                 print(type(head))
-                if head.x not in reference_dict:
-                    reference_dict[head.x]=[]
-                reference_dict[head.x].append([head.name, num, pronoun, 0])
-                head.add_coref(pronoun, num, head.x)
-        except:
-            continue
 
 
 
