@@ -28,7 +28,9 @@ def getCorefDict_match_word(sentence_dict, cluster_head_dict, threshold):
 
         current_cluster_sent_id = cluster_value[0]        
         current_cluster_head = cluster_value[1]
-        
+
+        ## Doing the exact word match only when the no of words in the cluster head are 1. 
+        ## It will capture pronouns too!
         if(len(current_cluster_head.split()) == 1):
            
             remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
