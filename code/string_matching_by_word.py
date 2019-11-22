@@ -3,6 +3,7 @@
 
 # https://www.datacamp.com/community/tutorials/fuzzy-string-python
 from fuzzywuzzy import fuzz
+import string
 
 import re
 def getRemText(sent_id, sentence_dict):
@@ -35,8 +36,9 @@ def getCorefDict_match_word(sentence_dict, cluster_head_dict, threshold):
             for sid, sentence in remaining_text.items():
 
                 clean = re.compile('<COREF .*?>.*?</COREF>') ## removing all coref tags from the current sentence
-                clean_sentence = re.sub(clean, '', sentence)            
-                
+                clean_sentence = re.sub(clean, '', sentence)
+                clean_sentence = clean_sentence.translate(str.maketrans('', '', string.punctuation))
+
                 for word in clean_sentence.split():
 
                     similarity_score = getSimilarityScore(current_cluster_head,word)
