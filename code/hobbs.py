@@ -13,7 +13,14 @@ gender_guess = gender.Detector(case_sensitive=False)
 male = ['he', 'him', 'his', 'man', 'men']
 female = ['she', 'her', 'hers', 'woman', 'women']
 cogender = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs']
-nongender = ['it', 'its','they']
+nongender = ['i', 'me','it', 'its','they']
+pronoun_male = ['he', 'him', 'his']
+pronoun_female = ['she', 'her', 'hers']
+org = ['us', 'them', 'our', 'their', 'ours', 'theirs']
+person = ['i', 'me']
+male_title = ['Mr','Sir','Mr.','Sir.']
+female_title = ['Miss','Ms','Mrs','Miss.','Ms.','Mrs.']
+nongender_titles =['Dr', 'Prof','Dr.', 'Prof.']
 
 plural = ['we', 'they', 'us', 'them', 'our', 'their', 'ours', 'theirs', 'men', 'women', 'ladies', 'gentlemen']
 singular = ['he', 'him', 'his', 'man', 'she', 'her', 'hers', 'woman', 'they', 'us', 'them', 'their',
@@ -212,6 +219,55 @@ def establish_headnoun(hn, loc, xpos):
                 head.change_plural(1)
     return head
 
+def handle_pronouns(cluster_head_dict,pronoun,lineNum,file_lines,reference_dict):
+    heads = []
+    for head in cluster_head_dict:
+        if cluster_head_dict[head][1] is not pronoun:
+            heads.append(cluster_head_dict[head][1])
+        else:
+            xNum = head
+    for i in range(lineNum, len(file_lines)):
+        s = re.sub('<COREF .+?>.+?<.+?>', '', file_lines[i])
+        s = re.sub('<.+?>', '', s)
+
+        referencer = -1
+        words = s.split(' ')
+        #ref = reference_dict[xNum]
+        ref = [['I',6,'I']]
+        if 'Dr' in s:
+            x=0
+        for word in words:
+            if word is '':
+                continue
+            if referencer is -1:
+                doc = nlp(word)
+                if word in male_title+female_title+nongender_titles:
+                    if word in male_title and pronoun in male:
+                        index = words.index(word)+1
+                        reference_dict[xNum].append([pronoun, i, words[index], 0])
+                        referencer = words[index]
+                    elif word in female_title and pronoun in female:
+                        index = words.index(word)+1
+                        referencer = words[index]
+                    else:
+                        index = words.index(word)+1
+                        referencer = words[index]
+                # elif len(doc.ents) is not 0 and doc.ents[0].label_ is 'PERSON':
+                #     if pronoun.lower() in person:
+                #         reference_dict[xNum].append([pronoun, i, word, 0])
+                #         referencer = word
+                #     elif pronoun in male:
+                #         if words[words.index(word)-1] not in ['Mrs.','Miss.','Ms.']:
+                #             reference_dict[xNum].append([pronoun, i, word, 0])
+                #             referencer = word
+                #     elif pronoun in female:
+                #         if words[words.index(word)-1] is not 'Mr.':
+                #             reference_dict[xNum].append([pronoun, i, word, 0])
+                #             referencer = word
+            elif word ==referencer:
+                reference_dict[xNum].append([pronoun, i, word, 0])
+
+    return reference_dict
 
 ##
 #   Takes a sentence and the sentence number and cleans it getting rid of the cluster heads and calls the algorithm
@@ -220,9 +276,33 @@ def entry(file_lines, cluster_head_dict, reference_dict):
     #   Compute the head noun and co-references for it
     find_coref(cluster_head_dict, reference_dict)
     num = 0
+    pronoun_heads={}
+    for dict in reference_dict:
+        for ref in reference_dict[dict]:
+            if ref[0].lower() in nongender:
+                pronoun_heads[ref[0]] = ref[1]
+                nongender.remove(ref[0].lower())
+            if ref[0].lower() in cogender:
+                pronoun_heads[ref[0]] = ref[1]
+                cogender.remove(ref[0].lower())
+            if ref[0].lower() in male:
+                pronoun_heads[ref[0]] = ref[1]
+                male.remove(ref[0].lower())
+            if ref[0].lower() in female:
+                pronoun_heads[ref[0]] = ref[1]
+                female.remove(ref[0].lower())
+    remove =[]
     for s in file_lines:
         s = re.sub('<COREF .+?>.+?<.+?>', '', s)
         s = re.sub('<.+?>', '', s)
+        for hn in pronoun_heads:
+            if pronoun_heads[hn] is num:
+                remove.append(hn)
+        for word in remove:
+            s=s.replace(word, '')
         hobbs_alg(s, num, reference_dict)
         num = num + 1
+    for pronoun in remove:
+        reference_dict = handle_pronouns(cluster_head_dict,pronoun,pronoun_heads[pronoun],file_lines,reference_dict)
+
     return reference_dict
