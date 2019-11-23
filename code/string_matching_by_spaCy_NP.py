@@ -32,28 +32,36 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
         current_cluster_sent_id = cluster_value[0]        
         current_cluster_head = cluster_value[1]
         
-        remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
-        
-        for sid, sentence in remaining_text.items():
-
-            clean = re.compile('<COREF .*?>.*?</COREF>') ## removing all coref tags from the current sentence
-            clean_sentence = re.sub(clean, '', sentence)
-
-            doc = nlp(clean_sentence)
+        ## Doing the partial NP match only when the no of words in the cluster head are more than 1. 
+        if(len(current_cluster_head.split()) > 1):
             
-            for np in doc.noun_chunks:
-                
-                ## If the NP is a pronoun, ignore it. 
-                ## We are handling pronouns by Hobb's algorithm
-                if(len(np) == 1 and np[0].pos_ == 'PRON'):
-                    continue
-                
-                similarity_score = getSimilarityScore(current_cluster_head,np)
-                
-                if(similarity_score > threshold):
-                    if(cluster_id not in coref_dict.keys()):
+            current_cluster_head = nlp(current_cluster_head)
+            current_cluster_head_np = list(current_cluster_head.noun_chunks)
+            ## Taking just the head noun in the current cluster head
+            current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
+        
+            remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
 
-                        coref_dict[cluster_id] = [list([current_cluster_head, sid, np.text, similarity_score])]
-                    else:
-                        coref_dict[cluster_id].append(list([current_cluster_head, sid, np.text, similarity_score]))
+            for sid, sentence in remaining_text.items():
+
+                clean = re.compile('<COREF .*?>.*?</COREF>') ## removing all coref tags from the current sentence
+                clean_sentence = re.sub(clean, '', sentence)
+
+                doc = nlp(clean_sentence)
+
+                for np in doc.noun_chunks:
+
+                    ## If the NP is a pronoun, ignore it. 
+                    ## We are handling pronouns by Hobb's algorithm
+                    if(len(np) == 1 and np[0].pos_ == 'PRON'):
+                        continue
+
+                    similarity_score = getSimilarityScore(current_cluster_head_headNoun,np)
+
+                    if(similarity_score > threshold):
+                        if(cluster_id not in coref_dict.keys()):
+
+                            coref_dict[cluster_id] = [list([current_cluster_head, sid, np.text, similarity_score])]
+                        else:
+                            coref_dict[cluster_id].append(list([current_cluster_head, sid, np.text, similarity_score]))
     return coref_dict
