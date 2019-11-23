@@ -31,14 +31,20 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
 
         current_cluster_sent_id = cluster_value[0]        
         current_cluster_head = cluster_value[1]
-        
+
         ## Doing the partial NP match only when the no of words in the cluster head are more than 1. 
         if(len(current_cluster_head.split()) > 1):
             
             current_cluster_head = nlp(current_cluster_head)
             current_cluster_head_np = list(current_cluster_head.noun_chunks)
-            ## Taking just the head noun in the current cluster head
-            current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
+            
+            if(len(current_cluster_head_np)>0): ##i.e, NP found in the cluster head name
+                ## Taking just the head noun in the current cluster head
+                current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
+                
+            else: ##i.e, NP not found in the cluster head name
+                current_cluster_head_headNoun = cluster_value[1]
+                
         
             remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
 
