@@ -252,18 +252,7 @@ def handle_pronouns(cluster_head_dict,pronoun,lineNum,file_lines,reference_dict)
                     else:
                         index = words.index(word)+1
                         referencer = words[index]
-                # elif len(doc.ents) is not 0 and doc.ents[0].label_ is 'PERSON':
-                #     if pronoun.lower() in person:
-                #         reference_dict[xNum].append([pronoun, i, word, 0])
-                #         referencer = word
-                #     elif pronoun in male:
-                #         if words[words.index(word)-1] not in ['Mrs.','Miss.','Ms.']:
-                #             reference_dict[xNum].append([pronoun, i, word, 0])
-                #             referencer = word
-                #     elif pronoun in female:
-                #         if words[words.index(word)-1] is not 'Mr.':
-                #             reference_dict[xNum].append([pronoun, i, word, 0])
-                #             referencer = word
+
             elif word ==referencer:
                 reference_dict[xNum].append([pronoun, i, word, 0])
 
@@ -277,20 +266,23 @@ def entry(file_lines, cluster_head_dict, reference_dict):
     find_coref(cluster_head_dict, reference_dict)
     num = 0
     pronoun_heads={}
-    for dict in reference_dict:
-        for ref in reference_dict[dict]:
-            if ref[0].lower() in nongender:
-                pronoun_heads[ref[0]] = ref[1]
-                nongender.remove(ref[0].lower())
-            if ref[0].lower() in cogender:
-                pronoun_heads[ref[0]] = ref[1]
-                cogender.remove(ref[0].lower())
-            if ref[0].lower() in male:
-                pronoun_heads[ref[0]] = ref[1]
-                male.remove(ref[0].lower())
-            if ref[0].lower() in female:
-                pronoun_heads[ref[0]] = ref[1]
-                female.remove(ref[0].lower())
+    for x in cluster_head_dict:
+        if cluster_head_dict[x][1].lower() in nongender:
+                pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
+                nongender.remove(cluster_head_dict[x][1].lower())
+
+        elif cluster_head_dict[x][1].lower() in cogender:
+            pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
+            nongender.remove(cluster_head_dict[x][1].lower())
+
+        elif cluster_head_dict[x][1].lower() in male:
+            pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
+            nongender.remove(cluster_head_dict[x][1].lower())
+
+        elif cluster_head_dict[x][1].lower() in female:
+            pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
+            nongender.remove(cluster_head_dict[x][1].lower())
+    
     remove =[]
     for s in file_lines:
         s = re.sub('<COREF .+?>.+?<.+?>', '', s)
