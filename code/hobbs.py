@@ -273,16 +273,16 @@ def entry(file_lines, cluster_head_dict, reference_dict):
 
         elif cluster_head_dict[x][1].lower() in cogender:
             pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
-            nongender.remove(cluster_head_dict[x][1].lower())
+            cogender.remove(cluster_head_dict[x][1].lower())
 
         elif cluster_head_dict[x][1].lower() in male:
             pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
-            nongender.remove(cluster_head_dict[x][1].lower())
+            male.remove(cluster_head_dict[x][1].lower())
 
         elif cluster_head_dict[x][1].lower() in female:
             pronoun_heads[cluster_head_dict[x][1]] = cluster_head_dict[x][0]
-            nongender.remove(cluster_head_dict[x][1].lower())
-    
+            female.remove(cluster_head_dict[x][1].lower())
+
     remove =[]
     for s in file_lines:
         s = re.sub('<COREF .+?>.+?<.+?>', '', s)
