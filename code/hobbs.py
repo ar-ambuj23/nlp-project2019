@@ -221,6 +221,7 @@ def establish_headnoun(hn, loc, xpos):
 
 def handle_pronouns(cluster_head_dict,pronoun,lineNum,file_lines,reference_dict):
     heads = []
+    permX=-1
     for head in cluster_head_dict:
         if cluster_head_dict[head][1] is not pronoun:
             heads.append(cluster_head_dict[head][1])
@@ -249,12 +250,15 @@ def handle_pronouns(cluster_head_dict,pronoun,lineNum,file_lines,reference_dict)
                     elif word in female_title and pronoun in female:
                         index = words.index(word)+1
                         referencer = words[index]
-                    else:
+                    elif word in nongender_titles and pronoun not in plural:
                         index = words.index(word)+1
                         referencer = words[index]
 
-            elif word ==referencer:
+            elif word ==referencer and (permX is xNum or permX is -1):
+                if len(reference_dict[xNum]) is 0:
+                    reference_dict[xNum]=[]
                 reference_dict[xNum].append([pronoun, i, word, 0])
+                permX=xNum
 
     return reference_dict
 
