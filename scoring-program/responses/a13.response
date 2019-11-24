@@ -10,7 +10,9 @@
 
 <COREF ID="X3">AREOFLOT CRASH DEATHS</COREF>
 {9} {crash}
+{13} {deaths}
 {15} {crash}
+{17} {injury}
 
 <COREF ID="X4">a writ</COREF>
 {11} {writ}

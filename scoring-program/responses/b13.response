@@ -72,10 +72,16 @@
 <COREF ID="X9">changes in senior management</COREF>
 {12} {exchange}
 {14} {change}
+{14} {management}
 
 <COREF ID="X10">a coalition of four of Pan Am's five unions</COREF>
+{13} {union}
 {13} {coalition}
 {14} {coalition}
+{16} {agreement}
+{24} {union}
+{27} {union}
+{30} {agreement}
 
 <COREF ID="X11">William T. Coleman</COREF>
 {20} {Coleman}
@@ -87,6 +93,7 @@
 
 <COREF ID="X14">a "cordial" initial meeting with Mr. Coleman last Thursday</COREF>
 {20} {meeting}
+{20} {Coleman}
 
 <COREF ID="X15">Pan Am's pilots union</COREF>
 {30} {agreement}
@@ -94,6 +101,7 @@
 <COREF ID="X16">an agreement to deliver concessions to the company</COREF>
 {29} {agreement}
 {30} {agreement}
+{30} {company}
 {30} {He}
 {30} {he}
 

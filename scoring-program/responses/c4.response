@@ -14,6 +14,11 @@
 {8} {transplants}
 
 <COREF ID="X2">Trypanosoma cruzi</COREF>
+{3} {cruzi}
+{4} {infection}
+{5} {cruzi_}
+{6} {cruzi}
+{7} {cruzi}
 
 <COREF ID="X3">the United States</COREF>
 {3} {States}

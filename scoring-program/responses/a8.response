@@ -18,6 +18,11 @@
 
 <COREF ID="X4">NUMBER OF FLIGHTS</COREF>
 {11} {number}
+{13} {flight}
+{16} {data}
+{25} {pattern}
+{27} {paths}
+{29} {path}
 
 <COREF ID="X5">PLUTONIUM</COREF>
 {11} {plutonium}
@@ -72,8 +77,10 @@
 <COREF ID="X15">me</COREF>
 
 <COREF ID="X16">land near the plant</COREF>
+{22} {plant}
 {23} {landings}
 {28} {system}
+{32} {plant}
 
 <COREF ID="X17">Mike McNulty</COREF>
 {23} {McNulty}

@@ -1,8 +1,15 @@
 <COREF ID="X0">senior director of UAL</COREF>
+{6} {officer}
+{7} {board}
 {9} {directors}
 {14} {directors}
 {15} {directors}
+{16} {UAL}
+{16} {UAL}
+{19} {individuals}
 {22} {directors}
+{26} {UAL}
+{27} {UAL}
 
 <COREF ID="X1">its board</COREF>
 {7} {board}
@@ -42,7 +49,9 @@
 {16} {he}
 
 <COREF ID="X8">the earnings of United Airlines</COREF>
+{11} {competitors}
 {12} {earnings}
+{13} {airline}
 
 <COREF ID="X9">Jim Hartigan, </COREF>
 
@@ -55,10 +64,18 @@
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
 {17} {pilots}
+{17} {service}
+{18} {line}
+{18} {United}
+{19} {United}
+{20} {United}
 {20} {pilots}
+{21} {management}
 {21} {pilots}
+{21} {United}
 {23} {strike}
 {24} {pilots}
+{25} {United}
 
 <COREF ID="X14">the pilots' strike</COREF>
 {19} {strike}

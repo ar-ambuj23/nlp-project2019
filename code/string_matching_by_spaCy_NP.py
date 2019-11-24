@@ -42,7 +42,7 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
             if(len(current_cluster_head_np)==0): ##i.e, NP not found in the cluster head name
                 
 #                 current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
-                current_cluster_head_np = list(cluster_value[1])
+                current_cluster_head_np = [cluster_value[1]]
                 
 #             else: ##i.e, NP not found in the cluster head name
 #                 current_cluster_head_headNoun = cluster_value[1]
@@ -67,7 +67,6 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
                         continue
                         
                     for i in range(current_cluster_head_np_len):
-                        print(cluster_value[1] ,current_cluster_head_np[i])
                         current_cluster_head_headNoun = str(current_cluster_head_np[i]).split()[-1]
 
                         similarity_score = getSimilarityScore(current_cluster_head_headNoun,np)

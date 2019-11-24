@@ -23,10 +23,13 @@
 
 <COREF ID="X4">Ford Talks With UAW</COREF>
 {18} {talks}
+{22} {spokesman}
 {24} {talks}
 {40} {Talks}
 {40} {talks}
 {41} {talks}
+{41} {talks}
+{49} {contract}
 
 <COREF ID="X5">09/17/87</COREF>
 
@@ -67,7 +70,6 @@
 {15} {locals}
 {17} {officials}
 {19} {leader}
-{21} {He}
 {23} {union}
 {26} {union}
 {27} {union}
@@ -80,6 +82,9 @@
 {49} {settlement}
 
 <COREF ID="X13">UAW President Owen Bieber</COREF>
+{20} {Bieber}
+{21} {hospitalization}
+{21} {He}
 
 <COREF ID="X14">Tuesday</COREF>
 {25} {Tuesday}
@@ -94,6 +99,7 @@
 {30} {White}
 
 <COREF ID="X17">sweetened cost-of-living adjustments for pensioners</COREF>
+{28} {pensions}
 
 <COREF ID="X18">The Canadian union</COREF>
 {26} {union}

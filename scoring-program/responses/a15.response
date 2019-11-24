@@ -43,13 +43,18 @@
 <COREF ID="X9">Two of those who died in the crash</COREF>
 {14} {whole}
 {22} {bodies}
+{28} {site}
 
 <COREF ID="X10">President Franjo Tudjman of Croatia</COREF>
+{14} {Croatia}
 {14} {Tudjman}
+{16} {decoration}
 
 <COREF ID="X11">U.S.</COREF>
 
 <COREF ID="X12">the families of those who have perished</COREF>
+{14} {whole}
+{22} {bodies}
 
 <COREF ID="X13">the American ambassador to Croatia</COREF>
 {18} {ambassador}
@@ -74,6 +79,7 @@
 {25} {Americans}
 
 <COREF ID="X20">The Roman Catholic archbishop of Dubrovnik</COREF>
+{29} {Dubrovnik}
 
 <COREF ID="X21">American investigators</COREF>
 

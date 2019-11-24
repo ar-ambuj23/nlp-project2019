@@ -31,6 +31,10 @@
 {18} {standdown}
 
 <COREF ID="X8">Lt. Greg Geisen</COREF>
+{18} {Geisen}
+{27} {Geisen}
+{28} {Geisen}
+{32} {Geisen}
 
 <COREF ID="X9">the F-14</COREF>
 {17} {F-14s}

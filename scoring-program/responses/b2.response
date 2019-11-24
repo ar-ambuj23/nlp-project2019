@@ -4,7 +4,10 @@
 
 <COREF ID="X1">Mediation In Its Union Talks</COREF>
 {10} {mediation}
+{10} {talks}
+{11} {talks}
 {11} {mediation}
+{12} {talks}
 {14} {mediation}
 {19} {mediator}
 
@@ -22,10 +25,19 @@
 {14} {president}
 
 <COREF ID="X5">the request for mediation</COREF>
+{14} {mediation}
+{19} {mediator}
 
 <COREF ID="X6">talks with the company</COREF>
+{17} {company}
+{20} {company}
+{21} {move}
+{22} {company}
+{25} {company}
+{26} {company}
 
 <COREF ID="X7">The major outstanding</COREF>
+{17} {issues}
 
 <COREF ID="X8">The union</COREF>
 {20} {union}

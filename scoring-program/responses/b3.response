@@ -132,6 +132,8 @@
 
 <COREF ID="X8">its attempt</COREF>
 {16} {attempt}
+{32} {He}
+{32} {he}
 
 <COREF ID="X9">Louis Marckesano, </COREF>
 {17} {Marckesano}
@@ -146,6 +148,8 @@
 {19} {department}
 {20} {official}
 {55} {Department}
+{55} {Department}
+{57} {Department}
 {57} {Department}
 {58} {department}
 {59} {department}
@@ -170,11 +174,46 @@
 {26} {Colodny}
 
 <COREF ID="X17">merger between Piedmont and USAir</COREF>
-{32} {He}
-{32} {he}
+{28} {USAir}
+{29} {USAir}
+{30} {Piedmont}
+{31} {USAir}
+{34} {shares}
+{35} {USAir}
+{37} {shares}
+{40} {stock}
+{40} {Piedmont}
+{41} {shares}
 {41} {merger}
+{41} {USAir}
+{42} {USAir}
 {42} {merger}
+{42} {USAir}
+{42} {Piedmont}
+{42} {shares}
+{44} {holding}
+{44} {shares}
+{45} {USAir}
+{45} {acquisition}
+{47} {USAir}
+{48} {USAir}
+{50} {headquarters}
+{51} {USAir}
+{51} {Piedmont}
+{51} {USAir}
 {51} {merger}
+{52} {USAir}
+{53} {USAir}
+{53} {shares}
+{53} {offer}
+{53} {stock}
+{54} {USAir}
+{54} {stock}
+{55} {USAir}
+{55} {stock}
+{56} {USAir}
+{58} {stock}
+{58} {USAir}
 
 <COREF ID="X18">TWA</COREF>
 {28} {TWA}

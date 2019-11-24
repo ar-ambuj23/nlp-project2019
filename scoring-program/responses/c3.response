@@ -17,6 +17,7 @@
 <COREF ID="X5">Department of Infectious Diseases</COREF>
 {3} {department}
 {5} {Department}
+{5} {disease}
 
 <COREF ID="X6">we</COREF>
 {3} {we}

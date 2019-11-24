@@ -1,6 +1,10 @@
 <COREF ID="X0">Rise in Labor Costs, Wage Agreements</COREF>
 {6} {costs}
 {8} {costs}
+{11} {agreements}
+{12} {agreements}
+{16} {agreements}
+{22} {agreements}
 
 <COREF ID="X1">'87</COREF>
 
@@ -14,6 +18,14 @@
 
 <COREF ID="X3">Total compensation costs in private industry, including pay and benefits,</COREF>
 {8} {costs}
+{10} {industries}
+{12} {rises}
+{15} {pay}
+{15} {benefits}
+{17} {payments}
+{18} {payments}
+{21} {industries}
+{21} {industries}
 
 <COREF ID="X4">1986</COREF>
 {12} {1986}
@@ -27,19 +39,29 @@
 {22} {agreements}
 
 <COREF ID="X7">an average 2.2% wage increase in the first year of the contract</COREF>
+{10} {accords}
+{11} {settlements}
 {12} {increase}
+{12} {year}
+{12} {year}
 {12} {increase}
 {12} {increases}
+{12} {years}
+{13} {increases}
 {13} {increases}
 {14} {increases}
 {16} {increase}
 {17} {increases}
 {17} {increases}
+{18} {contracts}
 {20} {increases}
 {21} {increases}
+{21} {year}
+{21} {year}
 
 <COREF ID="X8">the life of the pact</COREF>
 {12} {life}
+{20} {pacts}
 
 <COREF ID="X9">pay</COREF>
 {12} {pay}
@@ -55,6 +77,8 @@
 
 <COREF ID="X12">lump-sum payments, which are one-time payments often made upon a contract's ratification</COREF>
 {17} {payments}
+{17} {payments}
+{18} {payments}
 {18} {payments}
 
 <COREF ID="X13">construction industry</COREF>

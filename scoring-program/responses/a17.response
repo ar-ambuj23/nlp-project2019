@@ -16,9 +16,14 @@
 
 <COREF ID="X2">HALF MOON BAY</COREF>
 {11} {Airport}
+{11} {Airport}
+{13} {Association}
 {13} {Association}
 {23} {community}
+{23} {community}
 {24} {Fly-In}
+{24} {Fly-In}
+{26} {Bay}
 {26} {Bay}
 
 <COREF ID="X3">the airplane</COREF>

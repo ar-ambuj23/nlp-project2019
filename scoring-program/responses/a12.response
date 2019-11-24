@@ -24,7 +24,11 @@
 
 <COREF ID="X6">Seattle's Museum of Flight</COREF>
 {11} {aircraft}
+{12} {Flight}
+{18} {recorders}
+{19} {recorders}
 {20} {Museum}
+{20} {Hayes}
 {21} {museum}
 
 <COREF ID="X7">a similar jetliner</COREF>
@@ -57,8 +61,16 @@
 
 <COREF ID="X14">Newer models of flight data recorders</COREF>
 {18} {recorders}
+{18} {recorders}
+{19} {recorders}
 
 <COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
+{18} {position}
+{18} {position}
+{18} {position}
+{19} {crash}
+{20} {exhibit}
+{21} {plans}
 
 <COREF ID="X16">tests</COREF>
 {21} {tests}

@@ -33,6 +33,7 @@
 {21} {mediation}
 
 <COREF ID="X5">the most devastating crash in the farm economy since the Great Depression</COREF>
+{23} {economy}
 
 <COREF ID="X6">Minnesota's mediation program</COREF>
 {10} {program}
@@ -46,6 +47,9 @@
 {23} {farmers}
 
 <COREF ID="X9">the University of Minnesota</COREF>
+{18} {Minnesota}
+{19} {Legislature}
+{24} {Paul}
 
 <COREF ID="X10">Chapter 12</COREF>
 {18} {filings}

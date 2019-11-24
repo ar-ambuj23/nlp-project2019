@@ -26,20 +26,29 @@
 <COREF ID="X7">DEUTSCHE GENOSSENSCHAFTS BANK</COREF>
 
 <COREF ID="X8">the trade union-owned insurance group VOLKSFUERSORGE</COREF>
+{16} {Volksfuersorge}
 {16} {group}
+{17} {Volksfuersorge}
 {18} {sales}
 {20} {profit}
 {22} {group}
 
 <COREF ID="X9">an insurance concern it controls</COREF>
+{15} {stake}
 {16} {concern}
+{20} {profit}
+{22} {units}
 {22} {concern}
+{22} {strategy}
+{22} {presence}
+{22} {acquisitions}
 
 <COREF ID="X10">the trade-union holding company</COREF>
 
 <COREF ID="X11">NATIONALE NEDERLANDEN N.V.</COREF>
 
 <COREF ID="X12">MIDWESTERN UNITED LIFE INSURANCE CO., one of its U.S. subsidiaries,</COREF>
+{22} {subsidiaries}
 
 <COREF ID="X13">Ireland's largest insurer, </COREF>
 

@@ -27,6 +27,10 @@
 {20} {prices}
 
 <COREF ID="X5">a sharp rise in OPEC production</COREF>
+{13} {level}
+{14} {production}
+{15} {production}
+{24} {production}
 
 <COREF ID="X6">a day</COREF>
 {26} {day}
@@ -55,6 +59,20 @@
 
 <COREF ID="X12">conciliatory gestures to OPEC</COREF>
 {10} {gestures}
+{11} {president}
+{12} {"unity}
+{12} {decisions}
+{14} {quota}
+{17} {OPEC}
+{18} {output}
+{19} {affairs}
+{20} {committee}
+{21} {headquarters}
+{22} {spokesman}
+{23} {output}
+{24} {output}
+{25} {oil}
+{26} {zone}
 
 <COREF ID="X13">yesterday</COREF>
 {14} {yesterday}
@@ -71,10 +89,15 @@
 
 <COREF ID="X18">its assigned quota of 948,000 barrels a day</COREF>
 {14} {quota}
+{15} {barrels}
 {17} {quota}
 {20} {decision}
+{24} {barrels}
+{26} {barrels}
 
 <COREF ID="X19">the round of talks with Mr. Subroto</COREF>
+{20} {visit}
+{22} {talks}
 
 <COREF ID="X20">the Emirates' official news agency</COREF>
 {13} {report}
@@ -86,7 +109,9 @@
 {25} {oil}
 
 <COREF ID="X22">such excess output by the Emirates</COREF>
+{17} {officials}
 {18} {output}
+{20} {decision}
 {23} {output}
 {24} {output}
 
