@@ -110,9 +110,6 @@ def driver(input_path_file, output_path):
 
         # ### Removing the Determiners from the start
 
-        # In[392]:
-
-
         def takeHeadNouns(coref_final_with_pro):
     
             for cluster in coref_final_with_pro.keys():
