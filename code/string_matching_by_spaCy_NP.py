@@ -37,14 +37,18 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
             
             current_cluster_head = nlp(current_cluster_head)
             current_cluster_head_np = list(current_cluster_head.noun_chunks)
+
             
-            if(len(current_cluster_head_np)>0): ##i.e, NP found in the cluster head name
-                ## Taking just the head noun in the current cluster head
-                current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
+            if(len(current_cluster_head_np)==0): ##i.e, NP not found in the cluster head name
                 
-            else: ##i.e, NP not found in the cluster head name
-                current_cluster_head_headNoun = cluster_value[1]
+#                 current_cluster_head_headNoun = str(current_cluster_head_np[0]).split()[-1]
+                current_cluster_head_np = list(cluster_value[1])
                 
+#             else: ##i.e, NP not found in the cluster head name
+#                 current_cluster_head_headNoun = cluster_value[1]
+                
+    
+            current_cluster_head_np_len = len(current_cluster_head_np)
         
             remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
 
@@ -61,13 +65,17 @@ def getCorefDict_match_NP(sentence_dict, cluster_head_dict, threshold):
                     ## We are handling pronouns by Hobb's algorithm
                     if(len(np) == 1 and np[0].pos_ == 'PRON'):
                         continue
+                        
+                    for i in range(current_cluster_head_np_len):
+                        print(cluster_value[1] ,current_cluster_head_np[i])
+                        current_cluster_head_headNoun = str(current_cluster_head_np[i]).split()[-1]
 
-                    similarity_score = getSimilarityScore(current_cluster_head_headNoun,np)
+                        similarity_score = getSimilarityScore(current_cluster_head_headNoun,np)
 
-                    if(similarity_score > threshold):
-                        if(cluster_id not in coref_dict.keys()):
+                        if(similarity_score > threshold):
+                            if(cluster_id not in coref_dict.keys()):
 
-                            coref_dict[cluster_id] = [list([current_cluster_head, sid, np.text, similarity_score])]
-                        else:
-                            coref_dict[cluster_id].append(list([current_cluster_head, sid, np.text, similarity_score]))
+                                coref_dict[cluster_id] = [list([current_cluster_head, sid, np.text, similarity_score])]
+                            else:
+                                coref_dict[cluster_id].append(list([current_cluster_head, sid, np.text, similarity_score]))
     return coref_dict
