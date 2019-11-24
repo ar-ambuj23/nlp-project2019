@@ -31,7 +31,7 @@ def getCorefDict_match_word(sentence_dict, cluster_head_dict, threshold):
 
         ## Doing the exact word match only when the no of words in the cluster head are 1. 
         ## It will capture pronouns too!
-        if(len(current_cluster_head.split()) == 1 and current_cluster_head.split()[0] not in ['that','it']):
+        if(len(current_cluster_head.split()) == 1 and current_cluster_head.lower().split()[0] not in ['that','it']):
             
            
             remaining_text = getRemText(current_cluster_sent_id, sentence_dict)
