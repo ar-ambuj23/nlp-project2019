@@ -255,7 +255,7 @@ def handle_pronouns(cluster_head_dict,pronoun,lineNum,file_lines,reference_dict)
                         referencer = words[index]
 
             elif word ==referencer and (permX is xNum or permX is -1):
-                if len(reference_dict[xNum]) is 0:
+                if xNum not in reference_dict:
                     reference_dict[xNum]=[]
                 reference_dict[xNum].append([pronoun, i, word, 0])
                 permX=xNum
