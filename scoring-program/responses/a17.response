@@ -1,0 +1,48 @@
+<COREF ID="X0">REID</COREF>
+{6} {REID}
+{10} {Reid}
+{13} {Reid}
+{14} {Reid}
+{15} {Reid}
+{19} {Reid}
+{22} {Reid}
+{23} {Reid}
+
+<COREF ID="X1">04-12</COREF>
+{10} {he}
+{10} {her}
+{10} {he}
+{14} {he}
+
+<COREF ID="X2">HALF MOON BAY</COREF>
+{11} {Airport}
+{13} {Association}
+{23} {community}
+{24} {Fly-In}
+{26} {Bay}
+
+<COREF ID="X3">the airplane</COREF>
+
+<COREF ID="X4">Jessica Dubroff</COREF>
+{11} {his}
+{11} {his}
+
+<COREF ID="X5">flying</COREF>
+{10} {flying}
+{17} {flying}
+{17} {flying}
+{22} {flying}
+{24} {FlyIn}
+
+<COREF ID="X6">Gary Petersen</COREF>
+{12} {He}
+
+<COREF ID="X7">George Auld</COREF>
+{17} {Auld}
+{17} {He}
+
+<COREF ID="X8">He and his wife</COREF>
+{25} {Church}
+{26} {Christopher}
+{26} {Matthew}
+

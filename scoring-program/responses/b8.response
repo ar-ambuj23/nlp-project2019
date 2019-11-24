@@ -1,171 +1,128 @@
 <COREF ID="X0">Chrysler</COREF>
-{23} {Ltd.}
-{26} {Canada}
+{23} {Chrysler}
+{26} {Chrysler}
 {31} {Chrysler}
-{32} {workers}
+{32} {Chryslers}
 {33} {Chrysler}
 {35} {Chrysler}
-{35} {Yorker}
+{35} {Chrysler}
 {39} {Chrysler}
-{40} {talks}
-{50} {contract}
+{40} {Chrysler}
+{50} {Chryslers}
 {51} {Chrysler}
 
 <COREF ID="X1">New Canadian Contract Offer</COREF>
 {13} {offer}
 {23} {offer}
 {26} {offer}
-{29} {We}
-{32} {contract}
-{37} {Canada}
-{45} {contract}
 
 <COREF ID="X2">Walkout</COREF>
-{45} {it}
 
 <COREF ID="X3">Weekend</COREF>
-{13} {morning}
-{29} {week}
-{50} {year}
+{32} {weekend}
 
 <COREF ID="X4">Ford Talks With UAW</COREF>
-{35} {cars}
+{18} {talks}
+{24} {talks}
 {40} {Talks}
-{40} {Ford}
 {40} {talks}
 {41} {talks}
-{42} {Ford}
-{45} {Ford}
-{49} {Ford}
-{52} {Ford}
 
 <COREF ID="X5">09/17/87</COREF>
-{15} {their}
 
 <COREF ID="X6">Striking auto workers</COREF>
 {23} {union}
 {32} {workers}
+{32} {workers}
+{34} {workers}
+{38} {workers}
 {45} {workers}
+{46} {workers}
 
 <COREF ID="X7">Chrysler Corp.'s Canadian unit</COREF>
-{23} {Ltd.}
-{26} {Canada}
-{31} {Chrysler}
-{33} {Chrysler}
-{35} {Chrysler}
-{37} {Canada}
-{39} {Chrysler}
-{50} {contract}
-{51} {Chrysler}
+{23} {he}
+{29} {he}
+{39} {units}
 
 <COREF ID="X8">negotiations</COREF>
 {14} {negotiations}
-{14} {negotiations}
 {16} {negotiations}
 {21} {negotiations}
-{25} {negotiators}
 {30} {negotiations}
-{37} {they}
 {49} {negotiations}
 
 <COREF ID="X9">yesterday</COREF>
-{13} {morning}
-{17} {morning}
-{47} {report}
+{14} {yesterday}
+{25} {yesterday}
+{28} {yesterday}
+{30} {yesterday}
+{35} {yesterday}
+{41} {yesterday}
+{51} {Yesterday}
 
 <COREF ID="X10">Ford Motor Co.</COREF>
-{13} {it}
-{23} {Ltd.}
-{31} {Chrysler}
 {39} {Co.}
-{40} {Ford}
-{42} {Ford}
-{45} {Ford}
-{49} {Ford}
-{52} {Ford}
 
 <COREF ID="X11">the United Auto Workers union</COREF>
+{15} {locals}
+{17} {officials}
+{19} {leader}
+{21} {He}
 {23} {union}
 {26} {union}
 {27} {union}
+{32} {union}
+{48} {union}
 
 <COREF ID="X12">a settlement</COREF>
 {17} {settlement}
-{21} {He}
 {32} {settlement}
 {49} {settlement}
 
 <COREF ID="X13">UAW President Owen Bieber</COREF>
-{20} {Bieber}
-{21} {hospitalization}
-{23} {president}
-{28} {Fisher}
 
 <COREF ID="X14">Tuesday</COREF>
-{48} {Monday}
+{25} {Tuesday}
+{26} {Tuesday}
 
 <COREF ID="X15">one source</COREF>
 {20} {source}
-{29} {chance}
-{29} {he}
 {42} {Sources}
 
 <COREF ID="X16">Robert White, </COREF>
 {25} {White}
 {30} {White}
-{35} {plant}
 
 <COREF ID="X17">sweetened cost-of-living adjustments for pensioners</COREF>
-{23} {he}
-{28} {pensions}
-{44} {raises}
-{47} {plan}
-{47} {package}
 
 <COREF ID="X18">The Canadian union</COREF>
 {26} {union}
 {27} {union}
-{31} {CAW}
 {32} {union}
-{37} {Canada}
-{39} {units}
-{42} {it}
-{44} {It}
+{48} {union}
 
 <COREF ID="X19">the main issue</COREF>
-{29} {end}
+{28} {issues}
+{31} {issues}
 {31} {issue}
 {45} {issue}
 
 <COREF ID="X20">pension adjustments</COREF>
 {27} {adjustments}
-{28} {pensions}
-{31} {issue}
 
 <COREF ID="X21">Chrysler Canada's chief negotiator, </COREF>
-{31} {Chrysler}
-{32} {workers}
-{33} {Chrysler}
-{35} {Chrysler}
-{37} {Canada}
-{39} {Chrysler}
-{40} {talks}
-{50} {contract}
-{51} {Chrysler}
+{30} {negotiations}
+{49} {negotiations}
 
 <COREF ID="X22">the two sides</COREF>
-{29} {end}
-{43} {years}
 {47} {sides}
 
 <COREF ID="X23">local issues</COREF>
 {31} {issues}
+{31} {issue}
 {45} {issue}
-{45} {workers}
 
 <COREF ID="X24">U.S.</COREF>
-{37} {Canada}
-{50} {contract}
 
 <COREF ID="X25">about 585 workers</COREF>
 {38} {workers}
@@ -174,29 +131,22 @@
 
 <COREF ID="X26">a stamping plant near Detroit</COREF>
 {38} {plant}
-{49} {maker}
-{50} {contract}
+{47} {plan}
 
 <COREF ID="X27">General Motors Corp.</COREF>
-{39} {Co.}
-{39} {units}
-{50} {contract}
 
 <COREF ID="X28">Monday</COREF>
 {48} {Monday}
+{49} {Monday}
 
 <COREF ID="X29">the two parties</COREF>
-{43} {years}
-{47} {sides}
-{47} {package}
 
 <COREF ID="X30">the job-security issue</COREF>
 {45} {issue}
-{47} {plan}
-{47} {package}
 
 <COREF ID="X31">the previous contract</COREF>
 {45} {contract}
 {48} {contract}
 {49} {contract}
+{50} {contract}
 
