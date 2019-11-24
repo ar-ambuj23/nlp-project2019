@@ -52,6 +52,7 @@
 {14} {case}
 
 <COREF ID="X11">virus</COREF>
+{21} {specimens}
 
 <COREF ID="X12">investigation</COREF>
 {23} {investigation}
@@ -63,4 +64,5 @@
 {25} {confirmation}
 
 <COREF ID="X15">CP</COREF>
+{26} {/cp}
 

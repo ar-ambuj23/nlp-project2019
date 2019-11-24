@@ -29,8 +29,7 @@ def getCorefDict_meaning_NP(sentence_dict, coref_final_with_pro, threshold):
             current_cluster_head_np = list(current_cluster_head.noun_chunks)
 
             if(len(current_cluster_head_np)==0):
-                coref_final_with_pro[cluster][0][2] = ''
-                break
+                continue
             
             current_cluster_head_headNoun = current_cluster_head_np[0][-1]
 

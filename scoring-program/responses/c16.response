@@ -67,6 +67,8 @@
 {11} {infection}
 
 <COREF ID="X9">reagents</COREF>
+{11} {antibodies}
 
 <COREF ID="X10">Mod.CP</COREF>
+{12} {cp/pg}
 

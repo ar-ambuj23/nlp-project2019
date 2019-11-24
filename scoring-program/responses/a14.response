@@ -1,4 +1,5 @@
 <COREF ID="X0">AIRLINE-LIABILITY</COREF>
+{19} {damages}
 
 <COREF ID="X1">04-05</COREF>
 
@@ -42,6 +43,7 @@
 {23} {this}
 
 <COREF ID="X8">Efforts</COREF>
+{21} {Administration}
 
 <COREF ID="X9">U.S. officials</COREF>
 {25} {officials}

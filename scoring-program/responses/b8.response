@@ -80,6 +80,7 @@
 {49} {settlement}
 
 <COREF ID="X13">UAW President Owen Bieber</COREF>
+{21} {hospitalization}
 
 <COREF ID="X14">Tuesday</COREF>
 {25} {Tuesday}
@@ -94,6 +95,7 @@
 {30} {White}
 
 <COREF ID="X17">sweetened cost-of-living adjustments for pensioners</COREF>
+{45} {life}
 
 <COREF ID="X18">The Canadian union</COREF>
 {26} {union}
@@ -123,6 +125,7 @@
 {45} {issue}
 
 <COREF ID="X24">U.S.</COREF>
+{50} {contract}
 
 <COREF ID="X25">about 585 workers</COREF>
 {38} {workers}

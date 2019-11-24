@@ -57,6 +57,7 @@
 {13} {DuHamel}
 
 <COREF ID="X13">Wed</COREF>
+{11} {people}
 
 <COREF ID="X14">hospital</COREF>
 {10} {hospital}
@@ -76,4 +77,5 @@
 {20} {ProMEDmail}
 
 <COREF ID="X18">infection</COREF>
+{18} {disease}
 

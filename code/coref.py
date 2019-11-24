@@ -9,7 +9,8 @@
 from reader import *
 from string_matching_by_word import *
 from string_matching_by_spaCy_NP import *
-from word_embeddings_by_spaCy_NP import *
+# from word_embeddings_by_spaCy_NP import *
+from semantics_by_spaCy_NP import *
 from hobbs import entry
 from nltk import pos_tag
 
@@ -100,15 +101,17 @@ def driver(input_path_file, output_path):
         def addNOPredsClusterHeads(cluster_head_dict, coref_final_with_pro):
             for cluster_id, cluster_val in cluster_head_dict.items():
                 if(cluster_id not in coref_final_with_pro.keys()):
-                    coref_final_with_pro[cluster_id] = [['',int(cluster_val[0]),'', None]]
+                    coref_final_with_pro[cluster_id] = [[cluster_val[1],int(cluster_val[0]),'', None]]
 
             return coref_final_with_pro
 
 
         coref_final_with_pro = addNOPredsClusterHeads(cluster_head_dict, coref_final_with_pro)
+        
+        # ### Making semantic prediction for unpredicted Cluster Heads
+        coref_final_with_pro = getCorefDict_meaning_NP(sentence_dict, coref_final_with_pro, 60)
 
-
-        # ### Removing the Determiners from the start
+        # ### Taking only the head nouns
 
         def takeHeadNouns(coref_final_with_pro):
     
@@ -135,7 +138,7 @@ def driver(input_path_file, output_path):
                 coreferences = [coreferences[i] for i in sorted_index_sent_ids]
 
                 for coref in coreferences:
-                    if(coref[0] == ''):
+                    if(coref[2] == ''):
                         continue
                     print('{{{0}}}'.format(coref[1]) + ' ' + '{' + coref[2] + '}')
                 print('\n', end = '')      
