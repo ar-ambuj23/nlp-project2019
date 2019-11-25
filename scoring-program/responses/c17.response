@@ -8,7 +8,6 @@
 {16} {psittacosis}
 
 <COREF ID="X3">one significant misleading fact and a few questionable elements</COREF>
-{20} {occurrence}
 
 <COREF ID="X4">I</COREF>
 {9} {I}
@@ -30,8 +29,6 @@
 {11} {some}
 
 <COREF ID="X9">the organism</COREF>
-{12} {bacteria}
 
 <COREF ID="X10">time</COREF>
-{14} {mind}
 

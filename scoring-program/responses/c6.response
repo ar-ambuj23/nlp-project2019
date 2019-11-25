@@ -31,7 +31,6 @@
 {5} {Alberta}
 
 <COREF ID="X7">details</COREF>
-{6} {information}
 
 <COREF ID="X8">Ontario</COREF>
 {5} {Ontario}
@@ -40,5 +39,5 @@
 {4} {death}
 
 <COREF ID="X10">individuals</COREF>
-{5} {cases}
+{4} {persons}
 

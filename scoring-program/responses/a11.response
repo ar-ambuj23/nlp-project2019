@@ -16,7 +16,6 @@
 {13} {F-14s}
 
 <COREF ID="X5">one of them</COREF>
-{40} {cause}
 
 <COREF ID="X6">Thursday</COREF>
 {38} {Thursday}
@@ -61,4 +60,5 @@
 <COREF ID="X16">later models</COREF>
 
 <COREF ID="X17">an F-14D</COREF>
+{38} {operation}
 

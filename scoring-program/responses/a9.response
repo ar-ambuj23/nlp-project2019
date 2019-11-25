@@ -31,7 +31,6 @@
 {18} {standdown}
 
 <COREF ID="X8">Lt. Greg Geisen</COREF>
-{32} {Geisen}
 
 <COREF ID="X9">the F-14</COREF>
 {17} {F-14s}
@@ -49,6 +48,8 @@
 <COREF ID="X13">the mid 1970s</COREF>
 
 <COREF ID="X14">Grumman Corp.</COREF>
+{33} {shares}
 
 <COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
+{33} {shares}
 

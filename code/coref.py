@@ -109,7 +109,7 @@ def driver(input_path_file, output_path):
         coref_final_with_pro = addNOPredsClusterHeads(cluster_head_dict, coref_final_with_pro)
         
         # ### Making semantic prediction for unpredicted Cluster Heads
-        coref_final_with_pro = getCorefDict_meaning_NP(sentence_dict, coref_final_with_pro, 60)
+        coref_final_with_pro = getCorefDict_meaning_NP(sentence_dict, coref_final_with_pro, 80)
 
         # ### Taking only the head nouns
 

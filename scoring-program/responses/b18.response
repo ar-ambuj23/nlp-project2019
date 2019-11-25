@@ -8,7 +8,6 @@
 {28} {Board}
 
 <COREF ID="X1">Eastern Negotiations</COREF>
-{19} {settlement}
 
 <COREF ID="X2">negotiators in the bitter labor battle at Eastern Airlines</COREF>
 
@@ -44,6 +43,7 @@
 {30} {that}
 
 <COREF ID="X8">the mediation process</COREF>
+{28} {Board}
 
 <COREF ID="X9">Florida Gov. Bob Martinez</COREF>
 {29} {Martinez}
@@ -56,7 +56,6 @@
 {23} {management}
 
 <COREF ID="X12">an agreement on a wage-concession package</COREF>
-{19} {contract}
 
 <COREF ID="X13">I</COREF>
 {22} {I}

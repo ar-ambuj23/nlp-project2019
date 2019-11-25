@@ -5,7 +5,7 @@
 
 --------------------------------------------------
 | <COREF ID="X0">GROUNDED-JETS</COREF>
-| Wrong Mention: {23} {aircraft}
+| Wrong Mention: {5} {BC-GROUNDED-JETS-BOS}
 | Missed Mention: {5} {GROUNDED-JETS} {JETS}
 | Missed Mention: {21} {F-14s} {F-14s}
 | Missed Mention: {25} {the F-14s} {F-14s}
@@ -199,7 +199,6 @@
 
 --------------------------------------------------
 | <COREF ID="X5">one of them</COREF>
-| Wrong Mention: {40} {cause}
 | Missed Mention: {13} {an F-14} {F-14}
 | Missed Mention: {16} {an airplane} {airplane}
 | Missed Mention: {17} {A jinxed airplane} {airplane}
@@ -291,6 +290,7 @@
 
 --------------------------------------------------
 | <COREF ID="X17">an F-14D</COREF>
+| Wrong Mention: {38} {operation}
 | Missed Mention: {37} {the fighter} {fighter}
 --------------------------------------------------
 
@@ -492,7 +492,6 @@
 
 --------------------------------------------------
 | <COREF ID="X7">Aeroflot general manager for Hong Kong Vassili Tkatchenko</COREF>
-| Wrong Mention: {19} {director}
 | Missed Mention: {11} {he} {he}
 --------------------------------------------------
 
@@ -526,7 +525,6 @@
 
 --------------------------------------------------
 | <COREF ID="X0">AIRLINE-LIABILITY</COREF>
-| Wrong Mention: {19} {damages}
 | Missed Mention: {5} {AIRLINE-LIABILITY} {LIABILITY}
 | Missed Mention: {10} {the liability of an airline when passengers die in a plane crash} {liability}
 --------------------------------------------------
@@ -600,7 +598,6 @@
 
 --------------------------------------------------
 | <COREF ID="X8">Efforts</COREF>
-| Wrong Mention: {21} {Administration}
 | Missed Mention: {14} {them} {them}
 --------------------------------------------------
 
@@ -774,13 +771,11 @@
 
 --------------------------------------------------
 | <COREF ID="X11">U.S.</COREF>
-| Wrong Mention: {25} {Americans}
 | Missed Mention: {23} {United States} {United States}
 --------------------------------------------------
 
 --------------------------------------------------
 | <COREF ID="X12">the families of those who have perished</COREF>
-| Wrong Mention: {24} {people}
 | Missed Mention: {15} {You} {You}
 --------------------------------------------------
 
@@ -992,8 +987,7 @@
 
 --------------------------------------------------
 | <COREF ID="X3">the airplane</COREF>
-| Wrong Mention: {22} {lessons}
-| Missed Mention: {16} {the plane, a 1975 single-engine Cessna 177B Cardinal,} {plane}
+| Correct Mention: {16} {plane}
 | Missed Mention: {16} {a 1975 single-engine Cessna 177B Cardinal} {Cessna 177B Cardinal}
 --------------------------------------------------
 
@@ -1164,7 +1158,6 @@
 
 --------------------------------------------------
 | <COREF ID="X15">me</COREF>
-| Wrong Mention: {33} {lot}
 | Missed Mention: {17} {Trish Neusch} {Neusch}
 --------------------------------------------------
 
@@ -1208,7 +1201,6 @@
 
 --------------------------------------------------
 | <COREF ID="X21">About half the aircraft</COREF>
-| Wrong Mention: {31} {planes}
 | Missed Mention: {24} {military planes} {planes}
 --------------------------------------------------
 
@@ -1308,11 +1300,11 @@
 
 --------------------------------------------------
 | <COREF ID="X8">Lt. Greg Geisen</COREF>
-| Correct Mention: {32} {Geisen}
 | Missed Mention: {16} {a Navy spokesman} {spokesman}
 | Missed Mention: {18} {Geisen} {Geisen}
 | Missed Mention: {27} {Geisen} {Geisen}
 | Missed Mention: {28} {Geisen} {Geisen}
+| Missed Mention: {32} {Geisen} {Geisen}
 --------------------------------------------------
 
 --------------------------------------------------
@@ -1351,6 +1343,7 @@
 
 --------------------------------------------------
 | <COREF ID="X14">Grumman Corp.</COREF>
+| Wrong Mention: {33} {shares}
 | Missed Mention: {29} {now Northrop Grumman} {Northrop Grumman}
 | Missed Mention: {30} {The company} {company}
 | Missed Mention: {33} {Northrop Grumman} {Northrop Grumman}
@@ -1358,6 +1351,7 @@
 
 --------------------------------------------------
 | <COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
+| Wrong Mention: {33} {shares}
 | Missed Mention: {31} {He} {He}
 --------------------------------------------------
 
@@ -1549,7 +1543,6 @@
 
 --------------------------------------------------
 | <COREF ID="X10">the trade-union holding company</COREF>
-| Wrong Mention: {22} {subsidiaries}
 | Missed Mention: {17} {it} {it}
 | Missed Mention: {17} {Volksfuersorge} {Volksfuersorge}
 --------------------------------------------------
@@ -1774,6 +1767,7 @@
 
 --------------------------------------------------
 | <COREF ID="X17">A pilot's union spokesman</COREF>
+| Wrong Mention: {30} {agreement}
 | Missed Mention: {30} {He} {He}
 | Missed Mention: {30} {he} {he}
 --------------------------------------------------
@@ -2127,7 +2121,6 @@
 
 --------------------------------------------------
 | <COREF ID="X5">an agreement eliminating intermediate-range nuclear missiles, signed at a summit meeting in Washington last December</COREF>
-| Wrong Mention: {10} {treaty}
 | Missed Mention: {10} {the other one at the Washington summit} {one}
 --------------------------------------------------
 
@@ -2171,7 +2164,6 @@
 
 --------------------------------------------------
 | <COREF ID="X1">Eastern Negotiations</COREF>
-| Wrong Mention: {19} {settlement}
 | Missed Mention: {5} {the talks} {talks}
 | Missed Mention: {8} {the high-stakes, 16-month confrontation over labor costs} {confrontation}
 | Missed Mention: {17} {the talks} {talks}
@@ -2236,6 +2228,7 @@
 
 --------------------------------------------------
 | <COREF ID="X8">the mediation process</COREF>
+| Wrong Mention: {28} {Board}
 | Missed Mention: {16} {mediation} {mediation}
 --------------------------------------------------
 
@@ -2257,7 +2250,6 @@
 
 --------------------------------------------------
 | <COREF ID="X12">an agreement on a wage-concession package</COREF>
-| Wrong Mention: {19} {contract}
 | Missed Mention: {19} {a negotiated settlement} {settlement}
 | Missed Mention: {21} {A settlement through mediation} {settlement}
 --------------------------------------------------
@@ -2364,7 +2356,7 @@
 
 --------------------------------------------------
 | <COREF ID="X5">The current pacts with Aluminum Co. of America and Reynolds Metals Co.</COREF>
-| Missed Mention: {8} {the current contracts} {contracts}
+| Correct Mention: {8} {contracts}
 --------------------------------------------------
 
 --------------------------------------------------
@@ -2603,7 +2595,6 @@
 
 --------------------------------------------------
 | <COREF ID="X5">a sharp rise in OPEC production</COREF>
-| Wrong Mention: {25} {demand}
 | Missed Mention: {23} {the recent run-up} {run-up}
 --------------------------------------------------
 
@@ -2668,12 +2659,14 @@
 
 --------------------------------------------------
 | <COREF ID="X15">OPEC's new secretary-general, </COREF>
+| Wrong Mention: {11} {president}
 | Missed Mention: {10} {Subroto} {Subroto}
 | Missed Mention: {11} {Mr. Subroto} {Subroto}
 --------------------------------------------------
 
 --------------------------------------------------
 | <COREF ID="X16">Sheik Zayed Al Nahyyan, </COREF>
+| Wrong Mention: {12} {Zayed}
 | Missed Mention: {11} {the Emirates' ruler} {ruler}
 | Missed Mention: {12} {Sheik Zayed, who "reaffirmed" the Emirates' support for OPEC's "unity and cohesion."} {Sheik Zayed}
 | Missed Mention: {12} {the ruler} {ruler}
@@ -3081,6 +3074,7 @@
 
 --------------------------------------------------
 | <COREF ID="X25">Hart-Scott-Rodino Act</COREF>
+| Wrong Mention: {57} {regulations}
 | Missed Mention: {57} {Hart-Scott-Rodino} {Hart-Scott-Rodino}
 --------------------------------------------------
 
@@ -3152,13 +3146,11 @@
 
 --------------------------------------------------
 | <COREF ID="X5">the premier hotel company</COREF>
-| Wrong Mention: {26} {contract}
 | Missed Mention: {8} {Westin Hotels} {Hotels}
 --------------------------------------------------
 
 --------------------------------------------------
 | <COREF ID="X6">car rental company</COREF>
-| Wrong Mention: {26} {contract}
 | Missed Mention: {8} {Hertz} {Hertz}
 --------------------------------------------------
 
@@ -3193,8 +3185,8 @@
 
 --------------------------------------------------
 | <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
+| Correct Mention: {26} {Plaza}
 | Missed Mention: {16} {the Century Plaza} {Plaza}
-| Missed Mention: {26} {the Century Plaza} {Plaza}
 --------------------------------------------------
 
 --------------------------------------------------
@@ -3235,7 +3227,6 @@
 
 --------------------------------------------------
 | <COREF ID="X17">harsh things</COREF>
-| Wrong Mention: {24} {right}
 | Missed Mention: {23} {them} {them}
 | Missed Mention: {23} {them} {them}
 --------------------------------------------------
@@ -3428,7 +3419,6 @@
 
 --------------------------------------------------
 | <COREF ID="X4">The agreement</COREF>
-| Wrong Mention: {8} {contracts}
 | Missed Mention: {10} {The accord} {accord}
 --------------------------------------------------
 
@@ -3577,7 +3567,6 @@
 
 --------------------------------------------------
 | <COREF ID="X13">UAW President Owen Bieber</COREF>
-| Wrong Mention: {21} {hospitalization}
 | Missed Mention: {19} {The 57-year-old union leader} {leader}
 | Missed Mention: {20} {Mr. Bieber} {Bieber}
 --------------------------------------------------
@@ -3605,7 +3594,6 @@
 
 --------------------------------------------------
 | <COREF ID="X17">sweetened cost-of-living adjustments for pensioners</COREF>
-| Wrong Mention: {45} {life}
 | Missed Mention: {24} {inflation-indexed pension payments} {payments}
 --------------------------------------------------
 
@@ -3654,7 +3642,6 @@
 
 --------------------------------------------------
 | <COREF ID="X24">U.S.</COREF>
-| Wrong Mention: {50} {contract}
 | Missed Mention: {50} {U.S.} {U.S.}
 --------------------------------------------------
 
@@ -3687,7 +3674,7 @@
 
 --------------------------------------------------
 | <COREF ID="X29">the two parties</COREF>
-| Missed Mention: {47} {the two sides} {sides}
+| Correct Mention: {47} {sides}
 --------------------------------------------------
 
 --------------------------------------------------
@@ -3738,6 +3725,7 @@
 
 --------------------------------------------------
 | <COREF ID="X4">the two sides</COREF>
+| Wrong Mention: {15} {countries}
 | Missed Mention: {11} {We} {We}
 | Missed Mention: {11} {we} {we}
 --------------------------------------------------
@@ -3969,12 +3957,11 @@
 
 --------------------------------------------------
 | <COREF ID="X9">reagents</COREF>
-| Correct Mention: {11} {antibodies}
+| Missed Mention: {11} {antibodies} {antibodies}
 --------------------------------------------------
 
 --------------------------------------------------
 | <COREF ID="X10">Mod.CP</COREF>
-| Wrong Mention: {12} {cp/pg}
 | Missed Mention: {12} {cp} {cp}
 --------------------------------------------------
 
@@ -4011,7 +3998,6 @@
 
 --------------------------------------------------
 | <COREF ID="X3">one significant misleading fact and a few questionable elements</COREF>
-| Wrong Mention: {20} {occurrence}
 | Missed Mention: {1} {elements} {elements}
 --------------------------------------------------
 
@@ -4054,13 +4040,12 @@
 
 --------------------------------------------------
 | <COREF ID="X9">the organism</COREF>
-| Correct Mention: {12} {bacteria}
+| Missed Mention: {12} {bacteria} {bacteria}
 | Missed Mention: {19} {psittacines} {psittacines}
 --------------------------------------------------
 
 --------------------------------------------------
 | <COREF ID="X10">time</COREF>
-| Wrong Mention: {14} {mind}
 | Missed Mention: {13} {periods} {periods}
 --------------------------------------------------
 
@@ -4169,7 +4154,6 @@
 
 --------------------------------------------------
 | <COREF ID="X11">virus</COREF>
-| Wrong Mention: {21} {specimens}
 | Missed Mention: {21} {virus} {virus}
 --------------------------------------------------
 
@@ -4266,7 +4250,6 @@
 
 --------------------------------------------------
 | <COREF ID="X0">me</COREF>
-| Wrong Mention: {8} {account}
 | Missed Mention: {1} {I} {I}
 | Missed Mention: {4} {I} {I}
 | Missed Mention: {8} {you} {you}
@@ -4433,7 +4416,7 @@
 
 --------------------------------------------------
 | <COREF ID="X11">Mod.EP</COREF>
-| Correct Mention: {9} {ep}
+| Missed Mention: {9} {ep} {ep}
 --------------------------------------------------
 
 
@@ -4648,7 +4631,6 @@
 
 --------------------------------------------------
 | <COREF ID="X7">details</COREF>
-| Wrong Mention: {6} {information}
 | Missed Mention: {2} {post} {post}
 --------------------------------------------------
 
@@ -4664,8 +4646,7 @@
 
 --------------------------------------------------
 | <COREF ID="X10">individuals</COREF>
-| Wrong Mention: {5} {cases}
-| Missed Mention: {4} {persons} {persons}
+| Correct Mention: {4} {persons}
 --------------------------------------------------
 
 
@@ -4776,7 +4757,6 @@
 
 --------------------------------------------------
 | <COREF ID="X13">Wed</COREF>
-| Wrong Mention: {11} {people}
 | Missed Mention: {8} {27 Nov 2002} {27 Nov 2002}
 --------------------------------------------------
 
@@ -4814,10 +4794,9 @@
 
 --------------------------------------------------
 | <COREF ID="X18">infection</COREF>
-| Wrong Mention: {18} {disease}
 | Missed Mention: {18} {this} {this}
 --------------------------------------------------
 
-Micro Average Precision: 0.47737 (654/1370)
-Micro Average Recall:    0.43026 (654/1520)
-F-score:                 0.45260
+Micro Average Precision: 0.48519 (655/1350)
+Micro Average Recall:    0.43092 (655/1520)
+F-score:                 0.45645

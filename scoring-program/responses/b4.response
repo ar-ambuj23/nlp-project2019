@@ -35,10 +35,8 @@
 {25} {United}
 
 <COREF ID="X5">the premier hotel company</COREF>
-{26} {contract}
 
 <COREF ID="X6">car rental company</COREF>
-{26} {contract}
 
 <COREF ID="X7">board members</COREF>
 {16} {he}
@@ -54,6 +52,7 @@
 <COREF ID="X11">Donald Trump</COREF>
 
 <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
+{26} {Plaza}
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
 {17} {pilots}
@@ -77,7 +76,6 @@
 {24} {pilots}
 
 <COREF ID="X17">harsh things</COREF>
-{24} {right}
 
 <COREF ID="X18">we</COREF>
 {24} {We}
