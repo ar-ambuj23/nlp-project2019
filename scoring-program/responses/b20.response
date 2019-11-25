@@ -64,8 +64,10 @@
 {20} {Dhabi}
 
 <COREF ID="X15">OPEC's new secretary-general, </COREF>
+{11} {president}
 
 <COREF ID="X16">Sheik Zayed Al Nahyyan, </COREF>
+{12} {Zayed}
 
 <COREF ID="X17">Rilwanu Lukman, </COREF>
 
